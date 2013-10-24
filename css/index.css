@@ -30,7 +30,8 @@ body {
     width:100%;
 }
 
-section img { vertical-align:middle }
+header { color:#fff; border-bottom:1px solid #fff; width:80%; margin:3% auto; padding:2% }
+header img { vertical-align:middle; }
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
