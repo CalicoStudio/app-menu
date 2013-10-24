@@ -33,7 +33,7 @@ $xml .= '<langs>'."\n";
 while($rows=mysql_fetch_array($q_lang)) {
 	$xml.= "\t".'<lang slug="'.$rows['slug'].'">'.$rows['nom'].'</lang>'."\n";
 }
-$xml .= '<langs>';
+$xml .= '</langs>';
 $fp = fopen("pays.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);
