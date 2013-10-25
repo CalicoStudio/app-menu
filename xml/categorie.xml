@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categorie>
+<lang w="en">
+	<cat slug="suggestions">Suggestion</cat>
+	<cat slug="la-carte">Starters</cat>
+	<cat slug="les-menus">Menus</cat>
+	<cat slug="les-aperitifs">Drinks</cat>
+	<cat slug="les-vins">Wines</cat>
+	<cat slug="digestifs">Liqueur</cat>
+</lang>
+<lang w="fr">
+	<cat slug="suggestions">Suggestions</cat>
+	<cat slug="la-carte">La Carte</cat>
+	<cat slug="les-menus">Les Menus</cat>
+	<cat slug="les-aperitifs">Les Apéritifs</cat>
+	<cat slug="les-vins">Les Vins</cat>
+	<cat slug="digestifs">Digestifs</cat>
+</lang>
+</categorie>

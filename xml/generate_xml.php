@@ -38,4 +38,24 @@ $fp = fopen("pays.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);
 echo utf8_decode('-> Génération du xml des langues<br />');
+
+//génération du xml des catégories
+$q_cat=mysql_query("SELECT * FROM `categorie` ORDER BY `lang` ASC, `ordre` ASC");
+$xml = '<?xml version="1.0" encoding="utf-8"?>'."\n";
+$xml .= '<categorie>'."\n";
+$lang="";
+while($rows=mysql_fetch_array($q_cat)) {
+	if($lang!=$rows['lang']) {
+		if($lang!="") $xml.='</lang>'."\n";
+		$xml.='<lang w="'.$rows['lang'].'">'."\n";
+		$lang=$rows['lang'];
+	}
+	$xml.= "\t".'<cat slug="'.$rows['slug'].'">'.$rows['nom'].'</cat>'."\n";
+}
+$xml .= '</lang>'."\n";
+$xml .= '</categorie>';
+$fp = fopen("categorie.xml", 'w+');
+fputs($fp, $xml);
+fclose($fp);
+echo utf8_decode('-> Génération du xml des catégories<br />');
 ?>

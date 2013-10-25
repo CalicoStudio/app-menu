@@ -9,9 +9,12 @@
     </head>
     <body>
         <header>
-            <h1 id="lang"></h1>
+            <h1><img src="img/logo.png" alt="Logo App Menu" /> POUR <img src="img/restaurant-piquboeuf.png" alt="restaurant piqu boeuf" /></h1>
         </header>
-        <ul id="list_lang"></ul>
+        <section>
+	        <div class="bouton"><a href="index.html">◄ <span id="retour"></span></a></div>
+        </section>
+        <ul id="list_cat"></ul>
         <div style="clear:both"></div>
         <footer>App Menu est édité par la société Calico | www.app-menu.fr | Version 1.0</footer>
         <script type="text/javascript" src="cordova.js"></script>
@@ -24,13 +27,30 @@
 				    var results = new RegExp('[\\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
 				    return results[1] || 0;
 				}
+				var lang = $.urlParam('lang');
 				
-				// example.com?param1=name&amp;param2=&amp;id=6
-				$.urlParam('lang'); // name
+				$.ajax({
+					type: "GET",
+					url: "xml/categorie.xml",
+					dataType: "xml",
+					complete : function(data, status) {
+						var categorie = data.responseXML;
+						var appendHtml = "";
+						$(categorie).find('categorie').find('lang[w='+lang+']').find('cat').each(function(){
+							var slug = $(this).attr('slug');
+							var nom = $(this).text();
+							appendHtml += '<li><a href="categorie.html?lang='+slug+'"><img src="img/categorie/'+slug+'.jpg" alt="'+nom+'" /><br /><strong>'+nom+'</strong></a></li>';
+						});
+						$("#list_cat").append(appendHtml);				
+				}});
 				
-				//example params with spaces
-				console.log($.urlParam('lang'));  
-				//output: Gold%20Coast
+				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
+				
+				$("#retour").append(aBack[lang]);
+				
+				$(".bouton").on("click", function() {
+					document.location.href=$(this).find("a").attr("href");
+				})
 			})
 		</script>
     </body>

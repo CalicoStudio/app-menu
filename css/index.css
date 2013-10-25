@@ -22,23 +22,33 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 }
-
+a { text-decoration:none; color:#fff }
 body {
 	background-image:url(../img/bk-restaurant.jpg);
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:14px; height:100%; margin:0px; padding:0px;
-    width:100%;
+    width:80%; _width:100%; padding:0% 10%;
 }
 
-header { color:#fff; border-bottom:1px solid #fff; width:80%; margin:3% auto 2% auto; padding:2% }
+header { color:#fff; border-bottom:1px solid #fff; margin:3% auto 2% auto; padding:2% }
 header img { vertical-align:middle; }
+
+section { border-bottom:1px solid #fff; padding-bottom:2%; margin-bottom:2%; }
+	.bouton { 
+		background-color:#97c00e; display:inline-block; padding:5px 10px; border-radius:10px; 
+		box-shadow:1px 1px 2px 2px #5a5a5a; background:linear-gradient(to bottom, #97c00e 0%,#77a000 100%);
+		cursor:pointer;
+	}
+	.bouton:active { 
+		background:#97c00e;
+	}
 
 ul { width:80%; margin:0 auto; padding-bottom:2%; }
 ul li { background:rgba(255,255,255, 0.6); float:left; margin:1%; width:20%; min-width:100px; text-align:center; padding:1%; }
 ul li img { width:95%; min-width:90px }
-ul li a { color:#361439; text-decoration:none; text-transform:uppercase }
+ul li a { color:#361439; text-transform:uppercase }
 
-footer { color:#fff; border-top:1px solid #fff; width:80%; margin:2% auto; padding:2%; text-align:center; font-size:.9em }
+footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:2%; text-align:center; font-size:.9em }
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
