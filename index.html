@@ -25,7 +25,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>App Menu</title>
     </head>
-    <body>
+    <body ontouchstart="">
         <header>
             <h1><img src="img/restaurant-piquboeuf.png" alt="restaurant piqu boeuf" /></h1>
         </header>
@@ -52,20 +52,6 @@
 						});
 						$("#list_lang").append(appendHtml);				
 				}});
-				
-//				if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
-					$(".my-button")
-					.bind("touchstart", function () {
-						 $(this).addClass("fake-active");
-					})
-					.bind("touchend", function() {
-						 $(this).removeClass("fake-active");
-					})
-					.bind("touchcancel", function() {
-						var $this = $(this);
-						$this.removeClass("fake-active");
-					});
-	//			}
 			})
 		</script>
     </body>
