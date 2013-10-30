@@ -45,7 +45,7 @@ section { border-bottom:1px solid #fff; padding-bottom:2%; margin-bottom:2%; }
 
 ul { width:80%; margin:0 auto; padding-bottom:2%; }
 ul li { background:rgba(255,255,255, 0.6); float:left; margin:1%; width:20%; min-width:100px; text-align:center; padding:1%; }
-<g>li.big-entry:active, </g>li.big-entry.fake-active { background:rgba(0, 0, 0 ,0.6); }
+li.big-entry:active, li.big-entry.fake-active { background:rgba(0, 0, 0 ,0.6); }
 ul li img { width:95%; min-width:90px }
 ul li a { color:#361439; text-transform:uppercase }
 
