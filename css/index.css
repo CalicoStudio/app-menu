@@ -33,19 +33,25 @@ body {
 header { color:#fff; border-bottom:1px solid #fff; margin:3% auto 2% auto; padding:2% }
 header img { vertical-align:middle; }
 
-section { border-bottom:1px solid #fff; padding-bottom:2%; margin-bottom:2%; }
+div.retour	 { border-bottom:1px solid #fff; padding-bottom:2%; margin-bottom:2%; }
 	.bouton { 
 		background-color:#97c00e; display:inline-block; padding:5px 10px; border-radius:10px; 
 		box-shadow:1px 1px 2px 2px #5a5a5a; background:linear-gradient(to bottom, #97c00e 0%,#77a000 100%);
 		cursor:pointer;
 	}
 	.bouton:active { 
-		background:#77a000;
+		background:#579000;
 	}
 
 ul { width:80%; margin:0 auto; padding-bottom:2%; }
 ul li { background:rgba(255,255,255, 0.6); float:left; margin:1%; width:20%; min-width:100px; text-align:center; padding:1%; }
-li.big-entry:active, li.big-entry.fake-active { background:rgba(0, 0, 0 ,0.6); }
+li.big-entry:active {
+     background: #666;
+     background: linear-gradient( #aaa, #8C8C8C);
+     box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4); 
+}
+li.big-entry:active img { opacity:0.6 }
+
 ul li img { width:95%; min-width:90px }
 ul li a { color:#361439; text-transform:uppercase }
 
