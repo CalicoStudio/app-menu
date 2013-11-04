@@ -69,35 +69,41 @@
 					dataType: "xml",
 					complete : function(data, status) {
 						var categorie = data.responseXML;
-						var appendHtml = "";
-						$(categorie).find('categorie').find('lang').each( function() {
-							var lang=$(this).attr("w");
-							appendHtml += '<ul class="'+lang+'">';
+						var appendHtml = "<ul>";
+						$(categorie).find('categorie').each( function() {
+							var slug=$(this).attr("slug"); var cat_id=$(this).attr("id");
+							appendHtml += '<li class="big-entry"><a href="#" class="img_cat"><img src="img/categorie/'+slug+'.jpg" /></a>';
 							$(this).find('cat').each(function(){
-								var slug = $(this).attr('slug');
+								var lang = $(this).attr('lang');
 								var nom = $(this).text();
-								appendHtml += '<li class="big-entry"><a href="interface.html?lang='+lang+'&cat='+slug+'"><img src="img/categorie/'+slug+'.jpg" alt="'+nom+'" /><br /><strong>'+nom+'</strong></a></li>';
+								appendHtml += '<a href="interface.html?lang='+lang+'&cat='+cat_id+'" class="link" id="lk-cat-'+lang+'"><br /><strong>'+nom+'</strong></a>';
 							});
-							appendHtml += '</ul>';
+							appendHtml += '</li>';
 						});
+						appendHtml += '</ul>';
 						$("#list_cat").append(appendHtml);				
 				}});
 				//lors du clic sur une langue
 				$("body").on("click", "#list_lang li", function() {
-//					alert('here');
-					var wh=$(this).attr("id").substr(2,2);
+					lang_ck=$(this).attr("id").substr(2,2);
 					$("#accueil").slideUp(400, function() {
-						$("#list_cat ul").not("."+wh).hide();
-						$("#retour").append(aBack[wh]);
+						$("#list_cat ul li a.link").not("#lk-cat-"+lang_ck).hide();
+						$("#retour").append(aBack[lang_ck]);
 						$("#cat").slideDown(800);
 					})
+				})
+				//lors d'un click sur une iamge des catégories // récupération du lien
+				$("body").on("click", ".img_cat", function() {
+					var where=$(this).siblings("#lk-cat-"+lang_ck).attr("href");
+					document.location.href=where;
+					return false;
 				})
 				//affichage du bouton retour à l'accueil
 				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
 				
 				$("body").on("click", ".retour", function() {
 					$("#cat").slideUp(400, function() {
-						$("#list_cat ul").show();
+						$("#list_cat a").show();
 						$("#retour").empty();
 						$("#accueil").slideDown(800);
 					})

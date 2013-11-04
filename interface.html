@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/interface.css" />
+        <title>App Menu | Interface de navigation</title>
+    </head>
+    <body>
+    	<div id="fond"></div>
+        <div id="list_cat">
+            <section>
+                <div class="bouton"><a href="index.html">◄ <span id="retour"></span></a></div>
+            </section>
+        </div>
+        <div style="clear:both"></div>
+        <footer>App Menu est édité par la société Calico | www.app-menu.fr | Version 1.0</footer>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/jquery.min.1.10.2.js"></script>
+        <script>
+			$(function(){
+				//récupération des parametres de l'url
+				$.urlParam = function(name){
+				    var results = new RegExp('[\\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
+				    return results[1] || 0;
+				}
+				var lang_index = $.urlParam('lang');
+				var cat_index = $.urlParam('cat');
+
+				$.ajax({
+					type: "GET",
+					url: "xml/categorie.xml",
+					dataType: "xml",
+					complete : function(data, status) {
+						var categorie = data.responseXML;
+						var appendHtml = "<ul>";
+						$(categorie).find('categorie').each( function() {
+							var slug=$(this).attr("slug"); var cat_id=$(this).attr("id");
+							appendHtml += '<li class="big-entry';
+							if(cat_id==cat_index) appendHtml += ' current"';
+							else appendHtml += '"';
+							appendHtml += ' id="lk-cat-'+cat_id+'">';
+							$(this).find('cat[lang='+lang_index+']').each(function(){
+								var lang = $(this).attr('lang');
+								var nom = $(this).text();
+								appendHtml += nom;
+							});
+							appendHtml += '</li>';
+						});
+						appendHtml += '</ul>';
+						$("#list_cat").append(appendHtml);				
+				}});
+				
+				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
+				
+				$("#retour").append(aBack[lang_index]);
+				
+				$(".bouton").on("click", function() {
+					document.location.href=$(this).find("a").attr("href");
+				})
+			})
+		</script>
+    </body>
+</html>

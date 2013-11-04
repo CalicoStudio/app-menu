@@ -40,20 +40,21 @@ fclose($fp);
 echo utf8_decode('-> Génération du xml des langues<br />');
 
 //génération du xml des catégories
-$q_cat=mysql_query("SELECT * FROM `categorie` ORDER BY `lang` ASC, `ordre` ASC");
+$q_cat=mysql_query("SELECT * FROM `categorie` ORDER BY `ordre` ASC");
 $xml = '<?xml version="1.0" encoding="utf-8"?>'."\n";
-$xml .= '<categorie>'."\n";
+$xml .= '<categories>'."\n";
 $lang="";
 while($rows=mysql_fetch_array($q_cat)) {
-	if($lang!=$rows['lang']) {
-		if($lang!="") $xml.='</lang>'."\n";
-		$xml.='<lang w="'.$rows['lang'].'">'."\n";
-		$lang=$rows['lang'];
+	$xml.= "\t".'<categorie slug="'.$rows['slug'].'" id="'.$rows['id'].'">'."\n";
+	$xml.= "\t\t".'<cat lang="'.$rows['lang'].'">'.$rows['nom'].'</cat>'."\n";
+	
+	$qry_trad=mysql_query("SELECT * FROM `categorie_trad` WHERE `id_cat`=".$rows['id']);
+	while($r_trad=mysql_fetch_array($qry_trad)) {
+		$xml.="\t\t".'<cat lang="'.$r_trad['lang'].'">'.$r_trad['trad'].'</cat>'."\n";
 	}
-	$xml.= "\t".'<cat slug="'.$rows['slug'].'">'.$rows['nom'].'</cat>'."\n";
+	$xml.= "\t".'</categorie>'."\n";
 }
-$xml .= '</lang>'."\n";
-$xml .= '</categorie>';
+$xml .= '</categories>';
 $fp = fopen("categorie.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);

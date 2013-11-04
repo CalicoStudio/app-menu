@@ -1,0 +1,117 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	margin:0; padding:0;
+}
+a { text-decoration:none; color:#fff }
+body {
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:14px; height:100%; margin:0px; padding:0px;
+    width:100%;
+}
+
+div#fond {
+	position:absolute; width:100%; height:100%; z-index:-1;
+	background-image:url(../img/bk-restaurant.jpg);
+	opacity:0.5;
+}
+
+	.bouton { 
+		background-color:#97c00e; display:inline-block; padding:5px 10px; border-radius:10px; 
+		box-shadow:1px 1px 2px 2px #5a5a5a; background:linear-gradient(to bottom, #97c00e 0%,#77a000 100%);
+		cursor:pointer;
+	}
+	.bouton:active { 
+		background:#579000;
+	}
+
+#list_cat { background:#361439 url(../img/fond-bloc.png) repeat-x top center; height:10px; padding-top:10px; }
+#list_cat section { float:left; margin:20px 10px 0 10px; }
+#list_cat li.big-entry {
+	float:left; margin:0 10px 0 10px; display:inline-block; min-width:100px; text-align:center; padding:15px 7px 20px 7px; background:#361439 url(../img/fond-bloc.png) repeat-x bottom center; list-style:none; color:#fff;
+}
+#list_cat li.big-entry.current { padding:25px 10px 45px 10px; font-weight:bold; background:url(../img/fond-current.png) no-repeat bottom right; 
+ }
+
+li.big-entry:active {
+     background: #666;
+     background: linear-gradient( #aaa, #8C8C8C);
+     box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4); 
+}
+li.big-entry:active img { opacity:0.6 }
+
+footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:2%; text-align:center; font-size:.9em }
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.status {
+    background-color:#333333;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.status.complete {
+    background-color:#4B946A;
+}
+
+.hide {
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}

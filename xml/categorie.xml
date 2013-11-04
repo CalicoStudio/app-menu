@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<categorie>
-<lang w="en">
-	<cat slug="suggestions">Suggestion</cat>
-	<cat slug="la-carte">Starters</cat>
-	<cat slug="les-menus">Menus</cat>
-	<cat slug="les-aperitifs">Drinks</cat>
-	<cat slug="les-vins">Wines</cat>
-	<cat slug="digestifs">Liqueur</cat>
-</lang>
-<lang w="fr">
-	<cat slug="suggestions">Suggestions</cat>
-	<cat slug="la-carte">La Carte</cat>
-	<cat slug="les-menus">Les Menus</cat>
-	<cat slug="les-aperitifs">Les Apéritifs</cat>
-	<cat slug="les-vins">Les Vins</cat>
-	<cat slug="digestifs">Digestifs</cat>
-</lang>
-</categorie>
+<categories>
+	<categorie slug="suggestions" id="1">
+		<cat lang="fr">Suggestions</cat>
+		<cat lang="en">Suggestion</cat>
+	</categorie>
+	<categorie slug="la-carte" id="2">
+		<cat lang="fr">La Carte</cat>
+		<cat lang="en">Starters</cat>
+	</categorie>
+	<categorie slug="les-menus" id="3">
+		<cat lang="fr">Les Menus</cat>
+		<cat lang="en">Menus</cat>
+	</categorie>
+	<categorie slug="les-aperitifs" id="4">
+		<cat lang="fr">Les Apéritifs</cat>
+		<cat lang="en">Drinks</cat>
+	</categorie>
+	<categorie slug="les-vins" id="5">
+		<cat lang="fr">Les Vins</cat>
+		<cat lang="en">Wines</cat>
+	</categorie>
+	<categorie slug="digestifs" id="6">
+		<cat lang="fr">Digestifs</cat>
+		<cat lang="en">Liqueur</cat>
+	</categorie>
+</categories>
