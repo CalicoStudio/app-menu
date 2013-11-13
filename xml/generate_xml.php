@@ -59,4 +59,58 @@ $fp = fopen("categorie.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);
 echo utf8_decode('-> Génération du xml des catégories<br />');
+
+//génération du xml des sous catégories
+$q_cat=mysql_query("SELECT * FROM `sscategorie` ORDER BY `id_cat`, `ordre` ASC");
+$xml = '<?xml version="1.0" encoding="utf-8"?>'."\n";
+$lang=""; $old_cat=-1;
+$xml .= '<souscategories>'."\n";		
+while($rows=mysql_fetch_array($q_cat)) {
+	if($rows['id_cat']!=$old_cat) {
+		if($old_cat!=-1) $xml .= '</sscategories>'."\n";
+		$xml .= '<sscategories categorie="'.$rows['id_cat'].'">'."\n";		
+		$old_cat=$rows['id_cat'];
+	}
+	$xml.= "\t".'<sscategorie slug="'.$rows['slug'].'" id="'.$rows['id'].'" prix="'.$rows['prix'].'">'."\n";
+	$xml.= "\t\t".'<sscat lang="'.$rows['lang'].'">'.$rows['nom'].'</sscat>'."\n";
+	
+	$qry_trad=mysql_query("SELECT * FROM `sscategorie_trad` WHERE `id_sscat`=".$rows['id']);
+	while($r_trad=mysql_fetch_array($qry_trad)) {
+		$xml.="\t\t".'<sscat lang="'.$r_trad['lang'].'">'.$r_trad['nom'].'</sscat>'."\n";
+	}
+	$xml.= "\t".'</sscategorie>'."\n";
+}
+$xml .= '</sscategories>'."\n";
+$xml .= '</souscategories>';
+$fp = fopen("sscategorie.xml", 'w+');
+fputs($fp, $xml);
+fclose($fp);
+echo utf8_decode('-> Génération du xml des sous catégories<br />');
+
+//génération du xml des produits
+$q_cat=mysql_query("SELECT * FROM `produit` ORDER BY `id_cat`, `id_sscat`, `ordre` ASC");
+$xml = '<?xml version="1.0" encoding="utf-8"?>'."\n";
+$lang=""; $old_sscat=-1;
+$xml .= '<xmlproduits>'."\n";		
+while($rows=mysql_fetch_array($q_cat)) {
+	if($rows['id_sscat']!=$old_sscat) {
+		if($old_sscat!=-1) $xml .= '</produits>'."\n";
+		$xml .= '<produits categorie="'.$rows['id_sscat'].'">'."\n";		
+		$old_sscat=$rows['id_sscat'];
+	}
+	$xml.= "\t".'<produit id="'.$rows['id'].'" prix="'.$rows['prix'].'">'."\n";
+	$xml.= "\t\t".'<trad lang="'.$rows['lang'].'">'.$rows['nom'].'</trad>'."\n";
+	
+	$qry_trad=mysql_query("SELECT * FROM `produit_trad` WHERE `id_produit`=".$rows['id']);
+	while($r_trad=mysql_fetch_array($qry_trad)) {
+		$xml.="\t\t".'<trad lang="'.$r_trad['lang'].'">'.$r_trad['nom'].'</trad>'."\n";
+	}
+	$xml.= "\t".'</produit>'."\n";
+}
+$xml .= '</produits>'."\n";
+$xml .= '</xmlproduits>';
+$fp = fopen("produits.xml", 'w+');
+fputs($fp, $xml);
+fclose($fp);
+echo utf8_decode('-> Génération du xml des produits<br />');
 ?>

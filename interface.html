@@ -9,11 +9,20 @@
     </head>
     <body>
     	<div id="fond"></div>
+        
         <div id="list_cat">
             <section>
                 <div class="bouton"><a href="index.html">◄ <span id="retour"></span></a></div>
             </section>
         </div>
+                
+        <div id="content">
+	        <nav id="list_sscat" style="clear:both"></nav>
+            <div id="list_produit"></div>
+            <div id="list_photo"></div>
+            <div style="clear:both"></div>
+		</div>
+                    
         <div style="clear:both"></div>
         <footer>App Menu est édité par la société Calico | www.app-menu.fr | Version 1.0</footer>
         <script type="text/javascript" src="cordova.js"></script>
@@ -28,6 +37,7 @@
 				}
 				var lang_index = $.urlParam('lang');
 				var cat_index = $.urlParam('cat');
+				var sscat_index = null;
 
 				$.ajax({
 					type: "GET",
@@ -38,7 +48,7 @@
 						var appendHtml = "<ul>";
 						$(categorie).find('categorie').each( function() {
 							var slug=$(this).attr("slug"); var cat_id=$(this).attr("id");
-							appendHtml += '<li class="big-entry';
+							appendHtml += '<li class="cat big-entry';
 							if(cat_id==cat_index) appendHtml += ' current"';
 							else appendHtml += '"';
 							appendHtml += ' id="lk-cat-'+cat_id+'">';
@@ -53,12 +63,90 @@
 						$("#list_cat").append(appendHtml);				
 				}});
 				
+				$.ajax({
+					type: "GET",
+					url: "xml/sscategorie.xml",
+					dataType: "xml",
+					complete : function(data, status) {
+						var sscategorie = data.responseXML;
+						var appendHtml = '';
+						$(sscategorie).find('sscategories').each( function() {
+							var parent_cat=$(this).attr("categorie");
+							appendHtml += '<ul id="parent-'+parent_cat+'" ';
+							if(cat_index!=parent_cat) appendHtml += 'class="hide"';
+							appendHtml += '>';
+							$(this).find('sscategorie').each( function() {
+								var slug=$(this).attr("slug"); var sscat_id=$(this).attr("id"); var prix = $(this).attr("prix");
+								appendHtml += '<li class="sscat big-entry';
+								if(sscat_id==sscat_index) appendHtml += ' current"';
+								else appendHtml += '"';
+								appendHtml += ' id="lk-sscat-'+sscat_id+'" ';
+								$(this).find('sscat[lang='+lang_index+']').each(function(){
+									var lang = $(this).attr('lang'); var nom = $(this).text();
+									if(nom=="") appendHtml+= 'style="display:none">';
+									else {
+										appendHtml += '><table style="width:100%"><tr><td class="nom">'+nom+'</td>';
+										if(prix!="") appendHtml += '<td class="prix">'+prix+' €</td>';
+										appendHtml += '<td class="cell-btn"><div class="bouton">◄</div></td>';
+										appendHtml += '</tr></table>';
+									}
+								});
+								appendHtml += '</li>';
+							})
+							appendHtml += '</ul>';
+						});
+						$("#list_sscat").append(appendHtml);
+						$("#list_sscat>ul").not("#parent-"+cat_index).css("left","-500px");
+				}});
+				
 				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
 				
 				$("#retour").append(aBack[lang_index]);
 				
 				$(".bouton").on("click", function() {
 					document.location.href=$(this).find("a").attr("href");
+				})
+				
+				$("body").on("click", ".cat", function() {
+					var temp_cat=$(this).attr("id").substr(7,$(this).attr("id").length);
+					if(temp_cat!=cat_index) {
+						/*on repasse les sous catégories en comportement standard*/
+						$("#list_sscat li").css({ opacity:1, left:0 });
+						//on modifie l'etat de l'ancien bouton et du btn cliqué
+						$("#list_cat #lk-cat-"+cat_index)
+							.animate({ padding:"15px 7px 20px 7px" }, 500)
+							.css({ background:"#361439 url(img/fond-bloc.png) repeat-x bottom center" })
+						
+						$(this)
+							.animate({ padding:"25px 10px 45px 10px" }, 500)
+							.css({ background:"url(img/fond-current.png) no-repeat bottom right" })
+						//on affiche les sous cat
+						$("#list_sscat #parent-"+cat_index).animate({ left:"-"+($(this).innerWidth()*2)+"px" }, 400,
+							function() { 
+								$(this).hide();
+								$("#list_sscat #parent-"+temp_cat).show();
+								$("#list_sscat #parent-"+temp_cat).animate({
+									left: "0px"
+								}, 600);
+							});
+						cat_index=temp_cat;
+					}
+				})
+				
+				$("body").on("click", ".sscat", function() {
+					var temp_sscat=$(this).attr("id").substr(9,$(this).attr("id").length);
+					if(temp_sscat!=sscat_index) {
+						$("#list_sscat li").removeClass('current');
+						$(this).addClass("current");
+						$("#list_sscat li").stop().animate({
+							left:0, opacity:1 }, 200, function() {
+							$("#list_sscat li").not("#lk-sscat-"+temp_sscat).stop().animate({
+								opacity:.6,
+								left:"-20px"
+							},500);
+						})
+						sscat_index=temp_sscat;							
+					}
 				})
 			})
 		</script>

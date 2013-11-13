@@ -26,9 +26,10 @@
 a { text-decoration:none; color:#fff }
 body {
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:14px; height:100%; margin:0px; padding:0px;
-    width:100%;
+    font-size:14px; margin:0px; padding:0px; width:100%; height:100%;
 }
+
+.hide { display:none } 
 
 div#fond {
 	position:absolute; width:100%; height:100%; z-index:-1;
@@ -46,12 +47,35 @@ div#fond {
 	}
 
 #list_cat { background:#361439 url(../img/fond-bloc.png) repeat-x top center; height:10px; padding-top:10px; }
-#list_cat section { float:left; margin:20px 10px 0 10px; }
+#list_cat>section { float:left; margin:20px 10px 0 10px; height:90px; }
 #list_cat li.big-entry {
 	float:left; margin:0 10px 0 10px; display:inline-block; min-width:100px; text-align:center; padding:15px 7px 20px 7px; background:#361439 url(../img/fond-bloc.png) repeat-x bottom center; list-style:none; color:#fff;
 }
-#list_cat li.big-entry.current { padding:25px 10px 45px 10px; font-weight:bold; background:url(../img/fond-current.png) no-repeat bottom right; 
- }
+#list_cat li.big-entry.current { padding:25px 10px 45px 10px; font-weight:bold; background:url(../img/fond-current.png) no-repeat bottom right; }
+
+#list_sscat { float:left; width:15%; }
+#list_sscat>ul {
+	list-style:none; position:relative;
+}
+	#list_sscat .big-entry {
+		color:#fff;	margin:5px 5px 5px 0; position:relative;
+		background:#361439;
+/*	    background: linear-gradient( #361439, #563459);*/
+		padding:15px 0px 15px 10px;
+	}
+	
+	#list_sscat .cell-btn { width:20px }
+	#list_sscat .bouton { padding:5px; margin:0 5px; }
+	#list_sscat .current .bouton { background:#579000 }
+
+	#list_sscat .prix { width:50px; text-align:center; font-weight:bold; border-left:1px dashed #fff; border-right:1px dashed #fff; padding:5px 10px;  }
+
+#content {
+	width:100%; min-height:400px;
+}
+	#content>div { width:42%; }
+	#content #list_produit { float:left }
+	#content #list_photo { float:right }
 
 li.big-entry:active {
      background: #666;
@@ -60,7 +84,7 @@ li.big-entry:active {
 }
 li.big-entry:active img { opacity:0.6 }
 
-footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:2%; text-align:center; font-size:.9em }
+footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:1%; text-align:center; font-size:.9em }
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {

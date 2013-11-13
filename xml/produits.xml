@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlproduits>
+<produits categorie="1">
+	<produit id="5" prix="9.98">
+		<trad lang="fr">Oeufs meurettes</trad>
+		<trad lang="en">Eggs in red wine</trad>
+	</produit>
+	<produit id="6" prix="9.20">
+		<trad lang="fr">Parmentier d'Epoisses</trad>
+		<trad lang="en">Potatoes with Epoisses cheese</trad>
+	</produit>
+</produits>
+<produits categorie="5">
+	<produit id="1" prix="22.90">
+		<trad lang="fr">Chablis 1er cru</trad>
+	</produit>
+	<produit id="2" prix="31.25">
+		<trad lang="fr">Haute-Côte de Beaune</trad>
+	</produit>
+	<produit id="3" prix="13.65">
+		<trad lang="fr">Gewurztraminer</trad>
+	</produit>
+	<produit id="4" prix="7.95">
+		<trad lang="fr">Vin du Jura</trad>
+	</produit>
+</produits>
+</xmlproduits>

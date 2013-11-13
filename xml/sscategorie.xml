@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<souscategories>
+<sscategories categorie="2">
+	<sscategorie slug="la-carte" id="1" prix="23">
+		<sscat lang="fr">La Carte</sscat>
+		<sscat lang="en">Starters</sscat>
+	</sscategorie>
+	<sscategorie slug="les-viandes" id="2" prix="22.50">
+		<sscat lang="fr">Les Viandes</sscat>
+		<sscat lang="en">Meat</sscat>
+	</sscategorie>
+	<sscategorie slug="les-suggestions" id="3" prix="15.68">
+		<sscat lang="fr">Les Suggestions du chef en dessert</sscat>
+		<sscat lang="en">Suggestions</sscat>
+	</sscategorie>
+	<sscategorie slug="les-desserts" id="4" prix="45.32">
+		<sscat lang="fr">Les Desserts</sscat>
+		<sscat lang="en">Deserts</sscat>
+	</sscategorie>
+</sscategories>
+<sscategories categorie="5">
+	<sscategorie slug="vins-blancs" id="5" prix="">
+		<sscat lang="fr">Vins Blancs</sscat>
+		<sscat lang="en">White Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="vins-rouges" id="6" prix="">
+		<sscat lang="fr">Vins Rouges</sscat>
+		<sscat lang="en">Red Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="vins-roses" id="7" prix="">
+		<sscat lang="fr">Vins Rosés</sscat>
+		<sscat lang="en">Rosé Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="petillants" id="8" prix="">
+		<sscat lang="fr">Pétillants</sscat>
+		<sscat lang="en">Sparkle Wines</sscat>
+	</sscategorie>
+</sscategories>
+</souscategories>
