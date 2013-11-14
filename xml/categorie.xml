@@ -12,16 +12,16 @@
 		<cat lang="fr">Les Menus</cat>
 		<cat lang="en">Menus</cat>
 	</categorie>
-	<categorie slug="les-aperitifs" id="4">
-		<cat lang="fr">Les Apéritifs</cat>
+	<categorie slug="les-desserts" id="4">
+		<cat lang="fr">Les Desserts</cat>
 		<cat lang="en">Drinks</cat>
 	</categorie>
-	<categorie slug="les-vins" id="5">
-		<cat lang="fr">Les Vins</cat>
+	<categorie slug="les-boissons" id="5">
+		<cat lang="fr">Les Boissons</cat>
 		<cat lang="en">Wines</cat>
 	</categorie>
-	<categorie slug="digestifs" id="6">
-		<cat lang="fr">Digestifs</cat>
+	<categorie slug="les-vins" id="6">
+		<cat lang="fr">Les Vins</cat>
 		<cat lang="en">Liqueur</cat>
 	</categorie>
 </categories>

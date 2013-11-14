@@ -1,39 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <souscategories>
 <sscategories categorie="2">
-	<sscategorie slug="la-carte" id="1" prix="23">
-		<sscat lang="fr">La Carte</sscat>
+	<sscategorie slug="les-entrees" id="1" prix="">
+		<sscat lang="fr">Les entrées</sscat>
 		<sscat lang="en">Starters</sscat>
 	</sscategorie>
-	<sscategorie slug="les-viandes" id="2" prix="22.50">
-		<sscat lang="fr">Les Viandes</sscat>
+	<sscategorie slug="les-poissons" id="2" prix="">
+		<sscat lang="fr">Les Poissons</sscat>
 		<sscat lang="en">Meat</sscat>
 	</sscategorie>
-	<sscategorie slug="les-suggestions" id="3" prix="15.68">
-		<sscat lang="fr">Les Suggestions du chef en dessert</sscat>
+	<sscategorie slug="les-viandes" id="3" prix="">
+		<sscat lang="fr">Les Viandes</sscat>
 		<sscat lang="en">Suggestions</sscat>
 	</sscategorie>
-	<sscategorie slug="les-desserts" id="4" prix="45.32">
-		<sscat lang="fr">Les Desserts</sscat>
+</sscategories>
+<sscategories categorie="3">
+	<sscategorie slug="autour-du-cassis" id="9" prix="23">
+		<sscat lang="fr">Autour du cassis</sscat>
+	</sscategorie>
+	<sscategorie slug="delice-de-bourgogne" id="10" prix="28">
+		<sscat lang="fr">Délice de Bourgogne</sscat>
+	</sscategorie>
+	<sscategorie slug="au-detour-des-hospices" id="11" prix="35">
+		<sscat lang="fr">Au détour des Hospices</sscat>
+	</sscategorie>
+	<sscategorie slug="formule-dejeuner" id="12" prix="15">
+		<sscat lang="fr">Formule déjeuner</sscat>
+	</sscategorie>
+	<sscategorie slug="menu-enfant" id="13" prix="10">
+		<sscat lang="fr">Menu enfant</sscat>
+	</sscategorie>
+</sscategories>
+<sscategories categorie="4">
+	<sscategorie slug="les-fromages" id="4" prix="">
+		<sscat lang="fr">Les Fromages</sscat>
 		<sscat lang="en">Deserts</sscat>
+	</sscategorie>
+	<sscategorie slug="les-desserts" id="5" prix="">
+		<sscat lang="fr">Les Desserts</sscat>
+		<sscat lang="en">White Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="les-coupes-glacees" id="6" prix="">
+		<sscat lang="fr">Les Coupes Glacées</sscat>
+		<sscat lang="en">Red Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="les-glaces" id="7" prix="">
+		<sscat lang="fr">Les Glaces</sscat>
+		<sscat lang="en">Rosé Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="les-sorbets" id="8" prix="">
+		<sscat lang="fr">Les Sorbets</sscat>
+		<sscat lang="en">Sparkle Wines</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="5">
-	<sscategorie slug="vins-blancs" id="5" prix="">
+	<sscategorie slug="les-aperitifs" id="17" prix="">
+		<sscat lang="fr">Les apéritifs</sscat>
+	</sscategorie>
+	<sscategorie slug="les-eaux" id="14" prix="">
+		<sscat lang="fr">Les eaux</sscat>
+	</sscategorie>
+	<sscategorie slug="les-sodas" id="15" prix="">
+		<sscat lang="fr">Les sodas</sscat>
+	</sscategorie>
+	<sscategorie slug="les-boissons-chaudes" id="16" prix="">
+		<sscat lang="fr">Les boissons chaudes</sscat>
+	</sscategorie>
+</sscategories>
+<sscategories categorie="6">
+	<sscategorie slug="vins-blancs" id="18" prix="">
 		<sscat lang="fr">Vins Blancs</sscat>
-		<sscat lang="en">White Wines</sscat>
 	</sscategorie>
-	<sscategorie slug="vins-rouges" id="6" prix="">
+	<sscategorie slug="vins-rouges" id="19" prix="">
 		<sscat lang="fr">Vins Rouges</sscat>
-		<sscat lang="en">Red Wines</sscat>
 	</sscategorie>
-	<sscategorie slug="vins-roses" id="7" prix="">
+	<sscategorie slug="vins-roses" id="20" prix="">
 		<sscat lang="fr">Vins Rosés</sscat>
-		<sscat lang="en">Rosé Wines</sscat>
 	</sscategorie>
-	<sscategorie slug="petillants" id="8" prix="">
+	<sscategorie slug="petillants" id="21" prix="">
 		<sscat lang="fr">Pétillants</sscat>
-		<sscat lang="en">Sparkle Wines</sscat>
+	</sscategorie>
+	<sscategorie slug="digestifs" id="22" prix="">
+		<sscat lang="fr">Digestifs</sscat>
 	</sscategorie>
 </sscategories>
 </souscategories>

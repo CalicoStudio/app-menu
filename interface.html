@@ -5,7 +5,7 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/interface.css" />
-        <title>App Menu | Interface de navigation</title>
+        <title>Bon App' | Interface de navigation</title>
     </head>
     <body>
     	<div id="fond"></div>
@@ -16,15 +16,15 @@
             </section>
         </div>
                 
-        <div id="content">
-	        <nav id="list_sscat" style="clear:both"></nav>
+        <div id="content" style="clear:both">
+	        <nav id="list_sscat"></nav>
             <div id="list_produit"></div>
-            <div id="list_photo"></div>
+<!--            <div id="list_photo"></div>-->
             <div style="clear:both"></div>
 		</div>
                     
         <div style="clear:both"></div>
-        <footer>App Menu est édité par la société Calico | www.app-menu.fr | Version 1.0</footer>
+        <footer>Bon App' est édité par la société Calico | www.bon-app.fr | Version 1.0</footer>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script src="js/jquery.min.1.10.2.js"></script>
@@ -35,11 +35,13 @@
 				    var results = new RegExp('[\\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
 				    return results[1] || 0;
 				}
-				var lang_index = $.urlParam('lang');
+				var lang_index = $.urlParam('lang'); var lang_ori="fr";
 				var cat_index = $.urlParam('cat');
 				var sscat_index = null;
-
-				$.ajax({
+				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
+				var aOu={"fr":"ou","en":"or","de":"oder", "it":"o", "es":"o"};
+				
+				$.ajax({ //categorie.xml
 					type: "GET",
 					url: "xml/categorie.xml",
 					dataType: "xml",
@@ -63,7 +65,7 @@
 						$("#list_cat").append(appendHtml);				
 				}});
 				
-				$.ajax({
+				$.ajax({ //ss catégorie
 					type: "GET",
 					url: "xml/sscategorie.xml",
 					dataType: "xml",
@@ -73,7 +75,9 @@
 						$(sscategorie).find('sscategories').each( function() {
 							var parent_cat=$(this).attr("categorie");
 							appendHtml += '<ul id="parent-'+parent_cat+'" ';
-							if(cat_index!=parent_cat) appendHtml += 'class="hide"';
+							if(cat_index!=parent_cat) {
+								 appendHtml += 'class="hide"';
+							}
 							appendHtml += '>';
 							$(this).find('sscategorie').each( function() {
 								var slug=$(this).attr("slug"); var sscat_id=$(this).attr("id"); var prix = $(this).attr("prix");
@@ -87,7 +91,7 @@
 									else {
 										appendHtml += '><table style="width:100%"><tr><td class="nom">'+nom+'</td>';
 										if(prix!="") appendHtml += '<td class="prix">'+prix+' €</td>';
-										appendHtml += '<td class="cell-btn"><div class="bouton">◄</div></td>';
+										appendHtml += '<td class="cell-btn"><div class="bouton">►</div></td>';
 										appendHtml += '</tr></table>';
 									}
 								});
@@ -95,11 +99,50 @@
 							})
 							appendHtml += '</ul>';
 						});
-						$("#list_sscat").append(appendHtml);
+						$("#list_sscat").append(appendHtml+"&nbsp;");
 						$("#list_sscat>ul").not("#parent-"+cat_index).css("left","-500px");
 				}});
-				
-				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
+
+				$.ajax({ //produits.xml
+					type: "GET",
+					url: "xml/produits.xml",
+					dataType: "xml",
+					complete : function(data, status) {
+						var produit = data.responseXML;
+						var appendHtml = '';
+						var show_me=-1;
+						$(produit).find('produits').each( function() {
+							var parent_cat=$(this).attr("categorie");
+							var parent_sscat=$(this).attr("sscategorie");
+							appendHtml += '<table id="prod-par-'+parent_sscat+'" class="cat-'+parent_cat+'">';
+							if(cat_index==parent_cat && parent_sscat==0) show_me=parent_cat;
+							$(this).find('produit').each( function() {
+								var id=$(this).attr("id"); var prix = $(this).attr("prix");
+								if(prix==-1) appendHtml += '<tr class="ou"><td colspan="2"><div>'+aOu[lang_index]+'</div></td></tr>';
+								else if(prix==-2) appendHtml += '<tr class="saut"><td>~~~</td></tr>';
+								else {
+									appendHtml += '<tr class="produit"';
+									appendHtml += ' id="lk-prod-'+id+'" ';
+									$(this).find('trad[lang='+lang_index+']').each(function(){
+										var lang = $(this).attr('lang'); var nom = $(this).text();
+										if(nom=="") appendHtml+= 'style="display:none">';
+										else {
+											appendHtml += '><td class="nom">'+nom;
+											if(lang_ori!=lang_index) appendHtml += '<br><em class="lang_ori">'+$(this).parent("produit").find('trad[lang='+lang_ori+']').text()+'</em>';
+											appendHtml += '</td>';
+											if(prix!="") appendHtml += '<td class="prix">'+prix+' €</td>';
+											//appendHtml += '<td class="cell-btn"><div class="bouton">►</div></td>';
+										}
+									});
+									appendHtml += '</tr>';
+								}
+							})
+							appendHtml += '</table>';
+						});
+						$("#list_produit").append(appendHtml);
+						if(show_me!=-1) $("#list_produit>table").not(".cat-"+show_me).hide();
+						else $("#list_produit>table").hide();
+				}});
 				
 				$("#retour").append(aBack[lang_index]);
 				
@@ -108,27 +151,27 @@
 				})
 				
 				$("body").on("click", ".cat", function() {
-					var temp_cat=$(this).attr("id").substr(7,$(this).attr("id").length);
+					temp_cat=$(this).attr("id").substr(7,$(this).attr("id").length);
 					if(temp_cat!=cat_index) {
-						/*on repasse les sous catégories en comportement standard*/
+						//on repasse les sous catégories en comportement standard
 						$("#list_sscat li").css({ opacity:1, left:0 });
 						//on modifie l'etat de l'ancien bouton et du btn cliqué
 						$("#list_cat #lk-cat-"+cat_index)
 							.animate({ padding:"15px 7px 20px 7px" }, 500)
-							.css({ background:"#361439 url(img/fond-bloc.png) repeat-x bottom center" })
+							.css({ background:"#361439 url(img/fond-bloc.png) repeat-x bottom center", fontWeight:"normal" })
 						
 						$(this)
 							.animate({ padding:"25px 10px 45px 10px" }, 500)
-							.css({ background:"url(img/fond-current.png) no-repeat bottom right" })
+							.css({ background:"url(img/fond-current.png) no-repeat bottom right", fontWeight:"bold" })
 						//on affiche les sous cat
-						$("#list_sscat #parent-"+cat_index).animate({ left:"-"+($(this).innerWidth()*2)+"px" }, 400,
-							function() { 
-								$(this).hide();
-								$("#list_sscat #parent-"+temp_cat).show();
-								$("#list_sscat #parent-"+temp_cat).animate({
-									left: "0px"
-								}, 600);
-							});
+						if($("#list_sscat #parent-"+cat_index).attr("id")!=undefined) {
+							$("#list_sscat #parent-"+cat_index).animate({ left:"-"+($(this).innerWidth()*2)+"px" }, 400, function() {
+								affProduit($(this));
+							})
+						}
+						else { affProduit(); }
+							
+						$("#list_produit table").fadeOut('500');
 						cat_index=temp_cat;
 					}
 				})
@@ -145,9 +188,28 @@
 								left:"-20px"
 							},500);
 						})
+						if(sscat_index!=null) {
+							$("#list_produit #prod-par-"+sscat_index).fadeOut('500', function() {
+								$("#prod-par-"+temp_sscat).fadeTo(200,1);	
+							});
+						}
+						else $("#prod-par-"+temp_sscat).fadeTo(200,1);	
 						sscat_index=temp_sscat;							
 					}
 				})
+				
+				function affProduit(who) {
+					$(who).hide();
+					if($("#list_sscat #parent-"+temp_cat).attr("id")!=undefined) {//si il y a sous cat on affiche la sous cat
+						$("#list_sscat #parent-"+temp_cat).show();
+						$("#list_sscat #parent-"+temp_cat).animate({
+							left: "0px"
+						}, 600);
+					}
+					else { // sinon on affiche directement le tableau de produit
+						$("#list_produit table.cat-"+temp_cat).fadeTo(200,1);
+					}
+				}
 			})
 		</script>
     </body>

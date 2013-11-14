@@ -72,11 +72,11 @@ while($rows=mysql_fetch_array($q_cat)) {
 		$old_cat=$rows['id_cat'];
 	}
 	$xml.= "\t".'<sscategorie slug="'.$rows['slug'].'" id="'.$rows['id'].'" prix="'.$rows['prix'].'">'."\n";
-	$xml.= "\t\t".'<sscat lang="'.$rows['lang'].'">'.$rows['nom'].'</sscat>'."\n";
+	$xml.= "\t\t".'<sscat lang="'.$rows['lang'].'">'.stripslashes($rows['nom']).'</sscat>'."\n";
 	
 	$qry_trad=mysql_query("SELECT * FROM `sscategorie_trad` WHERE `id_sscat`=".$rows['id']);
 	while($r_trad=mysql_fetch_array($qry_trad)) {
-		$xml.="\t\t".'<sscat lang="'.$r_trad['lang'].'">'.$r_trad['nom'].'</sscat>'."\n";
+		$xml.="\t\t".'<sscat lang="'.$r_trad['lang'].'">'.stripslashes($r_trad['nom']).'</sscat>'."\n";
 	}
 	$xml.= "\t".'</sscategorie>'."\n";
 }
@@ -90,20 +90,20 @@ echo utf8_decode('-> Génération du xml des sous catégories<br />');
 //génération du xml des produits
 $q_cat=mysql_query("SELECT * FROM `produit` ORDER BY `id_cat`, `id_sscat`, `ordre` ASC");
 $xml = '<?xml version="1.0" encoding="utf-8"?>'."\n";
-$lang=""; $old_sscat=-1;
+$lang=""; $old_cat=-1; $old_sscat=-1;
 $xml .= '<xmlproduits>'."\n";		
 while($rows=mysql_fetch_array($q_cat)) {
-	if($rows['id_sscat']!=$old_sscat) {
+	if($rows['id_sscat']!=$old_sscat || $rows['id_cat']!=$old_cat) {
 		if($old_sscat!=-1) $xml .= '</produits>'."\n";
-		$xml .= '<produits categorie="'.$rows['id_sscat'].'">'."\n";		
-		$old_sscat=$rows['id_sscat'];
+		$xml .= '<produits categorie="'.$rows['id_cat'].'" sscategorie="'.$rows['id_sscat'].'">'."\n";		
+		$old_sscat=$rows['id_sscat']; $old_cat=$rows['id_cat'];
 	}
 	$xml.= "\t".'<produit id="'.$rows['id'].'" prix="'.$rows['prix'].'">'."\n";
-	$xml.= "\t\t".'<trad lang="'.$rows['lang'].'">'.$rows['nom'].'</trad>'."\n";
+	if($rows['nom']!="") $xml.= "\t\t".'<trad lang="'.$rows['lang'].'">'.trim(stripslashes($rows['nom'])).'</trad>'."\n";
 	
 	$qry_trad=mysql_query("SELECT * FROM `produit_trad` WHERE `id_produit`=".$rows['id']);
 	while($r_trad=mysql_fetch_array($qry_trad)) {
-		$xml.="\t\t".'<trad lang="'.$r_trad['lang'].'">'.$r_trad['nom'].'</trad>'."\n";
+		$xml.="\t\t".'<trad lang="'.$r_trad['lang'].'">'.trim(stripslashes($r_trad['nom'])).'</trad>'."\n";
 	}
 	$xml.= "\t".'</produit>'."\n";
 }
