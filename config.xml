@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
-        id="com.phonegap.trad-e-menu"
+        id="com.phonegap.bonapp"
         version="1.0.0">
-    <name>Trad e-menu</name>
+    <name>BonApp'</name>
 
     <description>
-        Trad e-menu vous permet de proposer votre menu ainsi que sa traduction à vos clients
+        BonApp' propose votre carte ainsi que sa traduction à vos clients
     </description>
 
     <author href="http://www.studio-calico.fr" email="support@studio-calico.fr">Calico</author>
