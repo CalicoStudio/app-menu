@@ -2,26 +2,50 @@
 <categories>
 	<categorie slug="suggestions" id="1">
 		<cat lang="fr">Suggestions</cat>
-		<cat lang="en">Suggestion</cat>
+		<cat lang="en">Dish of the day</cat>
+		<cat lang="de">Tagesgericht</cat>
+		<cat lang="nl">Gerecht van de daag</cat>
+		<cat lang="es">Plato del día</cat>
+		<cat lang="it">Piatto del giorno</cat>
 	</categorie>
 	<categorie slug="la-carte" id="2">
 		<cat lang="fr">La Carte</cat>
-		<cat lang="en">Starters</cat>
+		<cat lang="en">A la carte</cat>
+		<cat lang="de">Speisekarte</cat>
+		<cat lang="nl">Spijskaart</cat>
+		<cat lang="es">A la Carta</cat>
+		<cat lang="it">Alla Carta</cat>
 	</categorie>
 	<categorie slug="les-menus" id="3">
 		<cat lang="fr">Les Menus</cat>
-		<cat lang="en">Menus</cat>
+		<cat lang="en">Menu</cat>
+		<cat lang="de">Menü</cat>
+		<cat lang="nl">Menu</cat>
+		<cat lang="es">Menú</cat>
+		<cat lang="it">Menù</cat>
 	</categorie>
 	<categorie slug="les-desserts" id="4">
 		<cat lang="fr">Les Desserts</cat>
-		<cat lang="en">Drinks</cat>
+		<cat lang="en">Desserts</cat>
+		<cat lang="de">Nachtische</cat>
+		<cat lang="nl">Nagerechten</cat>
+		<cat lang="es">Postres</cat>
+		<cat lang="it">Dolci</cat>
 	</categorie>
 	<categorie slug="les-boissons" id="5">
 		<cat lang="fr">Les Boissons</cat>
-		<cat lang="en">Wines</cat>
+		<cat lang="en">Drinks</cat>
+		<cat lang="de">Getränke</cat>
+		<cat lang="nl">Drankjes</cat>
+		<cat lang="es">Bebidas</cat>
+		<cat lang="it">Bevande</cat>
 	</categorie>
 	<categorie slug="les-vins" id="6">
 		<cat lang="fr">Les Vins</cat>
-		<cat lang="en">Liqueur</cat>
+		<cat lang="en">Wines</cat>
+		<cat lang="de">Weine</cat>
+		<cat lang="nl">Wijnen</cat>
+		<cat lang="es">Vinos</cat>
+		<cat lang="it">Vini</cat>
 	</categorie>
 </categories>

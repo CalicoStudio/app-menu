@@ -3,85 +3,187 @@
 <sscategories categorie="2">
 	<sscategorie slug="les-entrees" id="1" prix="">
 		<sscat lang="fr">Les entrées</sscat>
-		<sscat lang="en">Starters</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="les-poissons" id="2" prix="">
 		<sscat lang="fr">Les Poissons</sscat>
-		<sscat lang="en">Meat</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="les-viandes" id="3" prix="">
 		<sscat lang="fr">Les Viandes</sscat>
-		<sscat lang="en">Suggestions</sscat>
+		<sscat lang="en">Meat Dishes</sscat>
+		<sscat lang="de">Fleischgerichte</sscat>
+		<sscat lang="nl">Vleesgerechten</sscat>
+		<sscat lang="es">Carnes</sscat>
+		<sscat lang="it">Carni</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="3">
 	<sscategorie slug="autour-du-cassis" id="9" prix="23">
 		<sscat lang="fr">Autour du cassis</sscat>
+		<sscat lang="en">With blackcurrant flavours</sscat>
+		<sscat lang="de">Mit schwarzem Johannisbeeren-Geschmack</sscat>
+		<sscat lang="nl">Rond het thema zwarte aalbessen</sscat>
+		<sscat lang="es">A sabores de grosella negra</sscat>
+		<sscat lang="it">I sapori di ribes nero</sscat>
 	</sscategorie>
 	<sscategorie slug="delice-de-bourgogne" id="10" prix="28">
 		<sscat lang="fr">Délice de Bourgogne</sscat>
+		<sscat lang="en">Burgundian delight</sscat>
+		<sscat lang="de">Burgundischer Leckerbißen</sscat>
+		<sscat lang="nl">Genot van Bourgondië</sscat>
+		<sscat lang="es">Delicia de Borgoña</sscat>
+		<sscat lang="it">Delizia di Borgogna</sscat>
 	</sscategorie>
 	<sscategorie slug="au-detour-des-hospices" id="11" prix="35">
 		<sscat lang="fr">Au détour des Hospices</sscat>
+		<sscat lang="en">After visiting the Hospices</sscat>
+		<sscat lang="de">Nach Ihrem Besuch der Hospices</sscat>
+		<sscat lang="nl">Na uw bezoek aan het hospitium</sscat>
+		<sscat lang="es">Despuès de vuestra visita de los Hospicios </sscat>
+		<sscat lang="it">Dopo la visita dell'Ospizio di Beaune</sscat>
 	</sscategorie>
 	<sscategorie slug="formule-dejeuner" id="12" prix="15">
 		<sscat lang="fr">Formule déjeuner</sscat>
+		<sscat lang="en">Lunch Menu</sscat>
+		<sscat lang="de">Mittagessenmenü</sscat>
+		<sscat lang="nl">Lunch menu</sscat>
+		<sscat lang="es">Menú de comida</sscat>
+		<sscat lang="it">Menù di pranzo</sscat>
 	</sscategorie>
 	<sscategorie slug="menu-enfant" id="13" prix="10">
 		<sscat lang="fr">Menu enfant</sscat>
+		<sscat lang="en">Children's Menu</sscat>
+		<sscat lang="de">Kindermenü</sscat>
+		<sscat lang="nl">Kindermenu</sscat>
+		<sscat lang="es">Menú para Niños</sscat>
+		<sscat lang="it">Menù per Bambini</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="4">
 	<sscategorie slug="les-fromages" id="4" prix="">
 		<sscat lang="fr">Les Fromages</sscat>
-		<sscat lang="en">Deserts</sscat>
+		<sscat lang="en">Cheeses</sscat>
+		<sscat lang="de">Käsesorten</sscat>
+		<sscat lang="nl">Kazen</sscat>
+		<sscat lang="es">Quesos</sscat>
+		<sscat lang="it">Formaggi</sscat>
 	</sscategorie>
 	<sscategorie slug="les-desserts" id="5" prix="">
 		<sscat lang="fr">Les Desserts</sscat>
-		<sscat lang="en">White Wines</sscat>
+		<sscat lang="en">Desserts</sscat>
+		<sscat lang="de">Nachtische</sscat>
+		<sscat lang="nl">Nagerechten</sscat>
+		<sscat lang="es">Postres</sscat>
+		<sscat lang="it">Dolci</sscat>
 	</sscategorie>
 	<sscategorie slug="les-coupes-glacees" id="6" prix="">
 		<sscat lang="fr">Les Coupes Glacées</sscat>
-		<sscat lang="en">Red Wines</sscat>
+		<sscat lang="en">Ice creams</sscat>
+		<sscat lang="de">Eis</sscat>
+		<sscat lang="nl">Ijs</sscat>
+		<sscat lang="es">Helados</sscat>
+		<sscat lang="it">Gelati</sscat>
 	</sscategorie>
 	<sscategorie slug="les-glaces" id="7" prix="">
 		<sscat lang="fr">Les Glaces</sscat>
-		<sscat lang="en">Rosé Wines</sscat>
+		<sscat lang="en">Ice creams</sscat>
+		<sscat lang="de">Eis</sscat>
+		<sscat lang="nl">Ijs</sscat>
+		<sscat lang="es">Helados</sscat>
+		<sscat lang="it">Gelati</sscat>
 	</sscategorie>
 	<sscategorie slug="les-sorbets" id="8" prix="">
 		<sscat lang="fr">Les Sorbets</sscat>
-		<sscat lang="en">Sparkle Wines</sscat>
+		<sscat lang="en">Sorbets</sscat>
+		<sscat lang="de">Sorbets</sscat>
+		<sscat lang="nl">Sorbets</sscat>
+		<sscat lang="es">Sorbetes :</sscat>
+		<sscat lang="it">Sorbetti :</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="5">
 	<sscategorie slug="les-aperitifs" id="17" prix="">
 		<sscat lang="fr">Les apéritifs</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="les-eaux" id="14" prix="">
 		<sscat lang="fr">Les eaux</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="les-sodas" id="15" prix="">
 		<sscat lang="fr">Les sodas</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="les-boissons-chaudes" id="16" prix="">
 		<sscat lang="fr">Les boissons chaudes</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="6">
 	<sscategorie slug="vins-blancs" id="18" prix="">
 		<sscat lang="fr">Vins Blancs</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="vins-rouges" id="19" prix="">
 		<sscat lang="fr">Vins Rouges</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="vins-roses" id="20" prix="">
 		<sscat lang="fr">Vins Rosés</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="petillants" id="21" prix="">
 		<sscat lang="fr">Pétillants</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 	<sscategorie slug="digestifs" id="22" prix="">
 		<sscat lang="fr">Digestifs</sscat>
+		<sscat lang="en"></sscat>
+		<sscat lang="de"></sscat>
+		<sscat lang="nl"></sscat>
+		<sscat lang="es"></sscat>
+		<sscat lang="it"></sscat>
 	</sscategorie>
 </sscategories>
 </souscategories>
