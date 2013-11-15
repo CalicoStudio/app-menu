@@ -115,7 +115,7 @@
 							if(cat_index==parent_cat && parent_sscat==0) show_me=parent_cat;
 							$(this).find('produit').each( function() {
 								var id=$(this).attr("id"); var prix = $(this).attr("prix");
-								if(prix==-1) appendHtml += '<tr class="ou"><td colspan="2"><div style="background-color:#97c00e">'+aOu[lang_index]+'</div></td></tr>';
+								if(prix==-1) appendHtml += '<tr class="ou"><td colspan="2"><div>'+aOu[lang_index]+'</div></td></tr>';
 								else if(prix==-2) appendHtml += '<tr class="saut"><td><hr></td></tr>';
 								else {
 									appendHtml += '<tr class="produit"';

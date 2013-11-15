@@ -82,7 +82,7 @@ table { width:100% }
 	#list_produit td.prix {  border:0; width:70px }
 	#list_produit .saut td { background:none; text-align:center; font-weight:bold; color:#341439; padding:0px; color:#fff }
 	#list_produit .ou td { padding:0; background:none }
-	#list_produit .ou div { width:30%; background:#361439; text-align:center; font-weight:bold; font-style:italic; margin:auto }
+	#list_produit .ou div { width:20%; background:#361439; text-align:center; font-weight:bold; font-style:italic; margin:auto }
 	#list_produit em { font-size:0.8em }
 
 li.big-entry:active {
