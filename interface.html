@@ -21,7 +21,7 @@
                     
         <div style="clear:both"></div>
         <footer>
-            <div class="terre bouton"></div>Bon App' est édité par la société Calico | Version 1.0			
+            <div class="terre bouton"><a href="index.html">&nbsp;</a></div>Bon App' est édité par la société Calico | Version 1.0			
 		</footer>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
@@ -142,8 +142,6 @@
 						if(show_me!=-1) $("#list_produit>table").not(".cat-"+show_me).hide();
 						else $("#list_produit>table").hide();
 				}});
-				
-				$("#retour").append(aBack[lang_index]);
 				
 				$(".bouton").on("click", function() {
 					document.location.href=$(this).find("a").attr("href");

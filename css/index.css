@@ -43,8 +43,8 @@ div.retour	 { border-bottom:1px solid #fff; padding-bottom:2%; margin-bottom:2%;
 		background:#579000;
 	}
 
-ul { width:80%; margin:0 auto; padding-bottom:2%; }
-ul li { background:rgba(255,255,255, 0.6); float:left; margin:1%; width:20%; min-width:100px; text-align:center; padding:1%; }
+ul { width:80%; margin:0 auto; padding-bottom:2%; list-style-type:none }
+ul li { background:rgba(255,255,255, 0.6); float:left; margin:1%; list-style:none; width:20%; min-width:100px; text-align:center; padding:1%; }
 li.big-entry:active {
      background: #666;
      background: linear-gradient( #aaa, #8C8C8C);
