@@ -36,7 +36,6 @@
 				var lang_index = $.urlParam('lang'); var lang_ori="fr";
 				var cat_index = $.urlParam('cat');
 				var sscat_index = null;
-				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
 				var aOu={"fr":"ou","en":"or","de":"oder", "it":"o", "es":"o"};
 				
 				$.ajax({ //categorie.xml
@@ -117,7 +116,7 @@
 							$(this).find('produit').each( function() {
 								var id=$(this).attr("id"); var prix = $(this).attr("prix");
 								if(prix==-1) appendHtml += '<tr class="ou"><td colspan="2"><div style="background-color:#97c00e">'+aOu[lang_index]+'</div></td></tr>';
-								else if(prix==-2) appendHtml += '<tr class="saut"><td>◒◓◒</td></tr>';
+								else if(prix==-2) appendHtml += '<tr class="saut"><td><hr></td></tr>';
 								else {
 									appendHtml += '<tr class="produit"';
 									appendHtml += ' id="lk-prod-'+id+'" ';
