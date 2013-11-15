@@ -35,7 +35,7 @@
         </section>
         <section id="cat">
             <div class="retour">
-                <div class="bouton"><a href="#">◄ <span id="retour"></span></a></div>
+                <div class="terre bouton"><a href="index.html">&nbsp;</a></div>
             </div>
         	<div id="list_cat"></div>
 	        <div style="clear:both"></div>
@@ -88,7 +88,6 @@
 					lang_ck=$(this).attr("id").substr(2,2);
 					$("#accueil").slideUp(400, function() {
 						$("#list_cat ul li a.link").not("#lk-cat-"+lang_ck).hide();
-						$("#retour").append(aBack[lang_ck]);
 						$("#cat").slideDown(800);
 					})
 				})
@@ -99,12 +98,9 @@
 					return false;
 				})
 				//affichage du bouton retour à l'accueil
-				var aBack={"fr":"Retour à l'accueil","en":"Get back to home"};
-				
 				$("body").on("click", ".retour", function() {
 					$("#cat").slideUp(400, function() {
 						$("#list_cat a").show();
-						$("#retour").empty();
 						$("#accueil").slideDown(800);
 					})
 				})
