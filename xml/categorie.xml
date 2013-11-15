@@ -32,20 +32,4 @@
 		<cat lang="es">Postres</cat>
 		<cat lang="it">Dolci</cat>
 	</categorie>
-	<categorie slug="les-boissons" id="5">
-		<cat lang="fr">Les Boissons</cat>
-		<cat lang="en">Drinks</cat>
-		<cat lang="de">Getränke</cat>
-		<cat lang="nl">Drankjes</cat>
-		<cat lang="es">Bebidas</cat>
-		<cat lang="it">Bevande</cat>
-	</categorie>
-	<categorie slug="les-vins" id="6">
-		<cat lang="fr">Les Vins</cat>
-		<cat lang="en">Wines</cat>
-		<cat lang="de">Weine</cat>
-		<cat lang="nl">Wijnen</cat>
-		<cat lang="es">Vinos</cat>
-		<cat lang="it">Vini</cat>
-	</categorie>
 </categories>

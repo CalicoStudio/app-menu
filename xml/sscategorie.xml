@@ -3,19 +3,19 @@
 <sscategories categorie="2">
 	<sscategorie slug="les-entrees" id="1" prix="">
 		<sscat lang="fr">Les entrées</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Starters</sscat>
+		<sscat lang="de">Vorspeisen</sscat>
+		<sscat lang="nl">Voorgerechten</sscat>
+		<sscat lang="es">Entremeses</sscat>
+		<sscat lang="it">Primi piatti</sscat>
 	</sscategorie>
 	<sscategorie slug="les-poissons" id="2" prix="">
 		<sscat lang="fr">Les Poissons</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Fish dishes</sscat>
+		<sscat lang="de">Fischgerichte</sscat>
+		<sscat lang="nl">Visgerechten</sscat>
+		<sscat lang="es">Platos de pescados</sscat>
+		<sscat lang="it">Piatti di pesce</sscat>
 	</sscategorie>
 	<sscategorie slug="les-viandes" id="3" prix="">
 		<sscat lang="fr">Les Viandes</sscat>
@@ -113,77 +113,77 @@
 <sscategories categorie="5">
 	<sscategorie slug="les-aperitifs" id="17" prix="">
 		<sscat lang="fr">Les apéritifs</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Aperitifs</sscat>
+		<sscat lang="de">Aperitifs</sscat>
+		<sscat lang="nl">Aperitieven</sscat>
+		<sscat lang="es">Aperitivos</sscat>
+		<sscat lang="it">Aperitivi</sscat>
 	</sscategorie>
 	<sscategorie slug="les-eaux" id="14" prix="">
 		<sscat lang="fr">Les eaux</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Waters</sscat>
+		<sscat lang="de">Wasser</sscat>
+		<sscat lang="nl">Water</sscat>
+		<sscat lang="es">Aguas</sscat>
+		<sscat lang="it">Acque</sscat>
 	</sscategorie>
 	<sscategorie slug="les-sodas" id="15" prix="">
 		<sscat lang="fr">Les sodas</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Soft drinks</sscat>
+		<sscat lang="de">Sodagetränke</sscat>
+		<sscat lang="nl">Frisdranken</sscat>
+		<sscat lang="es">Gaseosas</sscat>
+		<sscat lang="it">Bibite</sscat>
 	</sscategorie>
 	<sscategorie slug="les-boissons-chaudes" id="16" prix="">
 		<sscat lang="fr">Les boissons chaudes</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Hot drinks</sscat>
+		<sscat lang="de">Heiße Getränke</sscat>
+		<sscat lang="nl">Warme dranken</sscat>
+		<sscat lang="es">Bebidas calientes</sscat>
+		<sscat lang="it">Bevande calde</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="6">
 	<sscategorie slug="vins-blancs" id="18" prix="">
 		<sscat lang="fr">Vins Blancs</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">White wines</sscat>
+		<sscat lang="de">Weißweine</sscat>
+		<sscat lang="nl">Rode wijnen</sscat>
+		<sscat lang="es">Vinos blancos</sscat>
+		<sscat lang="it">Vini bianchi</sscat>
 	</sscategorie>
 	<sscategorie slug="vins-rouges" id="19" prix="">
 		<sscat lang="fr">Vins Rouges</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Red wines</sscat>
+		<sscat lang="de">Rotweine</sscat>
+		<sscat lang="nl">Witte wijnen</sscat>
+		<sscat lang="es">Vinos tintos</sscat>
+		<sscat lang="it">Vini rossi</sscat>
 	</sscategorie>
 	<sscategorie slug="vins-roses" id="20" prix="">
 		<sscat lang="fr">Vins Rosés</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Rosé wines</sscat>
+		<sscat lang="de">Roséweine</sscat>
+		<sscat lang="nl">Roséwijnen</sscat>
+		<sscat lang="es">Vinos rosados</sscat>
+		<sscat lang="it">Vini rosati</sscat>
 	</sscategorie>
 	<sscategorie slug="petillants" id="21" prix="">
 		<sscat lang="fr">Pétillants</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Sparkling wines</sscat>
+		<sscat lang="de">Schaumweine</sscat>
+		<sscat lang="nl">Mousserende wijnen</sscat>
+		<sscat lang="es">Vinos espumosos</sscat>
+		<sscat lang="it">Vini spumanti</sscat>
 	</sscategorie>
 	<sscategorie slug="digestifs" id="22" prix="">
 		<sscat lang="fr">Digestifs</sscat>
-		<sscat lang="en"></sscat>
-		<sscat lang="de"></sscat>
-		<sscat lang="nl"></sscat>
-		<sscat lang="es"></sscat>
-		<sscat lang="it"></sscat>
+		<sscat lang="en">Digestifs</sscat>
+		<sscat lang="de">Digestifs</sscat>
+		<sscat lang="nl">Digestieven</sscat>
+		<sscat lang="es">Digestivos</sscat>
+		<sscat lang="it">Digestivi</sscat>
 	</sscategorie>
 </sscategories>
 </souscategories>
