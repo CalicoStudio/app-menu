@@ -45,7 +45,7 @@ div#fond {
 	}
 
 #list_cat { background:#361439 url(../img/fond-bloc.png) repeat-x top center; height:10px; padding-top:10px; }
-#list_cat>section { float:left; margin:20px 10px 0 10px; height:90px; }
+#list_cat>section { float:left; height:90px; }
 #list_cat li.big-entry {
 	float:left; margin:0 10px 0 10px; display:inline-block; min-width:100px; text-align:center; padding:15px 7px 20px 7px; background:#361439 url(../img/fond-bloc.png) repeat-x bottom center; list-style:none; color:#fff;
 }
@@ -80,7 +80,7 @@ table { width:100% }
 	#list_produit .cell-btn .bouton { width:40px; height:40px; border-radius:40px; padding:0; text-align:center; line-height:40px; color:#fff; font-size:1.5em }
 	#list_produit td {  background:rgba(54,20,57,1); color:#fff; padding:10px; font-size:1.2em }
 	#list_produit td.prix {  border:0; width:70px }
-	#list_produit .saut td { background:none; text-align:center; font-weight:bold; color:#341439; padding:0px; }
+	#list_produit .saut td { background:none; text-align:center; font-weight:bold; color:#341439; padding:0px; color:#fff }
 	#list_produit .ou td { padding:0; background:none }
 	#list_produit .ou div { width:30%; background:linear-gradient(to bottom, #97c00e 0%,#77a000 100%); text-align:center; font-weight:bold; font-style:italic; margin:auto }
 	#list_produit em { font-size:0.8em }
@@ -91,8 +91,8 @@ li.big-entry:active {
      box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4); 
 }
 li.big-entry:active img { opacity:0.6 }
-footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:1%; text-align:center; font-size:.9em }
-
+footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:10px; text-align:center; font-size:.9em; line-height:50px; }
+.terre { width:50px; height:50px; background:url(../img/terre.png), linear-gradient(to bottom, #97c00e 0%,#77a000 100%); padding:0; border-radius:25px; float:left; }
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
