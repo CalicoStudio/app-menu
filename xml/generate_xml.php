@@ -98,7 +98,7 @@ while($rows=mysql_fetch_array($q_cat)) {
 		$xml .= '<produits categorie="'.$rows['id_cat'].'" sscategorie="'.$rows['id_sscat'].'">'."\n";		
 		$old_sscat=$rows['id_sscat']; $old_cat=$rows['id_cat'];
 	}
-	$xml.= "\t".'<produit id="'.$rows['id'].'" prix="'.$rows['prix'].'">'."\n";
+	$xml.= "\t".'<produit id="'.$rows['id'].'" prix="'.$rows['prix'].'" ph1="'.$rows['photo1'].'" ph2="'.$rows['photo2'].'" ph3="'.$rows['photo3'].'">'."\n";
 	if($rows['nom']!="") $xml.= "\t\t".'<trad lang="'.$rows['lang'].'">'.trim(stripslashes($rows['nom'])).'</trad>'."\n";
 	
 	$qry_trad=mysql_query("SELECT * FROM `produit_trad` WHERE `id_produit`=".$rows['id']);

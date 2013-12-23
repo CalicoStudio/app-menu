@@ -15,7 +15,12 @@
         <div id="content" style="clear:both">
 	        <nav id="list_sscat"></nav>
             <div id="list_produit"></div>
-<!--            <div id="list_photo"></div>-->
+            <div id="list_photo">
+            	<div id="list_big"></div>
+                <div id="titre"><table cellpadding="0" cellspacing="0"><tr><td id="td_titre"></td></tr></table></div>
+            	<div id="list_thb"></div>
+                <div id="refermePh"><div class="bouton" id="refPhBtn">►</div></div>
+            </div>
             <div style="clear:both"></div>
 		</div>
                     
@@ -59,7 +64,7 @@
 							appendHtml += '</li>';
 						});
 						appendHtml += '</ul>';
-						$("#list_cat").append(appendHtml);				
+						$("#list_cat").append(appendHtml);
 				}});
 				
 				$.ajax({ //ss catégorie
@@ -107,6 +112,8 @@
 					complete : function(data, status) {
 						var produit = data.responseXML;
 						var appendHtml = '';
+						var appendPhBig = '';
+						var appendPhThb = '';
 						var show_me=-1;
 						$(produit).find('produits').each( function() {
 							var parent_cat=$(this).attr("categorie");
@@ -114,7 +121,27 @@
 							appendHtml += '<table id="prod-par-'+parent_sscat+'" class="cat-'+parent_cat+'">';
 							if(cat_index==parent_cat && parent_sscat==0) show_me=parent_cat;
 							$(this).find('produit').each( function() {
-								var id=$(this).attr("id"); var prix = $(this).attr("prix");
+								var id=$(this).attr("id"); var prix = $(this).attr("prix"); var hasphoto=0;
+								//gestion des photos
+								var ph1 = $(this).attr("ph1"); var ph2 = $(this).attr("ph2"); var ph3 = $(this).attr("ph3");
+								if(ph1!="" || ph2!="" || ph3!="") {
+									hasphoto=1;
+									appendPhBig += '<div id="ph'+id+'" class="phBig">'; appendPhThb += '<div class="phThb" id="tb'+id+'">';
+									if(ph1!="") { 
+										appendPhBig += '<div class="big1"><img src="img/produit/'+ph1+'" alt=""></div>';
+										appendPhThb += '<img src="img/produit/'+ph1+'" alt="" id="min1ph'+id+'">';
+									}
+									if(ph2!="") {
+										appendPhBig += '<div class="big2"><img src="img/produit/'+ph2+'" alt=""></div>';
+										appendPhThb += '<img src="img/produit/'+ph2+'" alt="" id="min2ph'+id+'" class="notme">';
+									}
+									if(ph3!="") {
+										appendPhBig += '<div class="big3"><img src="img/produit/'+ph3+'" alt=""></div>';
+										appendPhThb += '<img src="img/produit/'+ph3+'" alt="" id="min3ph'+id+'" class="notme">';
+									}
+									appendPhBig += '</div>'; appendPhThb += '</div>';
+								}
+								
 								if(prix==-1) appendHtml += '<tr class="ou"><td colspan="2"><div>'+aOu[lang_index]+'</div></td></tr>';
 								else if(prix==-2) appendHtml += '<tr class="saut"><td><hr></td></tr>';
 								else {
@@ -125,11 +152,11 @@
 										if(nom=="") appendHtml+= 'style="display:none">';
 										else {
 											if(parent_cat==3) appendHtml+= 'style="text-align:center"'; //si c un menu on centre
-											appendHtml += '><td class="nom">'+nom;
+											appendHtml += '><td class="nom"><span id="nom'+id+'">'+nom+'</span>';
 											if(lang_ori!=lang_index) appendHtml += '<br><em class="lang_ori">'+$(this).parent("produit").find('trad[lang='+lang_ori+']').text()+'</em>';
 											appendHtml += '</td>';
 											if(prix!="") appendHtml += '<td class="prix">'+prix+' €</td>';
-											//appendHtml += '<td class="cell-btn"><div class="bouton">►</div></td>';
+											if(hasphoto==1) appendHtml += '<td class="cell-btn"><div class="bouton showphoto" id="show'+id+'">►</div></td>';
 										}
 									});
 									appendHtml += '</tr>';
@@ -138,12 +165,38 @@
 							appendHtml += '</table>';
 						});
 						$("#list_produit").append(appendHtml);
+						$("#list_big").append(appendPhBig);
+						$("#list_thb").append(appendPhThb);
 						if(show_me!=-1) $("#list_produit>table").not(".cat-"+show_me).hide();
 						else $("#list_produit>table").hide();
 				}});
 				
-				$(".bouton").on("click", function() {
-					document.location.href=$(this).find("a").attr("href");
+				$("body").on("click", ".bouton", function() {
+					if($(this).find("a").length)
+						document.location.href=$(this).find("a").attr("href");
+					else {
+						if($(this).attr("id")=="refPhBtn") $("#list_photo").animate({ right:"-880px" }, 500);
+						else if($(this).hasClass("showphoto")) { //affichage des grosses photos
+							//reinitialise les parametres
+							$("#list_photo>#list_big>.phBig").hide();
+							$("#list_photo>#list_thb>.phThb").hide();			
+							//on a cliqué sur qui
+							whoph=$(this).attr("id").substr(4, $(this).attr("id").length);
+							$("#ph"+whoph).show();
+							$("#tb"+whoph).show();
+							$("#td_titre").empty().text($('#nom'+whoph).text());
+							$("#list_photo").animate({ right:"0px" }, 500);
+						}
+					}
+				})
+				
+				$("body").on("click", ".notme", function() {
+					$("#tb"+whoph+" img").attr("class","notme");
+					$(this).removeClass("notme");
+					var whatThb=$(this).attr("id").substr(3,1);
+//					alert(whatThb);
+					$("#ph"+whoph+">div").hide();
+					$("#ph"+whoph+" .big"+whatThb).show();
 				})
 				
 				$("body").on("click", ".cat", function() {

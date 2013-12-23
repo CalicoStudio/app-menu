@@ -73,10 +73,9 @@ div#fond {
 }
 	#content>div { width:75%; }
 	#content #list_produit { float:left; margin-left:3%; }
-	#content #list_photo { float:right }
+	#content #list_photo { width:800px; height:700px; }
 
 table { width:100% }
-	#list_produit .cell-btn { height:60px }
 	#list_produit .cell-btn .bouton { width:40px; height:40px; border-radius:40px; padding:0; text-align:center; line-height:40px; color:#fff; font-size:1.5em }
 	#list_produit td {  background:rgba(54,20,57,1); color:#fff; padding:10px; font-size:1.2em }
 	#list_produit td.prix {  border:0; width:70px }
@@ -91,35 +90,27 @@ li.big-entry:active {
      box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4); 
 }
 li.big-entry:active img { opacity:0.6 }
+
+#list_photo { position:fixed; top:10px; right:-900px; background:linear-gradient(to bottom, #97c00e 0%,#77a000 100%); border:1px solid #fff; box-shadow:0px 0px 15px #333; }
+#list_photo>#list_big { height:600px; }
+#list_photo>#list_big>div { display:none }
+#list_photo>#list_big>div.phBig>div { position:absolute; }
+#list_photo>#list_big div.big1 { z-index:3 } #list_photo>#list_big div.big2 { z-index:2 } #list_photo>#list_big div.big3 { z-index:1 }
+#list_photo img { max-width:100%; max-height:100%; }
+#list_photo>#titre { float:left; height:90px; width:40%; margin:0 5%; }
+#list_photo>#titre td { text-align:center; color:#fff; font-weight:bold; height:100px; }
+#list_photo>#list_thb { height:90px; text-align:center }
+#list_photo>#list_thb img { margin:5px; color:#fff; font-weight:bold;}
+
+#list_photo #refermePh { position:absolute; left:-60px; top:40px; background:#fff; width:60px; height:60px; box-shadow:-4px 0px 10px #666 }
+#list_photo #refermePh>div { color:#fff; margin:10px; height:40px; width:40px; padding:0; text-align:center; line-height:40px; border-radius:40px; font-size:1.5em; }
+
 footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:10px; text-align:center; font-size:.9em; line-height:50px; }
 .terre { width:50px; height:50px; background:url(../img/terre.jpg) no-repeat; padding:0; border-radius:25px; float:left; }
+.notme { opacity:.6; transition: opacity 0.4s ease; } .notme:hover { opacity:.8 }
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-        background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
-    }
-}
-
-.hide {
-    display:none;
-}
-
-@keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-.blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
-}
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) { .app { background-position:left center; padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */ margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */ /* offset horizontal: half of image width and text area width */ } }
+.hide { display:none; }
+@keyframes fade {from { opacity: 1.0; } 50% { opacity: 0.4; } to { opacity: 1.0; } }
+@-webkit-keyframes fade { from { opacity: 1.0; } 50% { opacity: 0.4; } to { opacity: 1.0; } }
+.blink { animation:fade 3000ms infinite; -webkit-animation:fade 3000ms infinite; }
