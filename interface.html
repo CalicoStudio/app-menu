@@ -128,15 +128,15 @@
 									hasphoto=1;
 									appendPhBig += '<div id="ph'+id+'" class="phBig">'; appendPhThb += '<div class="phThb" id="tb'+id+'">';
 									if(ph1!="") { 
-										appendPhBig += '<div class="big1"><img src="img/produit/'+ph1+'" alt=""></div>';
+										appendPhBig += '<div class="big1"><img src="img/produit/'+ph1+'" alt="Photo 1"></div>';
 										appendPhThb += '<img src="img/produit/'+ph1+'" alt="" id="min1ph'+id+'">';
 									}
 									if(ph2!="") {
-										appendPhBig += '<div class="big2"><img src="img/produit/'+ph2+'" alt=""></div>';
+										appendPhBig += '<div class="big2"><img src="img/produit/'+ph2+'" alt="Photo 2"></div>';
 										appendPhThb += '<img src="img/produit/'+ph2+'" alt="" id="min2ph'+id+'" class="notme">';
 									}
 									if(ph3!="") {
-										appendPhBig += '<div class="big3"><img src="img/produit/'+ph3+'" alt=""></div>';
+										appendPhBig += '<div class="big3"><img src="img/produit/'+ph3+'" alt="Photo 3"></div>';
 										appendPhThb += '<img src="img/produit/'+ph3+'" alt="" id="min3ph'+id+'" class="notme">';
 									}
 									appendPhBig += '</div>'; appendPhThb += '</div>';
@@ -156,7 +156,7 @@
 											if(lang_ori!=lang_index) appendHtml += '<br><em class="lang_ori">'+$(this).parent("produit").find('trad[lang='+lang_ori+']').text()+'</em>';
 											appendHtml += '</td>';
 											if(prix!="") appendHtml += '<td class="prix">'+prix+' €</td>';
-											if(hasphoto==1) appendHtml += '<td class="cell-btn"><div class="bouton showphoto" id="show'+id+'">►</div></td>';
+											if(hasphoto==1) appendHtml += '<td class="cell-btn"><div class="bouton showphoto" id="show'+id+'"><img src="img/voir-photo.png" alt="Voir la photo" width="30" /></div></td>';
 										}
 									});
 									appendHtml += '</tr>';

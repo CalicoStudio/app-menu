@@ -1,81 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xmlproduits>
-<produits categorie="1" sscategorie="0">
-	<produit id="22" prix="16.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">La salade périgourdine, aiguillettes de canard et foie gras poêlé</trad>
-		<trad lang="en">Perigord salad, duck aiguillettes and pan-fried foie gras</trad>
-		<trad lang="de">Perigord-Salat, Entenaiguillettes und gebratene Entenleber</trad>
-		<trad lang="nl">Salade van Perigord met aiguillettes van eend en gebakken eendenlever</trad>
-		<trad lang="es">Ensalada del Perigord con aiguillettes de pato y hígado graso asado</trad>
-		<trad lang="it">Insalata del Perigord con aiguillettes d 'anatra e fegato grasso saltato</trad>
-	</produit>
-	<produit id="23" prix="14.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">La salade de chèvre chaud fermier bio</trad>
-		<trad lang="en">Salad with hot organic goat cheese</trad>
-		<trad lang="de">Grüner Salat mit heißem biologischem Ziegenkäse</trad>
-		<trad lang="nl">Salade met warm geitenkaasje</trad>
-		<trad lang="es">Ensalada verde con queso de cabra caliente de granja biológico</trad>
-		<trad lang="it">Insalata di formaggio di cabra caldo contadino e biologico</trad>
-	</produit>
-	<produit id="24" prix="15.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Les ravioles d'escargots de Bourgogne,un jus au vert</trad>
-		<trad lang="en">Burgundy snail ravioli with green gravy</trad>
-		<trad lang="de">Weinbergschnecken-Ravioli mit grünem Bratensaft</trad>
-		<trad lang="nl">Ravioli van wijngaardslakken met groene jus</trad>
-		<trad lang="es">Ravioli de caracoles de Borgoña con caldo verde</trad>
-		<trad lang="it">Ravioli di lumache di Borgogna con succo verde</trad>
-	</produit>
-	<produit id="25" prix="22.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Risotto crémeux au Noilly Prat, noix de st-Jacques à la plancha</trad>
-		<trad lang="en">Creamy risotto with Noilly Prat and grilled scallops</trad>
-		<trad lang="de">Kremiger Risotto mit Noilly Prat und gegrillten Jakobsmuscheln</trad>
-		<trad lang="nl">Romige risotto met Noilly Prat en gegrilde St. Jacobsschelpen</trad>
-		<trad lang="es">Risotto cremoso con Noilly Prat y vieiras a la plancha</trad>
-		<trad lang="it">Risotto cremoso al Noilly Prat con capesante alla plancha</trad>
-	</produit>
-	<produit id="26" prix="17.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">L'andouillette 5 AAAAA Certifiée par l'Association Amicale des Amateurs d’Andouillette Authentique</trad>
-		<trad lang="en">Extra large tripe sausage Certified by "l’Association Amicale des Amateurs d’Andouillette Authentique"</trad>
-		<trad lang="de">Extra-große Kaldaunenwurst Zertifiziert vom "l’Association Amicale des Amateurs d’Andouillette Authentique"</trad>
-		<trad lang="nl">Grote worst gemaakt van de ingewanden van varkens Gecertificeerd door l'Association Amicale des Amateurs d'Andouillette Authentique</trad>
-		<trad lang="es">Embutido de callos mas grandes Garantizada por l'Association Amicale des Amateurs d’Andouillette Authentique</trad>
-		<trad lang="it">Salsiccia di trippa extra larga Certificato da l 'Association Amicale des Amateurs d 'Andouillette Authentique</trad>
-	</produit>
-	<produit id="27" prix="16.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Queues de boeufs charolaise confites aux aromates carottes fondantes et poivre de cassis</trad>
-		<trad lang="en">Oxtails Charolais preserved in spices with melting carrots and blackcurrant pepper</trad>
-		<trad lang="de">Ochsenschwänze vom Charolais-Rind mit Gewürze eingemacht, schmelzenden Karotten und Pfeffer aus schwarzen Johannisbeeren</trad>
-		<trad lang="nl">Oxtails Charolais geconfijte in de specerijen, met smeltende wortelen en peper van zwarte aalbessen</trad>
-		<trad lang="es">Rabos de buey Charolais confitados con especias, zanahorias fundentes y pimienta de grosella negra</trad>
-		<trad lang="it">Code di bue charolaise confitate alle erbe con carote fondente e pepe di ibes nero</trad>
-	</produit>
-	<produit id="28" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Les figues rôties au miel artisanal, glace amande</trad>
-		<trad lang="en">Roasted figs with homemade honey and almond ice cream</trad>
-		<trad lang="de">Geröstete Feigen mit hausgemachtem Honig und Mandeleis</trad>
-		<trad lang="nl">Geroosterde vijgen met huisgemaakte honing en amandelijs</trad>
-		<trad lang="es">Hígos asados con miel artesanal, helado de almendra</trad>
-		<trad lang="it">Fichi arrostiti al miele artisanal con gelato di mandorle</trad>
-	</produit>
-</produits>
-<produits categorie="2" sscategorie="1">
-	<produit id="1" prix="17.00" ph1="marbre-foie-gras.jpg" ph2="marbre-foie-gras-2.jpg" ph3="foie-gras-3.JPG">
-		<trad lang="fr">Le marbré de foie gras aux figues et abricots</trad>
-		<trad lang="en">Marbled duck foie gras with fig and apricot</trad>
-		<trad lang="de">Marmorierte Entenleber mit Feigen und Aprikosen</trad>
+<produits categorie="1" sscategorie="1">
+	<produit id="1" prix="10.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Les deux œufs pochés en meurette à la bourguignonne</trad>
+		<trad lang="en">Two poached eggs in a red wine sauce</trad>
+		<trad lang="de">Zwei pochierte Eiern in Rotweinsoße</trad>
 		<trad lang="nl">Gemarmerde eendenlever met vijgen en abrikozen</trad>
 		<trad lang="es">Hígado graso jaspeado con higos y albaricoques</trad>
 		<trad lang="it">Fegato grasso marmorizzato ai fichi e albicocche</trad>
 	</produit>
-	<produit id="2" prix="10.00" ph1="oeuf-meurette.jpg" ph2="" ph3="">
-		<trad lang="fr">Les deux œufs pochés en meurette à la bourguignonne</trad>
-		<trad lang="en">Two poached eggs in a red wine sauce</trad>
-		<trad lang="de">Zwei pochierte Eiern in Rotweinsoße</trad>
+	<produit id="2" prix="14.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La salade d'époisse Berthaut chaud</trad>
+		<trad lang="en">Salad with hot Epoisse-cheese</trad>
+		<trad lang="de">Salat mit heissem Epoisse-Käse</trad>
 		<trad lang="nl">Twee gepocheerde eieren in rode wijnsaus</trad>
 		<trad lang="es">Dos huevos escalfados al vino tinto de Borgoña</trad>
 		<trad lang="it">Due uova affogate al vino rosso di Borgogna</trad>
 	</produit>
-	<produit id="3" prix="18.00" ph1="12-escargots.jpg" ph2="12-escargots-bourgogne.jpg" ph3="">
+	<produit id="3" prix="16.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Les 12 escargots de Bourgogne au beurre d’ail en poêlon</trad>
 		<trad lang="en">Casserole of a dozen Burgundy snails with garlic butter</trad>
 		<trad lang="de">Weinbergschnecken-Kasserolle (das Dutzend) mit Knoblauchbutter</trad>
@@ -91,18 +33,18 @@
 		<trad lang="es">Cazuela con 6 caracoles de Borgoña a la mantequilla de ajo</trad>
 		<trad lang="it">Pentola di 6 lumache di Borgogna al burro d 'aglio</trad>
 	</produit>
-	<produit id="5" prix="10.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le parmentier d’époisses Berthaut au lard fumé</trad>
-		<trad lang="en">Epoisses cheese with potato purée and smoked bacon</trad>
-		<trad lang="de">Epoisses-Käse mit Kartoffelpuree und Raücherspeck</trad>
+	<produit id="5" prix="12.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Les ravioles d'escargots de Bourgogne de la Mère Maury, un jus au vert de persil</trad>
+		<trad lang="en">Mother Maury's Burgundy snail ravioli with green parsley gravy</trad>
+		<trad lang="de">Mutter Maurys Weinbergschnecken-Ravioli  mit grüner Petersilie-Bratensaft</trad>
 		<trad lang="nl">Epoisses-kaas met aardappelpuree en gerookte spek</trad>
 		<trad lang="es">Queso Epoisses con puré de patata y tocino ahumado</trad>
 		<trad lang="it">Formaggio Epoisses con purè di patate e lardo affumicato</trad>
 	</produit>
 	<produit id="6" prix="10.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Véritable persillé de Bourgogne artisanal</trad>
-		<trad lang="en">Genuine ham with parsley in jelly artisanally made Burgundy</trad>
-		<trad lang="de">Echter Schinken mit Petersilie im Gelee – Burgundische Spezialität</trad>
+		<trad lang="fr">Le véritable jambon persillé de Bourgogne de Monsieur Fournier</trad>
+		<trad lang="en">Mr Fournier's genuine Burgundy ham persillé</trad>
+		<trad lang="de">Herr Maurys echte Burgundischer Schinken</trad>
 		<trad lang="nl">Echte huisgemaakte ham van Burgondië met petersilie</trad>
 		<trad lang="es">Jamón auténtico en gelatina con perejil – Especialidad de Borgoña</trad>
 		<trad lang="it">Prosciutto di Borgogna autentico en gelatina con prezzemolo</trad>
@@ -115,143 +57,202 @@
 		<trad lang="es">Ensalada verde con queso de cabra caliente de granja biológico</trad>
 		<trad lang="it">Insalata di formaggio di cabra caldo contadino e biologico</trad>
 	</produit>
-</produits>
-<produits categorie="2" sscategorie="2">
-	<produit id="8" prix="13.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le saumon fumé par nos soins, pommes de terre tièdes</trad>
-		<trad lang="en">Home-smoked salmon with warm potatoes</trad>
-		<trad lang="de">Hausgeraücherter Lachs mit warmen Kartoffeln</trad>
+	<produit id="8" prix="12.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La salade végétarienne et parmesan reggiano</trad>
+		<trad lang="en">Vegetarian salad with parmesan reggiano</trad>
+		<trad lang="de">Vegetarianischer Salat mit Parmesan Reggiano</trad>
 		<trad lang="nl">Huisgerookte zalm met warme aardappelen</trad>
 		<trad lang="es">Salmón casero ahumado con patatas templadas</trad>
 		<trad lang="it">Salmone della casa affumicato con patate calde</trad>
 	</produit>
-	<produit id="9" prix="22.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Risotto crémeux au Noilly Prat, noix de st-Jacques à la plancha</trad>
-		<trad lang="en">Creamy risotto with Noilly Prat and grilled scallops</trad>
-		<trad lang="de">Kremiger Risotto mit Noilly Prat und gegrillten Jakobsmuscheln</trad>
+	<produit id="9" prix="17.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le marbré de foie gras au figues et abricots moelleux</trad>
+		<trad lang="en">Marbled foie gras terrine with figs and mellow apricots</trad>
+		<trad lang="de">Marmorierte Entenleberterrine mit Feigen und saftigen Aprikosen</trad>
 		<trad lang="nl">Romige risotto met Noilly Prat en gegrilde St. Jacobsschelpen</trad>
 		<trad lang="es">Risotto cremoso con Noilly Prat y vieiras a la plancha</trad>
 		<trad lang="it">Risotto cremoso al Noilly Prat con capesante alla plancha</trad>
 	</produit>
-	<produit id="10" prix="20.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le dos cabillaud, en croûte de moutarde Fallot et ses haricots coco au lard fumé, sauce crémeuse</trad>
-		<trad lang="en">Fillet of cod coated in mustard, served with cocobeans, smoked lard and a creamy sauce</trad>
-		<trad lang="de">Kabeljaufilet im Teigmantel mit Senf, Coco-Bohnen, Raücherspeck und kremiger Soße</trad>
+</produits>
+<produits categorie="1" sscategorie="2">
+	<produit id="10" prix="13.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le mille feuille de saumon fumé maison et chèvre fermier bio</trad>
+		<trad lang="en">Home-smoked salmon in flaky pastry and organic goat cheese</trad>
+		<trad lang="de">Hausgeraüchertes Lachs im Blätterteig mit biologischem Ziegenkäse</trad>
 		<trad lang="nl">Kabeljauwfilet en croute met mosterd en coco bonen met gerookte spek en romige saus</trad>
 		<trad lang="es">Filete de bacalao fresco en crosta de mostaza con judías coco y tocino ahumado, salsa cremosa</trad>
 		<trad lang="it">Filetto di merluzzo en croûte di senape Fallot e fagioli coco con lardo affumicato e salsa cremosa</trad>
 	</produit>
-</produits>
-<produits categorie="2" sscategorie="3">
-	<produit id="11" prix="20.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Entrecôte de boeuf charolaise</trad>
-		<trad lang="en">Rib steak Charolais</trad>
-		<trad lang="de">Zwischenrippensteak vom Charolais-Rind</trad>
+	<produit id="11" prix="22.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le risotto de noix de Saint Jaques à la plancha, émulsion de noilly Prat</trad>
+		<trad lang="en">Scallop risotto grilled a la plancha, served with Noilly Prat emulsion</trad>
+		<trad lang="de">Jakobsmuschelnrisotto vom Brett mit Noilly Prat Emulsion</trad>
 		<trad lang="nl">Entrecote Charolais</trad>
 		<trad lang="es">Entrecot de ternera charolais</trad>
 		<trad lang="it">Entrecôte di manzo charolaise</trad>
 	</produit>
+</produits>
+<produits categorie="1" sscategorie="3">
 	<produit id="12" prix="22.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Entrecôte de bœuf charolaise, sauce béarnaise</trad>
-		<trad lang="en">Rib steak Charolais served with bearnaise sauce</trad>
-		<trad lang="de">Zwischenrippensteak vom Charolais-Rind mit Bearnaisesoße</trad>
+		<trad lang="fr">L'entrecôte de boeuf charolaise beurre maître d' hôtel (env.280gr)</trad>
+		<trad lang="en">Rib steak with parsley butter - Charolais beef meat (about 280g)</trad>
+		<trad lang="de">Zwischenrippensteak vom Charolais-Rind (ung. 280g) mit Petersiliesosse</trad>
 		<trad lang="nl">Entrecote Charolais met bearnaisesaus</trad>
 		<trad lang="es">Entrecot de ternera charolais con salsa bearnesa</trad>
 		<trad lang="it">Entrecôte di manzo charolaise con salsa bearnesa</trad>
 	</produit>
-	<produit id="13" prix="32.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Entrecôte charolaise du maquignon (500 gr)</trad>
-		<trad lang="en">Rib steak Charolais from the farmer (500g)</trad>
-		<trad lang="de">Zwischenrippensteak vom Charolais-Rind vom Bauernhof (500g)</trad>
+	<produit id="13" prix="24.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">L'entrecôte  de bœuf charolaise, sauce poivre (env.280gr)</trad>
+		<trad lang="en">Rib steak with pepper sauce - Charolais beef meat (about 280g)</trad>
+		<trad lang="de">Zwischenrippensteak vom Charolais-Rind (ung. 280g) mit Pferffersosse</trad>
 		<trad lang="nl">Entrecôte Charolais van de handelaar (500g)</trad>
 		<trad lang="es">Entrecot charolais del chalán (500 gr)</trad>
 		<trad lang="it">Entrecôte charolaise del contadino (500 gr)</trad>
 	</produit>
-	<produit id="14" prix="20.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Faux-filet de bœuf charolais</trad>
-		<trad lang="en">Sirloin steak Charolais</trad>
-		<trad lang="de">Rinderlende vom Charolais-Rind</trad>
+	<produit id="14" prix="35.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">L'entrecôte charolaise du maquignon (env. 500 gr)</trad>
+		<trad lang="en">Rib steak Charolais from the farmer (500 g)</trad>
+		<trad lang="de">Zwischenrippensteak vom Charolais-Rind vom Bauernhof (500g)</trad>
 		<trad lang="nl">Sirloin steak Charolais</trad>
 		<trad lang="es">Lomo de ternera charolais</trad>
 		<trad lang="it">Lombo di manzo charolais</trad>
 	</produit>
-	<produit id="15" prix="22.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Faux-filet de bœuf charolais, sauce crème d’époisses</trad>
-		<trad lang="en">Sirloin steak Charolais with creamy cheese sauce</trad>
-		<trad lang="de">Rinderlende vom Charolais-Rind mit kremiger Käsesoße</trad>
+	<produit id="15" prix="60.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La côte de bœuf à l’os charolaise pour 2 personnes (env. 1Kg200)</trad>
+		<trad lang="en">Prime rib of beef on the bone Charolais  1,2 Kg (for 2 persons)</trad>
+		<trad lang="de">Rinderkotelett (1,2 kg) mit Knochen vom Charolais-Rind  (für 2 Personen)</trad>
 		<trad lang="nl">Sirloin steak Charolais</trad>
 		<trad lang="es">Lomo de ternera charolais con salsa cremosa de Epoisses</trad>
 		<trad lang="it">Lombo di manzo charolais con salsa di formaggio Epoisses</trad>
 	</produit>
-	<produit id="16" prix="30.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Filet de bœuf charolais</trad>
-		<trad lang="en">Fillet of beef Charolais</trad>
-		<trad lang="de">Rinderfilet vom Charolais-Rind</trad>
+	<produit id="16" prix="20.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le faux-filet de bœuf charolais (env. 220gr)</trad>
+		<trad lang="en">Sirloin steak Charolais</trad>
+		<trad lang="de">Rinderlende vom Charolais-Rind</trad>
 		<trad lang="nl">Ossenhaas Charolais</trad>
 		<trad lang="es">Filete de ternera charolais</trad>
 		<trad lang="it">Filetto di manzo charolais</trad>
 	</produit>
-	<produit id="17" prix="18.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Rumsteack de bœuf charolais</trad>
-		<trad lang="en">Rump steak Charolais</trad>
-		<trad lang="de">Rumpsteak vom Charolais-Rind</trad>
+	<produit id="17" prix="22.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le faux-filet de bœuf charolais , sauce crème d’époisses Berthaut (env. 220gr)</trad>
+		<trad lang="en">Sirloin - Charolais beef meat (about 220g)  with Epoisses cream sauce</trad>
+		<trad lang="de">Rinderlende vom Charolais-Rind mit Epoisses sosse</trad>
 		<trad lang="nl">Kogelbiefstuk Charolais</trad>
 		<trad lang="es">Rabadilla de ternera charolais</trad>
 		<trad lang="it">Bistecca di girello charolais</trad>
 	</produit>
-	<produit id="18" prix="60.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Côte de bœuf à l’os charolaise 1kg200 (pour 2 personnes)</trad>
-		<trad lang="en">Prime rib of beef on the bone Charolais 1,2 Kg (for 2 persons)</trad>
-		<trad lang="de">Rinderkotelett (1,2 kg) mit Knochen vom Charolais-Rind (für 2 Personen)</trad>
+	<produit id="18" prix="28.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le filet de bœuf charolais (env. 230gr)</trad>
+		<trad lang="en">Fillet of beef Charolais</trad>
+		<trad lang="de">Rinderfilet vom Charolais-Rind</trad>
 		<trad lang="nl">T-Bone steak Charolais 1,2 kg (voor 2 personen)</trad>
 		<trad lang="es">Chuleta de ternera charolais con hueso 1,2 kg (para 2 personas)</trad>
 		<trad lang="it">Cotoletta di manzo charolais 1,2kg con l 'osso (per due persone)</trad>
 	</produit>
-	<produit id="19" prix="17.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Tartare de bœuf cru et assaisonné</trad>
-		<trad lang="en">Beef tartare – raw seasoned minced beef meat</trad>
-		<trad lang="de">Rindstatar mit rohem gewürztem Rinderhackfleisch</trad>
+	<produit id="19" prix="30.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le filet de bœuf charolais sauce aux poivre (env.230gr)</trad>
+		<trad lang="en">Beef fillet of Charolais meat (about 230g) with pepper sauce</trad>
+		<trad lang="de">Rinderfilet vom Charolais-Rindfleisch (ung. 230g) mit Pfeffersosse</trad>
 		<trad lang="nl">Tartaar van rundvlees – rauw doorgewinterd gehakt rundvlees</trad>
 		<trad lang="es">Tartar de ternera crudo y sazonado</trad>
 		<trad lang="it">Tartaro di manzo crudo e condito</trad>
 	</produit>
 	<produit id="20" prix="17.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Bavette de bœuf d’aloyau charolais</trad>
+		<trad lang="fr">La bavette de bœuf d’aloyau charolais (env. 220gr)</trad>
 		<trad lang="en">Sirloin flank steak Charolais</trad>
 		<trad lang="de">Flankensteak vom Charolais-Rind</trad>
 		<trad lang="nl">Biefstuk Charolais</trad>
 		<trad lang="es">Redondo de solomilla de ternera charolais</trad>
 		<trad lang="it">Lombo di manzo charolais</trad>
 	</produit>
-	<produit id="21" prix="15.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Cocote de Bœuf Bourguignon charolais traditionnel</trad>
-		<trad lang="en">Beef stewed in red wine – A traditional dish with Charolais meat</trad>
-		<trad lang="de">Rindereintopf im Rotwein – Burgundische Spezilität vom Charolais-Rind</trad>
+	<produit id="21" prix="17.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le tartare au couteau assaisonné par nos soins ou nature (env. 220gr)</trad>
+		<trad lang="en">Knife-cut beef tartare - raw minced beef meat (about 220g) seasoned or plain</trad>
+		<trad lang="de">Messergeschnittener Rindertartar – rohes Rinderhackfleisch (ung.220g) mit Würzen oder natur</trad>
 		<trad lang="nl">Traditionele ragout van rundvlees Charolais met rode wijn</trad>
 		<trad lang="es">Guiso de ternera con vino tinto – Especialidad de Borgoña</trad>
 		<trad lang="it">Spezzatino di manzo al vino rosso di Borgogna</trad>
 	</produit>
+	<produit id="22" prix="15.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La cocote de Bœuf Bourguignon charolais traditionnel</trad>
+		<trad lang="en">Beef stewed in red wine – A traditional dish with Charolais meat</trad>
+		<trad lang="de">Rindereintopf im Rotwein – Burgundische Spezilität vom Charolais-Rind</trad>
+		<trad lang="nl">Salade van Perigord met aiguillettes van eend en gebakken eendenlever</trad>
+		<trad lang="es">Ensalada del Perigord con aiguillettes de pato y hígado graso asado</trad>
+		<trad lang="it">Insalata del Perigord con aiguillettes d 'anatra e fegato grasso saltato</trad>
+	</produit>
 </produits>
-<produits categorie="3" sscategorie="9">
+<produits categorie="2" sscategorie="9">
+	<produit id="31" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le véritable jambon persillé de Bourgogne artisanal de Monsieur Fournier</trad>
+		<trad lang="en">Genuine jellied ham with parsley  - Speciality from Burgundy</trad>
+		<trad lang="de">Echter Petersilienschinken aus Burgund</trad>
+		<trad lang="nl">Kaas faisselle met dikke room</trad>
+		<trad lang="es">Requesón con crema espesa</trad>
+		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
+	</produit>
+	<produit id="32" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Queues de bœufs charolaise confites aux aromates, carottes fondantes et poivre de cassis</trad>
+		<trad lang="en">Charolais oxtails  preserved in spices with melting carrots and blackcurrant pepper</trad>
+		<trad lang="de">Ochsenschwänze vom Charolais-Rind  mit Gewürze eingemacht, schmelzenden Karotten und Pfeffer aus schwarzen Johannisbeeren</trad>
+		<trad lang="nl">Schotel met twee kazen Epoisses Berthaut en Brillat Savarin</trad>
+		<trad lang="es">Plato con dos quesos Epoisses Berthaut y Brillat Savarin</trad>
+		<trad lang="it">Piatto con due formaggi Epoisses Berthaut e Brillat Savarin</trad>
+	</produit>
+	<produit id="33" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
+		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
+		<trad lang="de">Frischkäse mit dicker Sahne</trad>
+	</produit>
+	<produit id="34" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
+		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
+		<trad lang="de">Teller mit zwei Käse Epoisses Berthaut und Brillat Savarin</trad>
+		<trad lang="nl">Crème brûlée met Bourbon vanille</trad>
+		<trad lang="es">Crema catalana con vainilla Bourbon</trad>
+		<trad lang="it">Crema caramellata alla vaniglia Bourbon</trad>
+	</produit>
+	<produit id="35" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">La poire pochée au vin rouge et son sorbet cassis noir de Bourgogne</trad>
+		<trad lang="en">Pear poached in red wine with Burgundian blackcurrant sorbet</trad>
+		<trad lang="de">Birne in Rotwein pochiert mit burgundischem Cassissorbet</trad>
+		<trad lang="nl">Gegrilde biefstuk Charolais</trad>
+		<trad lang="es">Bistec de ternera Charolais asado</trad>
+		<trad lang="it">Bistecca di manzo charolais alla griglia</trad>
+	</produit>
+</produits>
+<produits categorie="2" sscategorie="10">
+	<produit id="36" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Les 2 oeufs pochés en meurette</trad>
+		<trad lang="en">Two eggs poached with red wine sauce</trad>
+		<trad lang="de">Zwei pochierte Eiern in Rotweinsoße</trad>
+		<trad lang="nl">Frieten</trad>
+		<trad lang="es">Patatas fritas</trad>
+		<trad lang="it">Patatine fritte</trad>
+	</produit>
+	<produit id="37" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">La fricassée d'escargots de Bourgogne, bouillon d'ail doux</trad>
+		<trad lang="en">Burgundy snail fricassee with mild garlic-flavoured stock</trad>
+		<trad lang="de">Weinbergschnecken-Frikassee und Fond mit mildem Knoblauch-Geschmack</trad>
+		<trad lang="nl">Huisgemaakte vanille ijs</trad>
+		<trad lang="es">Helado de vainilla</trad>
+		<trad lang="it">Gelato alla vaniglia</trad>
+	</produit>
 	<produit id="38" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Salade de foies de volaille, baies de cassis et pain d'épices</trad>
-		<trad lang="en">Chicken liver salad, blackcurrant and gingerbread</trad>
-		<trad lang="de">Hähnchenlebersalat, schwarzen Johannisbeeren und Pfefferkuchen</trad>
+		<trad lang="fr">Le filet de canard, sauce crème à l'époisses Berthaut</trad>
+		<trad lang="en">Fillet of duck with Epoisses cream sauce</trad>
+		<trad lang="de">Entenfilet mit Epoisses-Cremesosse</trad>
 		<trad lang="nl">Salade met kippenlever, zwarte aalbessen en peperkoek</trad>
 		<trad lang="es">Ensalada de hígado de pollo, grosella negra y pan de jengibre</trad>
 		<trad lang="it">Insalata di fegati di pollo, ribes nero e pan di zenzero</trad>
 	</produit>
-	<produit id="98" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="39" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Queues de bœufs charolaise confites aux aromates, carottes fondantes et poivre de cassis</trad>
-		<trad lang="en">Charolais oxtails preserved in spices with melting carrots and blackcurrant pepper</trad>
-		<trad lang="de">Ochsenschwänze vom Charolais-Rind mit Gewürze eingemacht, schmelzenden Karotten und Pfeffer aus schwarzen Johannisbeeren</trad>
+		<trad lang="fr">La cocotte de boeuf bourguignon charolais traditionnel</trad>
+		<trad lang="en">Beef stewed in red wine with traditional Charolais meat</trad>
+		<trad lang="de">Rindereintopf im Rotwein – Burgundische Spezilität vom Charolais-Rind</trad>
 		<trad lang="nl">Oxtails Charolais ras geconfijte in de specerijen, geserveerd met gesmolten wortelen en peper van zwarte aalbessen</trad>
 		<trad lang="es">Rabos de buey charolais confitados con especias, zanahorias fundentes y pimienta de grosella negra</trad>
 		<trad lang="it">Code di bue charolais confitate alle erbe con carote fondente e pepe di ibes nero</trad>
-	</produit>
-	<produit id="99" prix="-2" ph1="" ph2="" ph3="">
 	</produit>
 	<produit id="40" prix="" ph1="" ph2="" ph3="">
 		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
@@ -261,8 +262,6 @@
 		<trad lang="es">Requesón con crema espesa</trad>
 		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
 	</produit>
-	<produit id="100" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="41" prix="" ph1="" ph2="" ph3="">
 		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
 		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
@@ -271,587 +270,397 @@
 		<trad lang="es">Plato con dos quesos Epoisses Berthaut y Brillat Savarin</trad>
 		<trad lang="it">Piatto con due formaggi Epoisses Berthaut e Brillat Savarin</trad>
 	</produit>
-	<produit id="101" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="42" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La poire pochée au vin rouge et son sorbet cassis noir de Bourgogne</trad>
-		<trad lang="en">Pear poached in red wine with Burgundian blackcurrant sorbet</trad>
-		<trad lang="de">Birne in Rotwein pochiert mit burgundischem Cassissorbet</trad>
+		<trad lang="fr">La crème brûlée à la gousse de vanille Bourbon</trad>
+		<trad lang="en">Caramelised Bourbon vanilla cream</trad>
+		<trad lang="de">Karamelisierte Bourbon-Vanillecreme</trad>
 		<trad lang="nl">Peer gepocheerde in rode wijn en sorbet van zwarte aalbessen uit Burgondië</trad>
 		<trad lang="es">Pera escalfada con vino tinto y sorbete de grosella negra de Borgoña</trad>
 		<trad lang="it">Pera affogata al vino rosso e sorbetto di ribes nero di Borgogna</trad>
 	</produit>
-	<produit id="125" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="120" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Aucun changement possible dans les menus. Les menus sont servis jusqu’à 13h30 et 21h30.</trad>
-		<trad lang="en">No change can be made in the menus Menus are served until 1.30pm and 9.30pm</trad>
-		<trad lang="de">Änderungen in den Menüs können nicht gemacht werden Menüs werden bis 1.30 Uhr nachmittags und 9.30 Uhr abends serviert</trad>
-		<trad lang="nl">Het is niet mogelijk wijzigingen aan te brengen in de menu's Menu's worden geserveerd tot 13.30 en tot 21.30 uur</trad>
-		<trad lang="es">Ningún cambio es posible en los menús Los menús son servidos hasta las 1h 30 y 9h 30 de la tarde</trad>
-		<trad lang="it">Nessuno cambiamento possibile nei menù I menù sono serviti fino alle 13h30 e 21h30</trad>
-	</produit>
-</produits>
-<produits categorie="3" sscategorie="10">
 	<produit id="43" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Jambon et épaule en persillé de Bourgogne</trad>
-		<trad lang="en">Ham and pork shoulder with parsley in jelly</trad>
-		<trad lang="de">Schinken und Schweineschulter mit Petersilie in Gelee</trad>
+		<trad lang="fr">La poire pochée au vin rouge et son sorbet cassis noir de Bourgogne</trad>
+		<trad lang="en">Pear poached in red wine with Burgundian blackcurrant sorbet</trad>
+		<trad lang="de">Birne in Rotwein pochiert mit burgundischem Cassissorbet</trad>
 		<trad lang="nl">Ham en varkensshouder van Burgondië met petersilie</trad>
 		<trad lang="es">Jamón y paletilla con perejil en gelatina – Especialidad de Borgoña</trad>
 		<trad lang="it">Prosciutto e spalla di maiale al prezzemolo – Specialità di Borgogna</trad>
 	</produit>
-	<produit id="102" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
+</produits>
+<produits categorie="2" sscategorie="11">
 	<produit id="44" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Les 2 oeufs pochés en meurette</trad>
-		<trad lang="en">Two eggs poached with red wine sauce</trad>
-		<trad lang="de">Zwei pochierte Eiern in Rotweinsoße</trad>
+		<trad lang="fr">Le mille-feuille de saumon fumé maison et chèvre fermier bio</trad>
+		<trad lang="en">Home-smoked salmon in flaky pastry and organic goat cheese</trad>
+		<trad lang="de">Hausgeraücherter Lachs im Blätterteig mit biologischem Ziegenkäse</trad>
 		<trad lang="nl">Twee gepocheerde eieren in rode wijnsaus</trad>
 		<trad lang="es">Dos huevos escalfados con salsa de vino tinto</trad>
 		<trad lang="it">Due uova affogate al vino rosso di Borgogna</trad>
 	</produit>
-	<produit id="103" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="45" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La fricassée d'escargots de Bourgogne, bouillon d'ail doux</trad>
-		<trad lang="en">Burgundy snail fricassee with mild garlic-flavoured stock</trad>
-		<trad lang="de">Weinbergschnecken-Frikassee und Fond mit mildem Knoblauch-Geschmack</trad>
+		<trad lang="fr">La salade périgourdine, escalope de foie gras poêlé</trad>
+		<trad lang="en">Perigord salad with pan-fried foie gras escalope</trad>
+		<trad lang="de">Perigord-Salat mit gebratenem Entenleberfilet</trad>
 		<trad lang="nl">Fricassee van wijngaardslakken met bouillon van zachte knoflook</trad>
 		<trad lang="es">Fricasé de caracoles de Borgoña, caldo de ajo dulce</trad>
 		<trad lang="it">Fricassea di lumache di Borgogna con brodo di aglio dolce</trad>
 	</produit>
-	<produit id="104" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="46" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le dos cabillaud en croûte de moutarde Fallot et ses haricots coco au lard fumé, sauce crémeuse</trad>
-		<trad lang="en">Fillet of cod coated in mustard with cocobeans and smoked lard, creamy sauce</trad>
-		<trad lang="de">Kabeljaufilet im Teigmantel mit Senf, Coco-Bohnen, Raücherspeck und kremiger Soße</trad>
+		<trad lang="fr">Les ravioles d'escargots de Bourgogne de la mère Maury, jus au vert de persil et bouillon d'ail</trad>
+		<trad lang="en">Mother Maury's Burgundy snails with green parsley gravy and garlic stock</trad>
+		<trad lang="de">Mutter Maurys Weinbergschnecken mit grünem Petersilie-Bratensaft und Knoblauchbrühe</trad>
 		<trad lang="nl">Kabeljauwfilet en croute met mosterd en coco bonen met gerookte spek en romige saus</trad>
 		<trad lang="es">Filete de bacalao fresco en crosta de mostaza con judías coco y tocino ahumado, salsa cremosa</trad>
 		<trad lang="it">Filetto di merluzzo en croûte di senape Fallot e fagioli coco con lardo affumicato e salsa cremosa</trad>
 	</produit>
-	<produit id="105" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="47" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Filet de canard au miel, sauce pain d'épices</trad>
-		<trad lang="en">Fillet of duck with honey and gingerbread sauce</trad>
-		<trad lang="de">Entenfilet mit Honig und Pfefferkuchensoße</trad>
+		<trad lang="fr">Le faux filet de charolais, sauce crème à l'époisse Berthaut</trad>
+		<trad lang="en">Sirloin Charolais with Epoisse cheese sauce</trad>
+		<trad lang="de">Flankensteak vom Charolais Rind mit Käsesoße</trad>
 		<trad lang="nl">Eendenfilet met honing and peperkoeksaus</trad>
 		<trad lang="es">Filete de pato con miel y salsa de pan de jengibre</trad>
 		<trad lang="it">Filetto di anatra al miele con salsa di pan di zenzero</trad>
 	</produit>
-	<produit id="106" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="48" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La cocotte de boeuf bourguignon charolais traditionnel</trad>
-		<trad lang="en">Beef stewed in red wine with traditional Charolais meat</trad>
-		<trad lang="de">Rindereintopf im Rotwein – Burgundische Spezilität vom Charolais-Rind</trad>
+		<trad lang="fr">Risotto de noix de Saint Jacques à la planche, émulsion de noilly prat</trad>
+		<trad lang="en">Scallop risotto grilled a la plancha, served with Noilly Prat emulsion</trad>
+		<trad lang="de">Jakobsmuschelnrisotto vom Brett mit Noilly Prat Emulsion</trad>
 		<trad lang="nl">Gestoofd rundvlees Charolais met rode wijn</trad>
 		<trad lang="es">Guiso de ternera con vino tinto – Especialidad de Borgoña</trad>
 		<trad lang="it">Spezzatino di manzo al vino rosso di Borgogna</trad>
 	</produit>
-	<produit id="107" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="49" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
-		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
-		<trad lang="de">Frischkäse mit dicker Sahne</trad>
+		<trad lang="fr">Le médaillon de veau, jus court et pleurottes</trad>
+		<trad lang="en">Veal medallion with reduced gravy and oyster mushrooms</trad>
+		<trad lang="de">Kalbsmedaillon mit reduziertem Bratensaft und Austernpilze</trad>
 		<trad lang="nl">Kaas faisselle met dikke room</trad>
 		<trad lang="es">Requesón con crema espesa</trad>
 		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
 	</produit>
-	<produit id="108" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="50" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
-		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
-		<trad lang="de">Teller mit zwei Käse Epoisses Berthaut und Brillat Savarin</trad>
+		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
+		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
+		<trad lang="de">Frischkäse mit dicker Sahne</trad>
 		<trad lang="nl">Schotel met twee kazen Epoisses Berthaut en Brillat Savarin</trad>
 		<trad lang="es">Plato con dos quesos Epoisses Berthaut y Brillat Savarin</trad>
 		<trad lang="it">Piatto con due formaggi Epoisses Berthaut e Brillat Savarin</trad>
 	</produit>
-	<produit id="109" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="51" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La véritable crème brûlée à la vanille Bourbon</trad>
-		<trad lang="en">Genuine caramelised Bourbon vanilla cream</trad>
-		<trad lang="de">Echte karamelisierte Bourbon-Vanillecreme</trad>
+		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
+		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
+		<trad lang="de">Teller mit zwei Käse Epoisses Berthaut und Brillat Savarin</trad>
 		<trad lang="nl">De echte crème brûlée met Bourbon vanille</trad>
 		<trad lang="es">Auténtica crema catalana a la vainilla Bourbon</trad>
 		<trad lang="it">Autentica crema caramellata alla vaniglia Bourbon</trad>
 	</produit>
-	<produit id="110" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="52" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Les figues rôties au miel artisanal, glace amande</trad>
-		<trad lang="en">Roasted figs with artisanal honey and almond ice cream</trad>
-		<trad lang="de">Geröstete Feigen mit hausgemachtem Honig und Mandeleis</trad>
+		<trad lang="fr">La carte des desserts</trad>
+		<trad lang="en">Desserts A la Carte</trad>
+		<trad lang="de">Nachtisch am Speisekarte</trad>
 		<trad lang="nl">Geroosterde vijgen met huisgemaakte honing en amandelijs</trad>
 		<trad lang="es">Higos asados con miel artesanal, helado de almendra</trad>
 		<trad lang="it">Fichi arrostiti al miele artisanal con gelato di mandorle</trad>
 	</produit>
-	<produit id="111" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="53" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La poire pochée au vin rouge et son sorbet cassis noir de Bourgogne</trad>
-		<trad lang="en">Pear poached in red wine with Burgundian blackcurrant sorbet</trad>
-		<trad lang="de">Birne in Rotwein pochiert mit burgundischem Cassissorbet</trad>
-		<trad lang="nl">Peer gepocheerde in rode wijn en sorbet van zwarte aalbessen van Burgondië</trad>
-		<trad lang="es">Pera escalfada con vino tinto y sorbete de grosella negra de Borgoña</trad>
-		<trad lang="it">Pera affogata al vino rosso e sorbetto di ribes nero di Borgogna</trad>
-	</produit>
-	<produit id="126" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="121" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Aucun changement possible dans les menus. Les menus sont servis jusqu’à 13h30 et 21h30.</trad>
-		<trad lang="en">No change can be made in the menus Menus are served until 1.30pm and 9.30pm</trad>
-		<trad lang="de">Änderungen in den Menüs können nicht gemacht werden Menüs werden bis 1.30 Uhr nachmittags und 9.30 Uhr abends serviert</trad>
-		<trad lang="nl">Het is niet mogelijk wijzigingen aan te brengen in de menu's Menu's worden geserveerd tot 13.30 en tot 21.30 uur</trad>
-		<trad lang="es">Ningún cambio es posible en los menús Los menús son servidos hasta las 1h 30 y 9h 30 de la tarde</trad>
-		<trad lang="it">Nessuno cambiamento possibile nei menù I menù sono serviti fino alle 13h30 e 21h30</trad>
-	</produit>
 </produits>
-<produits categorie="3" sscategorie="11">
-	<produit id="54" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Saumon fumé par nos soins, pommes de terre tièdes et fines herbes</trad>
-		<trad lang="en">Home-smoked salmon served with warm potatoes and mixed herbs</trad>
-		<trad lang="de">Hausgeraücherter Lachs mit warmen Kartoffeln und Kraüter</trad>
-		<trad lang="nl">Huisgerookte zalm met warme aardappelen en kruiden</trad>
-		<trad lang="es">Salmón ahumado casero, patatas templadas y hierbas mixtas</trad>
-		<trad lang="it">Salmone della casa affumicato con patate calde alle erbe miste</trad>
+<produits categorie="2" sscategorie="12">
+	<produit id="23" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Bavette de boeuf charolais et sa garniture</trad>
+		<trad lang="en">Flank steak of Charolais meat, with side dish</trad>
+		<trad lang="de">Flankensteak vom Charolais Rind mit Garnitur</trad>
+		<trad lang="nl">Salade met warm geitenkaasje</trad>
+		<trad lang="es">Ensalada verde con queso de cabra caliente de granja biológico</trad>
+		<trad lang="it">Insalata di formaggio di cabra caldo contadino e biologico</trad>
 	</produit>
-	<produit id="112" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="55" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La terrine de pot au feu au foie gras en fine gelée, sauce tartare</trad>
-		<trad lang="en">Foie gras terrine in jelly with tartare sauce</trad>
-		<trad lang="de">Entenleberterrine in Gelee mit Tartarsoße</trad>
-		<trad lang="nl">Stoofpot van ganzenlever in een fijne gelei en tartaarsaus</trad>
-		<trad lang="es">Terrina con hígado graso en gelatina, salsa tartar</trad>
-		<trad lang="it">Terrina di fegato grasso en gelatina con salsa tartara</trad>
-	</produit>
-	<produit id="113" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="56" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Les ravioles d'escargots de Bourgogne, un jus au vert</trad>
-		<trad lang="en">Burgundy snail ravioli with green gravy</trad>
-		<trad lang="de">Weinbergschnecken-Ravioli mit grünem Bratensaft</trad>
+	<produit id="24" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Queues de bœufs charolaise confites aux aromates carottes fondantes et poivre de cassis</trad>
+		<trad lang="en">Oxtails of Charolais meat preserved with spices, melting carrots and blackcurrant pepper</trad>
+		<trad lang="de">Ochsenschwänze vom Charolais-Rind  mit Gewürze eingemacht, schmelzenden Karotten und Johannisbeerpfeffer</trad>
 		<trad lang="nl">Ravioli van wijngaardslakken met groene jus</trad>
-		<trad lang="es">Ravioli de caracoles de Borgoña con jugo verde</trad>
+		<trad lang="es">Ravioli de caracoles de Borgoña con caldo verde</trad>
 		<trad lang="it">Ravioli di lumache di Borgogna con succo verde</trad>
 	</produit>
-	<produit id="114" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="57" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le faux filet de charolais, sauce à l'époisse Berthaut</trad>
-		<trad lang="en">Sirloin Charolais with Epoisse cheese sauce</trad>
-		<trad lang="de">Flankensteak vom Charolais Rind mit Käsesoße</trad>
-		<trad lang="nl">Sirloin steak Charolais met Epoisse kaas</trad>
-		<trad lang="es">Lomo de ternera charolais con salsa cremosa de Epoisses</trad>
-		<trad lang="it">Lombo di manzo charolais con salsa di formaggio Epoisses</trad>
-	</produit>
-	<produit id="115" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="58" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Risotto crémeux au Noilly Prat, noix de St-Jacques à la plancha</trad>
-		<trad lang="en">Creamy risoto with Noilly Prat and grilled scallops</trad>
-		<trad lang="de">Kremiger Risotto mit Noilly Prat und gegrillten Jakobsmuscheln</trad>
+	<produit id="25" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
+		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
+		<trad lang="de">Frischkäse mit dicker Sahne</trad>
 		<trad lang="nl">Romige risotto met Noilly Prat en gegrilde St. Jacobsschelpen</trad>
 		<trad lang="es">Risotto cremoso con Noilly Prat y vieiras a la plancha</trad>
 		<trad lang="it">Risotto cremoso al Noilly Prat con capesante alla plancha</trad>
 	</produit>
-	<produit id="116" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="59" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Cote de veau à la braise, girolles et jus court</trad>
-		<trad lang="en">Braised veal cutlet with chanterelles and gravy</trad>
-		<trad lang="de">Geschmortes Kalbskotelett mit Pfifferlinge und Bratensaft</trad>
-		<trad lang="nl">Gedoompfde kalfvlees rib met cantharellen en vleesnat</trad>
-		<trad lang="es">Chuleta de ternera braseada con mízcalos y caldo</trad>
-		<trad lang="it">Cotoletta di vitello brasata con finferli e sugo di carne</trad>
-	</produit>
-	<produit id="117" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="60" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
-		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
-		<trad lang="de">Frischkäse mit dicker Sahne</trad>
-		<trad lang="nl">Kaas faiselle kaas met dikke room</trad>
-		<trad lang="es">Requesón con crema espesa</trad>
-		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
-	</produit>
-	<produit id="118" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="61" prix="" ph1="" ph2="" ph3="">
+	<produit id="26" prix="" ph1="" ph2="" ph3="">
 		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
-		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
-		<trad lang="de">Teller mit zwei Käse Epoisses Berthaut und Brillat Savarin</trad>
-		<trad lang="nl">Schotel met twee kazen Epoisses Berthaut en Brillat Savarin</trad>
-		<trad lang="es">Plato con dos quesos Epoisses Berthaut y Brillat Savarin</trad>
-		<trad lang="it">Piatto con due formaggi Epoisses Berthaut e Brillat Savarin</trad>
+		<trad lang="en">Plate assorment with two cheeses</trad>
+		<trad lang="de">Teller mit zwei Käse</trad>
+		<trad lang="nl">Grote worst gemaakt van de ingewanden van varkens Gecertificeerd door l'Association Amicale des Amateurs d'Andouillette Authentique</trad>
+		<trad lang="es">Embutido de callos mas grandes Garantizada por l'Association Amicale des Amateurs d’Andouillette Authentique</trad>
+		<trad lang="it">Salsiccia di trippa extra larga Certificato da l 'Association Amicale des Amateurs d 'Andouillette Authentique</trad>
 	</produit>
-	<produit id="119" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="62" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La carte des desserts</trad>
-		<trad lang="en">Desserts A la Carte</trad>
-		<trad lang="de">Nachtisch am Speisekarte</trad>
-		<trad lang="nl">Nagerechten naar keuse</trad>
-		<trad lang="es">La carta de postres</trad>
-		<trad lang="it">Dolci alla carta</trad>
-	</produit>
-	<produit id="127" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="122" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Aucun changement possible dans les menus. Les menus sont servis jusqu’à 13h30 et 21h30.</trad>
-		<trad lang="en">No change can be made in the menus Menus are served until 1.30pm and 9.30pm</trad>
-		<trad lang="de">Änderungen in den Menüs können nicht gemacht werden Menüs werden bis 1.30 Uhr nachmittags und 9.30 Uhr abends serviert</trad>
-		<trad lang="nl">Het is niet mogelijk wijzigingen aan te brengen in de menu's Menu's worden geserveerd tot 13.30 en tot 21.30 uur</trad>
-		<trad lang="es">Ningún cambio es posible en los menús Los menús son servidos hasta las 1h 30 y 9h 30 de la tarde</trad>
-		<trad lang="it">Nessuno cambiamento possibile nei menù I menù sono serviti fino alle 13h30 e 21h30</trad>
+	<produit id="27" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">La crème brulée à la vanille Bourbon</trad>
+		<trad lang="en">Caramelised Bourbon vanilla cream</trad>
+		<trad lang="de">Karamelisierte Bourbon-Vanillecreme</trad>
+		<trad lang="nl">Oxtails Charolais geconfijte in de specerijen, met smeltende wortelen en peper van zwarte aalbessen</trad>
+		<trad lang="es">Rabos de buey Charolais confitados con especias, zanahorias fundentes y pimienta de grosella negra</trad>
+		<trad lang="it">Code di bue charolaise confitate alle erbe con carote fondente e pepe di ibes nero</trad>
 	</produit>
 </produits>
-<produits categorie="3" sscategorie="12">
+<produits categorie="2" sscategorie="13">
+	<produit id="28" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Steack de boeuf charolais au grill</trad>
+		<trad lang="en">Grilled Charolais beef steak</trad>
+		<trad lang="de">Gegrilltes Rindersteak vom Charolais-Rind</trad>
+		<trad lang="nl">Geroosterde vijgen met huisgemaakte honing en amandelijs</trad>
+		<trad lang="es">Hígos asados con miel artesanal, helado de almendra</trad>
+		<trad lang="it">Fichi arrostiti al miele artisanal con gelato di mandorle</trad>
+	</produit>
 	<produit id="29" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Rumsteack de boeuf charolais et sa garniture</trad>
-		<trad lang="en">Rump steak Charolais with side dish</trad>
-		<trad lang="de">Rumpsteak vom Charolais-Rind mit Garnitur</trad>
+		<trad lang="fr">Pommes frites</trad>
+		<trad lang="en">Chips</trad>
+		<trad lang="de">Pommes Frites</trad>
 		<trad lang="nl">Kogelbiefstuk Charolais en bijgerecht</trad>
 		<trad lang="es">Rabadilla de ternera charolais y guarnición</trad>
 		<trad lang="it">Bistecca di girollo charolais e contorno</trad>
 	</produit>
-	<produit id="92" prix="-1" ph1="" ph2="" ph3="">
-	</produit>
 	<produit id="30" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Queues de boeufs confites en parmentier de roseval, bouquet de salade</trad>
-		<trad lang="en">Confit oxtails with potato purée, served with green salad</trad>
-		<trad lang="de">Eingemachte Ochsenschwänze mit Kartoffelpüree und grünem Salat</trad>
+		<trad lang="fr">La glace fantaisie à la vanille</trad>
+		<trad lang="en">Fancy vanilla ice cream</trad>
+		<trad lang="de">Kunstvolles Vanille-Eis</trad>
 		<trad lang="nl">Gekonfijte oxtails met aardappelenpuree en salade</trad>
 		<trad lang="es">Rabos de buey confitados con puré de patatas y servidos con ensalada verde</trad>
 		<trad lang="it">Code di buey confitate con purè di patate e insalata verde</trad>
 	</produit>
-	<produit id="93" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="31" prix="" ph1="" ph2="" ph3="">
+</produits>
+<produits categorie="3" sscategorie="4">
+	<produit id="53" prix="4.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
 		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
 		<trad lang="de">Frischkäse mit dicker Sahne</trad>
-		<trad lang="nl">Kaas faisselle met dikke room</trad>
-		<trad lang="es">Requesón con crema espesa</trad>
-		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
+		<trad lang="nl">Peer gepocheerde in rode wijn en sorbet van zwarte aalbessen van Burgondië</trad>
+		<trad lang="es">Pera escalfada con vino tinto y sorbete de grosella negra de Borgoña</trad>
+		<trad lang="it">Pera affogata al vino rosso e sorbetto di ribes nero di Borgogna</trad>
 	</produit>
-	<produit id="94" prix="-1" ph1="" ph2="" ph3="">
+	<produit id="54" prix="4.50" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le fromage blanc en faisselle et coulis de fruits rouges</trad>
+		<trad lang="en">Fresh farmer's cheese with red berries coulis</trad>
+		<trad lang="de">Frischkäse mit Beerencoulis</trad>
+		<trad lang="nl">Huisgerookte zalm met warme aardappelen en kruiden</trad>
+		<trad lang="es">Salmón ahumado casero, patatas templadas y hierbas mixtas</trad>
+		<trad lang="it">Salmone della casa affumicato con patate calde alle erbe miste</trad>
 	</produit>
-	<produit id="32" prix="" ph1="" ph2="" ph3="">
+	<produit id="55" prix="5.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
 		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
 		<trad lang="de">Teller mit zwei Käse Epoisses Berthaut und Brillat Savarin</trad>
+		<trad lang="nl">Stoofpot van ganzenlever in een fijne gelei en tartaarsaus</trad>
+		<trad lang="es">Terrina con hígado graso en gelatina, salsa tartar</trad>
+		<trad lang="it">Terrina di fegato grasso en gelatina con salsa tartara</trad>
+	</produit>
+</produits>
+<produits categorie="3" sscategorie="5">
+	<produit id="56" prix="7.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le parfait au carambar, spéculoos et son coulis passion</trad>
+		<trad lang="en">Le parfait au carambar, speculoos and passion fruit coulis</trad>
+		<trad lang="de">Karamell-Parfait, Spekulatius und Passionfruchtsosse</trad>
+		<trad lang="nl">Ravioli van wijngaardslakken met groene jus</trad>
+		<trad lang="es">Ravioli de caracoles de Borgoña con jugo verde</trad>
+		<trad lang="it">Ravioli di lumache di Borgogna con succo verde</trad>
+	</produit>
+	<produit id="57" prix="7.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La poire pochée au vin de Cassis, sorbet cassis noir de Bourgogne</trad>
+		<trad lang="en">Pear poached in blackcurrant wine, Burgundy blackcurrant sorbet</trad>
+		<trad lang="de">Birne in Kassiswein pochiert mit burgundischem Kassissorbet</trad>
+		<trad lang="nl">Sirloin steak Charolais met Epoisse kaas</trad>
+		<trad lang="es">Lomo de ternera charolais con salsa cremosa de Epoisses</trad>
+		<trad lang="it">Lombo di manzo charolais con salsa di formaggio Epoisses</trad>
+	</produit>
+	<produit id="58" prix="7.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le bocal de fraise, compotée de rhubarbe, sorbet infusion de menthe</trad>
+		<trad lang="en">Pot of strawberries, rhubarb compote and mint infusion sorbet</trad>
+		<trad lang="de">Schale Erdbeeren, Rhabarberkompott und Minztee-Sorbet</trad>
+		<trad lang="nl">Romige risotto met Noilly Prat en gegrilde St. Jacobsschelpen</trad>
+		<trad lang="es">Risotto cremoso con Noilly Prat y vieiras a la plancha</trad>
+		<trad lang="it">Risotto cremoso al Noilly Prat con capesante alla plancha</trad>
+	</produit>
+	<produit id="59" prix="7.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La crème brulée à la gousse de vanille Bourbon</trad>
+		<trad lang="en">Caramelised Bourbon vanilla cream</trad>
+		<trad lang="de">Karamelisierte Bourbon-Vanillecreme</trad>
+		<trad lang="nl">Gedoompfde kalfvlees rib met cantharellen en vleesnat</trad>
+		<trad lang="es">Chuleta de ternera braseada con mízcalos y caldo</trad>
+		<trad lang="it">Cotoletta di vitello brasata con finferli e sugo di carne</trad>
+	</produit>
+	<produit id="60" prix="7.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le riz au lait à l'orange confite</trad>
+		<trad lang="en">Rice pudding with candied orange</trad>
+		<trad lang="de">Milchreis mit kandierter Orange</trad>
+		<trad lang="nl">Kaas faiselle kaas met dikke room</trad>
+		<trad lang="es">Requesón con crema espesa</trad>
+		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
+	</produit>
+	<produit id="61" prix="7.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Café ou thé gourmand 3 mini desserts</trad>
+		<trad lang="en">Coffee or tea served with 3 mini desserts</trad>
+		<trad lang="de">Kaffee oder Tee mit drei kleinen Nachtische</trad>
 		<trad lang="nl">Schotel met twee kazen Epoisses Berthaut en Brillat Savarin</trad>
 		<trad lang="es">Plato con dos quesos Epoisses Berthaut y Brillat Savarin</trad>
 		<trad lang="it">Piatto con due formaggi Epoisses Berthaut e Brillat Savarin</trad>
 	</produit>
-	<produit id="95" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="34" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La crème brulée à la vanille Bourbon</trad>
-		<trad lang="en">Caramelised Bourbon vanilla cream</trad>
-		<trad lang="de">Karamelisierte Bourbon-Vanillecreme</trad>
-		<trad lang="nl">Crème brûlée met Bourbon vanille</trad>
-		<trad lang="es">Crema catalana con vainilla Bourbon</trad>
-		<trad lang="it">Crema caramellata alla vaniglia Bourbon</trad>
-	</produit>
-	<produit id="128" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="123" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Aucun changement possible dans les menus. Les menus sont servis jusqu’à 13h30 et 21h30.</trad>
-		<trad lang="en">No change can be made in the menus Menus are served until 1.30pm and 9.30pm</trad>
-		<trad lang="de">Änderungen in den Menüs können nicht gemacht werden Menüs werden bis 1.30 Uhr nachmittags und 9.30 Uhr abends serviert</trad>
-		<trad lang="nl">Het is niet mogelijk wijzigingen aan te brengen in de menu's Menu's worden geserveerd tot 13.30 en tot 21.30 uur</trad>
-		<trad lang="es">Ningún cambio es posible en los menús Los menús son servidos hasta las 1h 30 y 9h 30 de la tarde</trad>
-		<trad lang="it">Nessuno cambiamento possibile nei menù I menù sono serviti fino alle 13h30 e 21h30</trad>
-	</produit>
 </produits>
-<produits categorie="3" sscategorie="13">
-	<produit id="35" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Steack de boeuf charolais au grill</trad>
-		<trad lang="en">Grilled Charolais beef steak</trad>
-		<trad lang="de">Gegrilltes Rindersteak vom Charolais-Rind</trad>
-		<trad lang="nl">Gegrilde biefstuk Charolais</trad>
-		<trad lang="es">Bistec de ternera Charolais asado</trad>
-		<trad lang="it">Bistecca di manzo charolais alla griglia</trad>
+<produits categorie="3" sscategorie="6">
+	<produit id="62" prix="9.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La coupe coffee, glace café, vanille, Baileys</trad>
+		<trad lang="en">Bowl of coffee ice cream with Bailey cream</trad>
+		<trad lang="de">Eisbecher mit Kaffee-Eis und Baileys</trad>
+		<trad lang="nl">Nagerechten naar keuse</trad>
+		<trad lang="es">La carta de postres</trad>
+		<trad lang="it">Dolci alla carta</trad>
 	</produit>
-	<produit id="96" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="36" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Pommes frites</trad>
-		<trad lang="en">Chips</trad>
-		<trad lang="de">Pommes Frites</trad>
-		<trad lang="nl">Frieten</trad>
-		<trad lang="es">Patatas fritas</trad>
-		<trad lang="it">Patatine fritte</trad>
-	</produit>
-	<produit id="97" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="37" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La vache du Piqu' glacée à la vanille</trad>
-		<trad lang="en">Vanilla ice cream of the house</trad>
-		<trad lang="de">Vanilleneis</trad>
-		<trad lang="nl">Huisgemaakte vanille ijs</trad>
-		<trad lang="es">Helado de vainilla</trad>
-		<trad lang="it">Gelato alla vaniglia</trad>
-	</produit>
-	<produit id="129" prix="-2" ph1="" ph2="" ph3="">
-	</produit>
-	<produit id="124" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Aucun changement possible dans les menus. Les menus sont servis jusqu’à 13h30 et 21h30.</trad>
-		<trad lang="en">No change can be made in the menus Menus are served until 1.30pm and 9.30pm</trad>
-		<trad lang="de">Änderungen in den Menüs können nicht gemacht werden Menüs werden bis 1.30 Uhr nachmittags und 9.30 Uhr abends serviert</trad>
-		<trad lang="nl">Het is niet mogelijk wijzigingen aan te brengen in de menu's Menu's worden geserveerd tot 13.30 en tot 21.30 uur</trad>
-		<trad lang="es">Ningún cambio es posible en los menús Los menús son servidos hasta las 1h 30 y 9h 30 de la tarde</trad>
-		<trad lang="it">Nessuno cambiamento possibile nei menù I menù sono serviti fino alle 13h30 e 21h30</trad>
-	</produit>
-</produits>
-<produits categorie="4" sscategorie="4">
-	<produit id="63" prix="4.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le fromage blanc en faisselle à la crème épaisse</trad>
-		<trad lang="en">Fresh farmer's cheese with thick cream</trad>
-		<trad lang="de">Frischkäse mit dicker Sahne</trad>
+	<produit id="63" prix="9.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La coupe Colonel, glace citron jaune et Vodka</trad>
+		<trad lang="en">Lemon sorbet with vodka</trad>
+		<trad lang="de">Zitronensorbet mit Vodka</trad>
 		<trad lang="nl">Kaas faisselle met dikke room</trad>
 		<trad lang="es">Requesón con crema espesa</trad>
 		<trad lang="it">Formaggio fresco di fattoria con crema spessa</trad>
 	</produit>
-	<produit id="64" prix="4.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le fromage blanc en faisselle et coulis de fruits rouges</trad>
-		<trad lang="en">Fresh farmer's cheese with red berries coulis</trad>
-		<trad lang="de">Frischkäse mit Beerencoulis</trad>
+	<produit id="64" prix="9.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">La coupe peppermint, glace menthe chocolat et Get 27</trad>
+		<trad lang="en">Mint and chocolate ice cream with Get 27</trad>
+		<trad lang="de">Minze-Schokoladen-Eis mit Get 27</trad>
 		<trad lang="nl">Kaas faisselle met dikke room en coulis van rode bessen</trad>
 		<trad lang="es">Requesón con salsa de frutas rojas</trad>
 		<trad lang="it">Formaggio fresco di fattoria con coulis di frutti rossi</trad>
 	</produit>
-	<produit id="65" prix="5.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">L'assiette de deux fromages Epoisses Berthaut et Brillat Savarin</trad>
-		<trad lang="en">Plate assorment with two cheeses Epoisses Berthaut and Brillat Savarin</trad>
-		<trad lang="de">Teller mit zwei Käse Epoisses Berthaut und Brillat Savarin</trad>
+</produits>
+<produits categorie="3" sscategorie="7">
+	<produit id="65" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Vanille bourbon</trad>
+		<trad lang="en">Bourbon vanilla</trad>
+		<trad lang="de">Bourbon-Vanille</trad>
 		<trad lang="nl">Schotel met twee kazen Epoisses Berthaut en Brillat Savarin</trad>
 		<trad lang="es">Plato con dos quesos Epoisses Berthaut y Brillat Savarin</trad>
 		<trad lang="it">Piatto con due formaggi Epoisses Berthaut e Brillat Savarin</trad>
 	</produit>
-</produits>
-<produits categorie="4" sscategorie="5">
-	<produit id="66" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Profiteroles glacées au chocolat chaud</trad>
-		<trad lang="en">Iced profiteroles with hot chocolate</trad>
-		<trad lang="de">Windbeuteln mit Eis gefühlt und heißer Schokoladensoße</trad>
+	<produit id="66" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Café arabica</trad>
+		<trad lang="en">Arabica coffee</trad>
+		<trad lang="de">Arabica-Kaffee</trad>
 		<trad lang="nl">Soesjes met ijs en warme chocoladesaus</trad>
 		<trad lang="es">Petisús con helado y salsa de chocolate caliente</trad>
 		<trad lang="it">Profiteroles ripieni di gelato e coperti di cioccolate caldo</trad>
 	</produit>
-	<produit id="67" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Poire pochée au vin de Cassis et son sorbet</trad>
-		<trad lang="en">Pear poached in blackcurrant wine, served with sorbet</trad>
-		<trad lang="de">Birne im Cassiswein pochiert, mit Sorbet serviert</trad>
+	<produit id="67" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Menthe avec copeaux de chocolat</trad>
+		<trad lang="en">Mint with shavings of chocolate</trad>
+		<trad lang="de">Minze mit Schokoladenraspel</trad>
 		<trad lang="nl">Peer gepocheerde in rode wijn en sorbet</trad>
 		<trad lang="es">Pera escalfada con vino de grosella negra y sorbete</trad>
 		<trad lang="it">Pera affogata al vino rosso e sorbetto di ribes nero di Borgogna</trad>
 	</produit>
-	<produit id="68" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Compotée d’ananas, crémeux passion et spéculos</trad>
-		<trad lang="en">Pineapple compote, creamy passion fruit delight and speculos</trad>
-		<trad lang="de">Ananaskompott, kremiger Passionsfrucht-Leckerbißen und Speculoos</trad>
+	<produit id="68" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Pistache de Sicile</trad>
+		<trad lang="en">Sicilian pistachio</trad>
+		<trad lang="de">Sizilianische Pistazie</trad>
 		<trad lang="nl">Compote van ananas, crème van passievruchten en speculoos</trad>
 		<trad lang="es">Compota de piña, crema de fruta de la pasión y speculos</trad>
 		<trad lang="it">Composta d’ananas, crema di frutto della passione e speculos</trad>
 	</produit>
-	<produit id="69" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Crème brûlée à la vanille Bourbon</trad>
-		<trad lang="en">Caramelised Bourbon vanilla cream</trad>
-		<trad lang="de">Karamelisierte Bourbon-Vanillecreme</trad>
+	<produit id="69" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Caramel au beurre et sel de Guérande</trad>
+		<trad lang="en">Guerande salt butter caramel</trad>
+		<trad lang="de">Guerande-SalzButterkaramel</trad>
 		<trad lang="nl">Crème brûlée met Bourbon vanille</trad>
 		<trad lang="es">Crema catalana a la vainilla Bourbon</trad>
 		<trad lang="it">Crema caramellata alla vaniglia Bourbon</trad>
 	</produit>
-	<produit id="70" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Moelleux tiède au chocolat guanaja</trad>
-		<trad lang="en">Mellow chocolate cake served warm – made with Guanaja chocolate</trad>
-		<trad lang="de">Saftiger warmer Schokoladenkuchen mit Guanaja-Schokolade</trad>
+	<produit id="70" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Chocolat Valrhona</trad>
+		<trad lang="en">Valrhona chocolate</trad>
+		<trad lang="de">Valrhona Schokolade</trad>
 		<trad lang="nl">Zachte chocoladetaart met guanaja chocolade</trad>
 		<trad lang="es">Pastel suave de chocolate – con chocolate guanaja</trad>
 		<trad lang="it">Torta dolce di cioccolato guanaja servita caldo</trad>
 	</produit>
-	<produit id="71" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Café ou thé gourmand 3 mini desserts</trad>
-		<trad lang="en">Coffee or tea served with 3 mini desserts</trad>
-		<trad lang="de">Kaffee oder Tee mit drei kleinen Nachtische</trad>
+	<produit id="71" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Rhum St James et raisin</trad>
+		<trad lang="en">St James rum and raisin</trad>
+		<trad lang="de">St James Rum und Rosinen</trad>
 		<trad lang="nl">Koffie of thee met drie kleine nagerechten</trad>
 		<trad lang="es">Café o tè con tres postres pequeños</trad>
 		<trad lang="it">Caffè o tè con 3 dolci piccoli</trad>
 	</produit>
-</produits>
-<produits categorie="4" sscategorie="6">
-	<produit id="72" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Nougat glacé artisanal, coulis de fruits rouges</trad>
-		<trad lang="en">Homemade nougat ice cream with red berries coulis</trad>
-		<trad lang="de">Hausgemachtes Nougateis mit Beerencoulis</trad>
+	<produit id="72" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Orange d'Espagne</trad>
+		<trad lang="en">Spanish orange</trad>
+		<trad lang="de">Spanische Apfelsine</trad>
 		<trad lang="nl">Huisgemaakte nougat ijs met coulis van rode vruchten</trad>
 		<trad lang="es">Helado de turrón artesanal con salsa de frutas rojas</trad>
 		<trad lang="it">Gelato di torrone artisanal con salsa di frutti rossi</trad>
 	</produit>
-	<produit id="73" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Assiette Anna aux griottes flambées</trad>
-		<trad lang="en">Anna plate assortment with flambéed morello cherries</trad>
-		<trad lang="de">Anna-Tellersortiment mit flambierten Schattenmorellen</trad>
+</produits>
+<produits categorie="3" sscategorie="8">
+	<produit id="73" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Fraise sengana</trad>
+		<trad lang="en">Sengana strawberry</trad>
+		<trad lang="de">Sengana-Erdbeere</trad>
 		<trad lang="nl">Schotel Anna met gebrande morellen</trad>
 		<trad lang="es">Plato Anna con guindas flameadas</trad>
 		<trad lang="it">Piatto Anna con ciliegie nere fiammeggiate</trad>
 	</produit>
-	<produit id="74" prix="8.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le Colonel à la Vodka</trad>
-		<trad lang="en">Lemon sorbet with vodka</trad>
-		<trad lang="de">Zitronensorbet mit Vodka</trad>
+	<produit id="74" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Cassis noir de Bourgogne</trad>
+		<trad lang="en">Burgundy blackcurrant</trad>
+		<trad lang="de">Schwarze Johannisbeeren aus dem Burgund</trad>
 		<trad lang="nl">Citroensorbet met vodka</trad>
 		<trad lang="es">Sorbete de limón con vodka</trad>
 		<trad lang="it">Sorbetto di limone alla vodka</trad>
 	</produit>
-	<produit id="75" prix="8.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">La Capitaine au Get 27</trad>
-		<trad lang="en">Mint and chocolate ice cream with Get 27</trad>
-		<trad lang="de">Minze-Schokoladen-Eis mit Get 27</trad>
+	<produit id="75" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Noix de coco</trad>
+		<trad lang="en">Coconut</trad>
+		<trad lang="de">Kokosnuß</trad>
 		<trad lang="nl">Mintijs, chocoladeijs en Get 27</trad>
 		<trad lang="es">Helado de menta y de chocolate con Get 27</trad>
 		<trad lang="it">Gelato di menta e di cioccolato con Get 27</trad>
 	</produit>
-</produits>
-<produits categorie="4" sscategorie="7">
-	<produit id="76" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Vanille</trad>
-		<trad lang="en">Vanilla</trad>
-		<trad lang="de">Vanille</trad>
+	<produit id="76" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Citron de Sicile</trad>
+		<trad lang="en">Sicilian lemon</trad>
+		<trad lang="de">Sizilianische Zitrone</trad>
 		<trad lang="nl">Vanille</trad>
 		<trad lang="es">Vainilla</trad>
 		<trad lang="it">Vaniglia</trad>
 	</produit>
-	<produit id="77" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Café</trad>
-		<trad lang="en">Coffee</trad>
-		<trad lang="de">Kaffee</trad>
+	<produit id="77" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Framboise</trad>
+		<trad lang="en">Raspberry</trad>
+		<trad lang="de">Himbeere</trad>
 		<trad lang="nl">Koffie</trad>
 		<trad lang="es">Café</trad>
 		<trad lang="it">Caffè</trad>
 	</produit>
-	<produit id="78" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Menthe</trad>
-		<trad lang="en">Mint</trad>
-		<trad lang="de">Minze</trad>
+	<produit id="78" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Passion</trad>
+		<trad lang="en">Passion fruit</trad>
+		<trad lang="de">Passionsfrucht</trad>
 		<trad lang="nl">Mint</trad>
 		<trad lang="es">Menta</trad>
 		<trad lang="it">Menta</trad>
 	</produit>
-	<produit id="79" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Pistache</trad>
-		<trad lang="en">Pistachio</trad>
-		<trad lang="de">Pistazie</trad>
+	<produit id="79" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Amande de Provence</trad>
+		<trad lang="en">Provence almond</trad>
+		<trad lang="de">Provenzalische Mandel</trad>
 		<trad lang="nl">Pistache</trad>
 		<trad lang="es">Pistacho</trad>
 		<trad lang="it">Pistacchio</trad>
 	</produit>
-	<produit id="80" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Caramel</trad>
-		<trad lang="en">Caramel</trad>
-		<trad lang="de">Karamel</trad>
+	<produit id="80" prix="2.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Cerise griottes</trad>
+		<trad lang="en">Morello cherry</trad>
+		<trad lang="de">Schattenmorelle</trad>
 		<trad lang="nl">Karamel</trad>
 		<trad lang="es">Caramelo</trad>
 		<trad lang="it">Caramello</trad>
-	</produit>
-	<produit id="81" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Chocolat</trad>
-		<trad lang="en">Chocolate</trad>
-		<trad lang="de">Schokolade</trad>
-		<trad lang="nl">Chocolade</trad>
-		<trad lang="es">Chocolate</trad>
-		<trad lang="it">Cioccolato</trad>
-	</produit>
-	<produit id="82" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Amande</trad>
-		<trad lang="en">Almond</trad>
-		<trad lang="de">Mandel</trad>
-		<trad lang="nl">Amandel</trad>
-		<trad lang="es">Almendra</trad>
-		<trad lang="it">Mandorla</trad>
-	</produit>
-	<produit id="83" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Rhum-Raisin</trad>
-		<trad lang="en">Rum-Raisin</trad>
-		<trad lang="de">Rumrosinen</trad>
-		<trad lang="nl">Rum rozijnen</trad>
-		<trad lang="es">Ron y pasas</trad>
-		<trad lang="it">Rum e uva pasa</trad>
-	</produit>
-</produits>
-<produits categorie="4" sscategorie="8">
-	<produit id="84" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Fraise</trad>
-		<trad lang="en">Strawberry</trad>
-		<trad lang="de">Erdbeere</trad>
-		<trad lang="nl">Aardbei</trad>
-		<trad lang="es">Fresa</trad>
-		<trad lang="it">Fragola</trad>
-	</produit>
-	<produit id="85" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Cassis</trad>
-		<trad lang="en">Blackcurrant</trad>
-		<trad lang="de">Schwarze Johannisbeere</trad>
-		<trad lang="nl">Zwarte Aalbessen</trad>
-		<trad lang="es">Grosella negra</trad>
-		<trad lang="it">Ribes nero</trad>
-	</produit>
-	<produit id="86" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Noix de coco</trad>
-		<trad lang="en">Coconut</trad>
-		<trad lang="de">Kokosnuß</trad>
-		<trad lang="nl">Kokos</trad>
-		<trad lang="es">Nuez de coco</trad>
-		<trad lang="it">Noce di cocco</trad>
-	</produit>
-	<produit id="87" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Citron</trad>
-		<trad lang="en">Lemon</trad>
-		<trad lang="de">Zitrone</trad>
-		<trad lang="nl">Citroen</trad>
-		<trad lang="es">Limón</trad>
-		<trad lang="it">Limone</trad>
-	</produit>
-	<produit id="88" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Framboise</trad>
-		<trad lang="en">Raspberry</trad>
-		<trad lang="de">Himbeere</trad>
-		<trad lang="nl">Framboos</trad>
-		<trad lang="es">Frambuesa</trad>
-		<trad lang="it">Lampone</trad>
-	</produit>
-	<produit id="89" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Passion</trad>
-		<trad lang="en">Passion fruit</trad>
-		<trad lang="de">Passionsfrucht</trad>
-		<trad lang="nl">Passievruchten</trad>
-		<trad lang="es">Fruta de la pasión</trad>
-		<trad lang="it">Frutto della passione</trad>
-	</produit>
-	<produit id="90" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Orange</trad>
-		<trad lang="en">Orange</trad>
-		<trad lang="de">Orange</trad>
-		<trad lang="nl">Oranje</trad>
-		<trad lang="es">Naranja</trad>
-		<trad lang="it">Arancia</trad>
-	</produit>
-	<produit id="91" prix="1.50" ph1="" ph2="" ph3="">
-		<trad lang="fr">Coca-Cola</trad>
-		<trad lang="en">Coca-Cola</trad>
-		<trad lang="de">Coca Cola</trad>
-		<trad lang="nl">Coca Cola</trad>
-		<trad lang="es">Coca-Cola</trad>
-		<trad lang="it">Coca-Cola</trad>
 	</produit>
 </produits>
 </xmlproduits>

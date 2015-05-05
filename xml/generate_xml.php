@@ -4,7 +4,7 @@ $mysql_server = Array();
 $mysql_server[0]["host"] = "localhost";
 $mysql_server[0]["user"] = "mhabitat";
 $mysql_server[0]["pass"] = "bGu0sD4Yk7";
-$mysql_server[0]["base"] = "mhabitat";
+$mysql_server[0]["base"] = "appmenu";
 $mysql_server[1]["host"] = "localhost";
 $mysql_server[1]["user"] = "root";
 $mysql_server[1]["pass"] = "";
@@ -54,7 +54,7 @@ while($rows=mysql_fetch_array($q_cat)) {
 	}
 	$xml.= "\t".'</categorie>'."\n";
 }
-$xml .= '</categories>';
+echo $xml .= '</categories>';
 $fp = fopen("categorie.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);

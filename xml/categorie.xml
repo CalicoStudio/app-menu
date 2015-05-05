@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <categories>
-	<categorie slug="suggestions" id="1">
-		<cat lang="fr">Suggestions</cat>
-		<cat lang="en">Dish of the day</cat>
-		<cat lang="de">Tagesgericht</cat>
-		<cat lang="nl">Gerecht van de daag</cat>
-		<cat lang="es">Plato del día</cat>
-		<cat lang="it">Piatto del giorno</cat>
-	</categorie>
-	<categorie slug="la-carte" id="2">
+	<categorie slug="la-carte" id="1">
 		<cat lang="fr">La Carte</cat>
 		<cat lang="en">A la carte</cat>
 		<cat lang="de">Speisekarte</cat>
@@ -16,7 +8,7 @@
 		<cat lang="es">A la Carta</cat>
 		<cat lang="it">Alla Carta</cat>
 	</categorie>
-	<categorie slug="les-menus" id="3">
+	<categorie slug="les-menus" id="2">
 		<cat lang="fr">Les Menus</cat>
 		<cat lang="en">Menu</cat>
 		<cat lang="de">Menü</cat>
@@ -24,7 +16,7 @@
 		<cat lang="es">Menú</cat>
 		<cat lang="it">Menù</cat>
 	</categorie>
-	<categorie slug="les-desserts" id="4">
+	<categorie slug="les-desserts" id="3">
 		<cat lang="fr">Les Desserts</cat>
 		<cat lang="en">Desserts</cat>
 		<cat lang="de">Nachtische</cat>
