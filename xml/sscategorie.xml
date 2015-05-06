@@ -35,7 +35,7 @@
 		<sscat lang="es">Menú de terroir</sscat>
 		<sscat lang="it">Menù di terroir</sscat>
 	</sscategorie>
-	<sscategorie slug="delice-de-bourgogne" id="10" prix="29">
+	<sscategorie slug="delice-de-bourgogne" id="10" prix="27">
 		<sscat lang="fr">Délice de Bourgogne</sscat>
 		<sscat lang="en">Burgundian delight</sscat>
 		<sscat lang="de">Burgundischer Leckerbißen</sscat>
@@ -51,7 +51,7 @@
 		<sscat lang="es">Despuès de vuestra visita de los Hospicios </sscat>
 		<sscat lang="it">Dopo la visita dell'Ospizio di Beaune</sscat>
 	</sscategorie>
-	<sscategorie slug="formule-dejeuner" id="12" prix="15.5">
+	<sscategorie slug="formule-dejeuner" id="12" prix="16">
 		<sscat lang="fr">Formule déjeuner</sscat>
 		<sscat lang="en">Lunch Menu</sscat>
 		<sscat lang="de">Mittagessenmenü</sscat>
@@ -59,7 +59,7 @@
 		<sscat lang="es">Menú de comida</sscat>
 		<sscat lang="it">Menù di pranzo</sscat>
 	</sscategorie>
-	<sscategorie slug="menu-enfant" id="13" prix="10.5">
+	<sscategorie slug="menu-enfant" id="13" prix="11">
 		<sscat lang="fr">Menu enfant</sscat>
 		<sscat lang="en">Children's Menu</sscat>
 		<sscat lang="de">Kindermenü</sscat>
