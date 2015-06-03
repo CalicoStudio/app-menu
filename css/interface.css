@@ -83,7 +83,8 @@ table { width:100% }
 	#list_produit .ou td { padding:0; background:none }
 	#list_produit .ou div { width:20%; background:#361439; text-align:center; font-weight:bold; font-style:italic; margin:auto }
 	#list_produit em { font-size:0.8em }
-
+	#list_produit .desc {text-align: center; } 
+	#list_produit .descTop {font-size:.95em; } 
 li.big-entry:active {
      background: #666;
      background: linear-gradient( #aaa, #8C8C8C);

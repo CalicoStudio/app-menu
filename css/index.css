@@ -57,7 +57,8 @@ li.big-entry:active img { opacity:0.6 }
 
 ul li img { width:95%; min-width:90px }
 ul li a { color:#361439; text-transform:uppercase }
-
+div.descLang {clear:both; color: #fff; width: 60%; margin:auto; font-size:1.2em; padding-top: 20px }
+div.descLang p { margin: 5px 0 }
 footer { color:#fff; border-top:1px solid #fff; margin:2% auto; padding:2%; text-align:center; font-size:.9em }
 
 /* Landscape layout (with min-width) */
@@ -93,9 +94,7 @@ h1 {
     background-color:#4B946A;
 }
 
-.hide {
-    display:none;
-}
+.hide {display:none;}
 
 @keyframes fade {
     from { opacity: 1.0; }

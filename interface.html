@@ -37,10 +37,10 @@
 				$.urlParam = function(name){
 				    var results = new RegExp('[\\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
 				    return results[1] || 0;
-				}
+				};
 				var lang_index = $.urlParam('lang'); var lang_ori="fr";
 				var cat_index = $.urlParam('cat');
-				var sscat_index = null;
+				var sscat_index = null; var descSsTop=[]; var descSsBas=[];
 				var aOu={"fr":"ou","en":"or","de":"oder", "it":"o", "es":"o", "nl":"of"};
 				
 				$.ajax({ //categorie.xml
@@ -88,17 +88,19 @@
 								else appendHtml += '"';
 								appendHtml += ' id="lk-sscat-'+sscat_id+'" ';
 								$(this).find('sscat[lang='+lang_index+']').each(function(){
-									var lang = $(this).attr('lang'); var nom = $(this).text();
-									if(nom=="") appendHtml+= 'style="display:none">';
+									var lang = $(this).attr('lang'); var nom = $(this).find('nom').text();
+									if(nom=="") appendHtml += 'style="display:none">';
 									else {
 										appendHtml += '><table style="width:100%"><tr><td class="nom">'+nom+'</td>';
 										if(prix!="") appendHtml += '<td class="prix">'+prix+' €</td>';
 										appendHtml += '<td class="cell-btn"><div class="bouton">►</div></td>';
 										appendHtml += '</tr></table>';
 									}
+									descSsTop[sscat_id]=$(this).find('desctop').html();
+									descSsBas[sscat_id]=$(this).find('descbas').html();
 								});
 								appendHtml += '</li>';
-							})
+							});
 							appendHtml += '</ul>';
 						});
 						$("#list_sscat").append(appendHtml+"&nbsp;");
@@ -119,6 +121,7 @@
 							var parent_cat=$(this).attr("categorie");
 							var parent_sscat=$(this).attr("sscategorie");
 							appendHtml += '<table id="prod-par-'+parent_sscat+'" class="cat-'+parent_cat+'">';
+							if(descSsTop[parent_sscat]!="") appendHtml+='<tr><td colspan="2" class="desc descTop">'+descSsTop[parent_sscat]+'</td></tr><tr class="saut"><td>&nbsp;</td></tr>';//affichage de la description haute
 							if(cat_index==parent_cat && parent_sscat==0) show_me=parent_cat;
 							$(this).find('produit').each( function() {
 								var id=$(this).attr("id"); var prix = $(this).attr("prix"); var hasphoto=0;
@@ -127,7 +130,7 @@
 								if(ph1!="" || ph2!="" || ph3!="") {
 									hasphoto=1;
 									appendPhBig += '<div id="ph'+id+'" class="phBig">'; appendPhThb += '<div class="phThb" id="tb'+id+'">';
-									if(ph1!="") { 
+									if(ph1!="") {
 										appendPhBig += '<div class="big1"><img src="img/produit/'+ph1+'" alt="Photo 1"></div>';
 										appendPhThb += '<img src="img/produit/'+ph1+'" alt="" id="min1ph'+id+'">';
 									}
@@ -161,7 +164,8 @@
 									});
 									appendHtml += '</tr>';
 								}
-							})
+							});
+							if(descSsBas[parent_sscat]!="") appendHtml+='<tr class="saut"><td>&nbsp;</td></tr><tr><td colspan="2" class="desc descBas">'+descSsBas[parent_sscat]+'</td></tr>';
 							appendHtml += '</table>';
 						});
 						$("#list_produit").append(appendHtml);

@@ -2,112 +2,443 @@
 <souscategories>
 <sscategories categorie="1">
 	<sscategorie slug="les-entrees" id="1" prix="">
-		<sscat lang="fr">Les entrées</sscat>
-		<sscat lang="en">Starters</sscat>
-		<sscat lang="de">Vorspeisen</sscat>
-		<sscat lang="nl">Voorgerechten</sscat>
-		<sscat lang="es">Entremeses</sscat>
-		<sscat lang="it">Primi piatti</sscat>
+		<sscat lang="fr">
+			<nom>Les entrées</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Starters</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Vorspeisen</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Voorgerechten</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Entremeses</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Primi piatti</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-poissons" id="2" prix="">
-		<sscat lang="fr">Les Poissons</sscat>
-		<sscat lang="en">Fish dishes</sscat>
-		<sscat lang="de">Fischgerichte</sscat>
-		<sscat lang="nl">Visgerechten</sscat>
-		<sscat lang="es">Platos de pescados</sscat>
-		<sscat lang="it">Piatti di pesce</sscat>
+		<sscat lang="fr">
+			<nom>Les Poissons</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Fish dishes</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Fischgerichte</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Visgerechten</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Platos de pescados</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Piatti di pesce</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-viandes" id="3" prix="">
-		<sscat lang="fr">Les Viandes</sscat>
-		<sscat lang="en">Meat Dishes</sscat>
-		<sscat lang="de">Fleischgerichte</sscat>
-		<sscat lang="nl">Vleesgerechten</sscat>
-		<sscat lang="es">Carnes</sscat>
-		<sscat lang="it">Carni</sscat>
+		<sscat lang="fr">
+			<nom>Les Viandes</nom>
+			<desctop><p>Notre bœuf charolais de Bourgogne est issu de la filière courte, il est sélectionné  directement par notre boucher éleveur Monsieur Fournier.</p><p>Notre viande bovine charolaise est engraissé par ses soins en pâturage ou a l 'étable avec une nourriture traditionnelle  de 1er choix (céréales,pulpes,luzerne, foin et paille.... )</p><p>Abattus aux abattoirs de Beaune, traités dans leur laboratoire de découpe à Saint Jean de Losne (30 km d ici).
+</p></desctop>
+			<descbas><p>Toutes nos viandes sont garnies, au choix avec :</p><p>La pomme de terre papillote sauce crème persillée et la ratatouille maison ou Les frites et la ratatouille maison
+</p></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Meat Dishes</nom>
+			<desctop><p>Our beef meat come from the Burgundian Charolais breed produced in a closed-loop economy.</p>
+<p>It is selected directly by Mr  Fournier, our butcher-breeder. The cattle are fed in his pasture or cowshed with traditional first class food (cereal, pulp, lucerne, hay and straw).</p>
+<p>They are slaughtered at the abattoir in Beaune and the meat is handled in Mr Fournier's meat cutting workshop in Saint Jean de Losne (30 km away).</p>
+</desctop>
+			<descbas><p>Select your side dish</p>
+<p>Potato papillote with parsley cream sauce and home-made ratatouille or Chips and home-made ratatouille</p>
+</descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Fleischgerichte</nom>
+			<desctop><p>Unser Rindfleisch kommt aus der burgundische Charolais-Raße daß in geschloßener Wirtschaft erzeugt wird. Es wird direkt von Herr Fournier, unserem Brüter-Metzger, ausgewählt.</p>
+<p>Das Vieh wird in seiner Weide oder Gautscher mit traditioneller Nahrung der ersten Klasse (Zerealien, Fruchtfleisch, Luzern, Heu und Stroh) gefüttert.</p>
+<p>Die Ochsen werden am Schlachthof in Beaune geschlachtet. Dann wird das Fleisch in Herr Fourniers Schneidewerkstatt in St Jean de Losne 30 Km entfernt behandelt.</p></desctop>
+			<descbas><p>Wählen Sie Ihre Garnitur</p>
+<p>Kartoffel-Papillotte mit Petersiliecremesosse und hausgemachter Ratatouille oder Pommes mit hausgemachter Ratatouille</p></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Vleesgerechten</nom>
+			<desctop><p>Onze Charolais de Bourgogne runderen worden op de veehouderij geselecteerd door onze slager veehouder Meneer Fournier.</p>
+<p>Onze Charolais runderen worden met zorg vetgemest in de weilanden of op stal met traditioneel voer van de eerste kwaliteit (granen, pulp, stro en hooi…).</p>
+<p>Ze worden geslacht in het slachthuis van Beaune en versneden in de uitsnijderij van Saint Jean de Losne (30 km van hier).</p></desctop>
+			<descbas><p>Kies uw bijgerecht</p>
+<p>Aardappel in papillot met cremige peterseliesaus en huisgemaakte ratatouille of Frietjes en huisgemaakte ratatouille</p></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Carnes</nom>
+			<desctop><p>Nuestra carne de ternera charolesa de Borgoña proviene de los trámites cortos. Es seleccionado directamente por nuestro carnicero ganadero Señor Fournier.</p>
+<p>Los bueys charolesos son engordados en pasto o establo con un alimento tradicional de primera calidad (cereales, pulpas, alfalfa, heno y paja).</p>
+<p>Son matados a los mataderos de Beaune y la carne es tratada en el laboratorio de recorte a Santo Jean de Losne (30 km d aquí).</p></desctop>
+			<descbas><p>Escoja su guarnición</p>
+<p>Papillotte de patata con salsa de crema y perejil y ratatouille casera o Patatas fritas y ratatouille casera</p></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Carni</nom>
+			<desctop><p>La nostra carne di manzo Charolais di Borgogna proviene da una filiera corta. E selezionata direttamente dal nostro macellaio allevatore Signore Fournier.</p>
+<p>I bovini charolaise sono ingrassati in pascolo o nel recinto con un cibo tradizionale di prima scelta (cereale, polpa, erba medica, fieno e paglia).</p>
+<p>Gli animali sono macellati ai macelli di Beaune, la carne trattata nel  laboratorio di taglio al Santo Jean di Losne, 30 km da qui.</p></desctop>
+			<descbas><p>Scegliete il vostro contorno</p>
+<p>Patata in camicia con salsa alla crema e prezzemolo e ratatouille della casa o Patate fritte e ratatouille della casa</p></descbas>
+		</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="2">
 	<sscategorie slug="menu-du-terroir" id="9" prix="23">
-		<sscat lang="fr">Menu du terroir</sscat>
-		<sscat lang="en">Terroir Menu</sscat>
-		<sscat lang="de">Terroir Menu</sscat>
-		<sscat lang="nl">Terroirmenu</sscat>
-		<sscat lang="es">Menú de terroir</sscat>
-		<sscat lang="it">Menù di terroir</sscat>
+		<sscat lang="fr">
+			<nom>Menu du terroir</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Terroir Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Terroir Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Terroirmenu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Menú de terroir</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Menù di terroir</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="delice-de-bourgogne" id="10" prix="27">
-		<sscat lang="fr">Délice de Bourgogne</sscat>
-		<sscat lang="en">Burgundian delight</sscat>
-		<sscat lang="de">Burgundischer Leckerbißen</sscat>
-		<sscat lang="nl">Genot van Bourgondië</sscat>
-		<sscat lang="es">Delicia de Borgoña</sscat>
-		<sscat lang="it">Delizia di Borgogna</sscat>
+		<sscat lang="fr">
+			<nom>Délice de Bourgogne</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Burgundian delight</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Burgundischer Leckerbißen</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Genot van Bourgondië</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Delicia de Borgoña</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Delizia di Borgogna</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="au-detour-des-hospices" id="11" prix="34">
-		<sscat lang="fr">Au détour des Hospices</sscat>
-		<sscat lang="en">After visiting the Hospices</sscat>
-		<sscat lang="de">Nach Ihrem Besuch der Hospices</sscat>
-		<sscat lang="nl">Na uw bezoek aan het hospitium</sscat>
-		<sscat lang="es">Despuès de vuestra visita de los Hospicios </sscat>
-		<sscat lang="it">Dopo la visita dell'Ospizio di Beaune</sscat>
+		<sscat lang="fr">
+			<nom>Au détour des Hospices</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>After visiting the Hospices</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Nach Ihrem Besuch der Hospices</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Na uw bezoek aan het hospitium</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Despuès de vuestra visita de los Hospicios </nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Dopo la visita dell'Ospizio di Beaune</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="formule-dejeuner" id="12" prix="16">
-		<sscat lang="fr">Formule déjeuner</sscat>
-		<sscat lang="en">Lunch Menu</sscat>
-		<sscat lang="de">Mittagessenmenü</sscat>
-		<sscat lang="nl">Lunch menu</sscat>
-		<sscat lang="es">Menú de comida</sscat>
-		<sscat lang="it">Menù di pranzo</sscat>
+		<sscat lang="fr">
+			<nom>Formule déjeuner</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Lunch Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Mittagessenmenü</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Lunch menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Menú de comida</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Menù di pranzo</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="menu-enfant" id="13" prix="11">
-		<sscat lang="fr">Menu enfant</sscat>
-		<sscat lang="en">Children's Menu</sscat>
-		<sscat lang="de">Kindermenü</sscat>
-		<sscat lang="nl">Kindermenu</sscat>
-		<sscat lang="es">Menú para Niños</sscat>
-		<sscat lang="it">Menù per Bambini</sscat>
+		<sscat lang="fr">
+			<nom>Menu enfant</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Children's Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Kindermenü</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Kindermenu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Menú para Niños</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Menù per Bambini</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="3">
 	<sscategorie slug="les-fromages" id="4" prix="">
-		<sscat lang="fr">Les Fromages</sscat>
-		<sscat lang="en">Cheeses</sscat>
-		<sscat lang="de">Käsesorten</sscat>
-		<sscat lang="nl">Kazen</sscat>
-		<sscat lang="es">Quesos</sscat>
-		<sscat lang="it">Formaggi</sscat>
+		<sscat lang="fr">
+			<nom>Les Fromages</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Cheeses</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Käsesorten</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Kazen</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Quesos</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Formaggi</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-desserts" id="5" prix="">
-		<sscat lang="fr">Les Desserts</sscat>
-		<sscat lang="en">Desserts</sscat>
-		<sscat lang="de">Nachtische</sscat>
-		<sscat lang="nl">Nagerechten</sscat>
-		<sscat lang="es">Postres</sscat>
-		<sscat lang="it">Dolci</sscat>
+		<sscat lang="fr">
+			<nom>Les Desserts</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Desserts</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Nachtische</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Nagerechten</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Postres</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Dolci</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-coupes-glacees" id="6" prix="">
-		<sscat lang="fr">Les Coupes Glacées</sscat>
-		<sscat lang="en">Ice creams</sscat>
-		<sscat lang="de">Eis</sscat>
-		<sscat lang="nl">Ijs</sscat>
-		<sscat lang="es">Helados</sscat>
-		<sscat lang="it">Gelati</sscat>
+		<sscat lang="fr">
+			<nom>Les Coupes Glacées</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Ice creams</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Eis</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Ijs</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Helados</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Gelati</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-glaces" id="7" prix="">
-		<sscat lang="fr">Les Glaces</sscat>
-		<sscat lang="en">Ice creams</sscat>
-		<sscat lang="de">Eis</sscat>
-		<sscat lang="nl">Ijs</sscat>
-		<sscat lang="es">Helados</sscat>
-		<sscat lang="it">Gelati</sscat>
+		<sscat lang="fr">
+			<nom>Les Glaces</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Ice creams</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Eis</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Ijs</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Helados</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Gelati</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-sorbets" id="8" prix="">
-		<sscat lang="fr">Les Sorbets</sscat>
-		<sscat lang="en">Sorbets</sscat>
-		<sscat lang="de">Sorbets</sscat>
-		<sscat lang="nl">Sorbets</sscat>
-		<sscat lang="es">Sorbetes</sscat>
-		<sscat lang="it">Sorbetti</sscat>
+		<sscat lang="fr">
+			<nom>Les Sorbets</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Sorbets</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Sorbets</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Sorbets</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Sorbetes</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Sorbetti</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
 	</sscategorie>
 </sscategories>
 </souscategories>
