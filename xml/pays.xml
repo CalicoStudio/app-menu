@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <langs>
-	<lang slug="de"><nom>Deutscher</nom><desc><p><strong>Speisekarte von Thierry und Damien Broin gemacht.</strong></p>
+	<lang slug="de"><nom>Deutscher</nom><desc><![CDATA[<p><strong>Speisekarte von Thierry und Damien Broin gemacht.</strong></p>
 <p>Alle unsere Gerichte werden nur mit einfachen frischen Produkten sofort gemacht.</p>
 <p>Sie werden hausgemacht (ausgenommen*).</p>
 <p>Ihre Mahlzeit wird von Damien und Thierry Broin mit frischen natürlichen Qualität-Produkten in unserer moderne Küche je nach Hygienestandard für Ihre Vergnügen gekocht.</p>
 <p>Jedoch können frische Produkte manchmal fehlen.</p>
-</desc></lang>
-	<lang slug="en"><nom>English</nom><desc><p><strong>A la carte menu made by Thierry et Damien Broin</strong></p>
+]]></desc></lang>
+	<lang slug="en"><nom>English</nom><desc><![CDATA[<p><strong>A la carte menu made by Thierry et Damien Broin</strong></p>
 <p>All our dishes are made on the spot only with plain and fresh produce. They are home-made (except*).</p>
 <p>Your meal is cooked by Damien andThierry Broin with quality plain and fresh produce in our modern kitchen according to hygiene standards, for your greatest pleasure.</p>
 <p>However some fresh produce may be missing.</p>
-</desc></lang>
-	<lang slug="es"><nom>Español</nom><desc><p><strong>Carta de platos hecha por Thierry y Damien Broin.</strong></p>
+]]></desc></lang>
+	<lang slug="es"><nom>Español</nom><desc><![CDATA[<p><strong>Carta de platos hecha por Thierry y Damien Broin.</strong></p>
 <p>Todos nuestros platos son hechos en el restaurante sólo con productos simples y frescos productos. Ellos son caseros (excepto *).</p>
 <p>Su comida es cocinada por Damien y Thierry Broin con productos simples y frescos de calidad en nuestra cocina moderna según estándares de higiene, para su mas grande placer.</p>
 <p>Sin embargo algunos productos frescos pueden fallar.</p>
-</desc></lang>
-	<lang slug="fr"><nom>Français</nom><desc><p><strong>Carte élaboré par Thierry et Damien Broin</strong></p>
+]]></desc></lang>
+	<lang slug="fr"><nom>Français</nom><desc><![CDATA[<p><strong>Carte élaboré par Thierry et Damien Broin</strong></p>
 <p>Tous nos plats sont cuisinés sur place, uniquement à base de produits bruts et frais. Tous nos plats sont fait maison (sauf *).</p>
 <p>Votre repas est cuisiné par Damien et Thierry Broin avec des produits bruts de qualités et frais, dans notre cuisine moderne et aux normes d’hygiène pour votre plus grand plaisir gourmand.</p>
 <p>Un produit frais peut manquer en fonction de l'arrivage.</p>
-</desc></lang>
-	<lang slug="it"><nom>Italiano</nom><desc><p><strong>La nostra carta è fatta da Thierry e Damien Broin.</strong></p>
+]]></desc></lang>
+	<lang slug="it"><nom>Italiano</nom><desc><![CDATA[<p><strong>La nostra carta è fatta da Thierry e Damien Broin.</strong></p>
 <p>Tutti i nostri piatti sono fatti solamente sulla macchia con prodotti semplici e freschi. Loro sono fatti in casa (eccetto *).</p>
 <p>Il suo pasto è cucinato da Thierry e Damien Broin con prodotti di qualità semplici e freschi nella nostra cucina moderna secondo le norme di igiene, per il suo più grande piacere.</p>
 <p>Tuttavia alcuni prodotti freschi possono mancare.</p>
-</desc></lang>
-	<lang slug="nl"><nom>Nederlands</nom><desc><p><strong>Spijskaart gemaakt door Thierry en Damien Broin.</strong></p>
+]]></desc></lang>
+	<lang slug="nl"><nom>Nederlands</nom><desc><![CDATA[<p><strong>Spijskaart gemaakt door Thierry en Damien Broin.</strong></p>
 <p>Al onze gerechten worden ter plaatse gemaakt alleen met effen en verse producten.</p>
 <p>Ze zijn huisgemaakte (BEHOUDEN * ). Uw maaltijd wordt bereid door Damien en Thierry Broin met effen en verse kwaliteitsproducten in onze moderne keuken volgens hygiënische normen, voor uw grootste plezier.</p>
 <p>Maar sommige verse producten kunnen ontbreken.</p>
-</desc></lang>
+]]></desc></lang>
 </langs>

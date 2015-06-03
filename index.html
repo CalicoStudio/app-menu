@@ -41,7 +41,7 @@
 							var slug = $(this).attr('slug');
 							var pays = $(this).find('nom').text();
 							appendHtml += '<li class="big-entry" id="w_'+slug+'"><img src="img/drapeau/'+slug+'.jpg" alt="'+pays+'" /><br /><strong>'+pays+'</strong></li>';
-							descPays[slug]=$(this).find("desc").html();
+							descPays[slug]=$(this).find("desc").text();
 						});
 						$("#list_lang").append(appendHtml);				
 				}});

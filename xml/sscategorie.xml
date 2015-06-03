@@ -4,8 +4,8 @@
 	<sscategorie slug="les-entrees" id="1" prix="">
 		<sscat lang="fr">
 			<nom>Les entrées</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Starters</nom>
@@ -36,8 +36,8 @@
 	<sscategorie slug="les-poissons" id="2" prix="">
 		<sscat lang="fr">
 			<nom>Les Poissons</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Fish dishes</nom>
@@ -68,10 +68,10 @@
 	<sscategorie slug="les-viandes" id="3" prix="">
 		<sscat lang="fr">
 			<nom>Les Viandes</nom>
-			<desctop><p>Notre bœuf charolais de Bourgogne est issu de la filière courte, il est sélectionné  directement par notre boucher éleveur Monsieur Fournier.</p><p>Notre viande bovine charolaise est engraissé par ses soins en pâturage ou a l 'étable avec une nourriture traditionnelle  de 1er choix (céréales,pulpes,luzerne, foin et paille.... )</p><p>Abattus aux abattoirs de Beaune, traités dans leur laboratoire de découpe à Saint Jean de Losne (30 km d ici).
-</p></desctop>
-			<descbas><p>Toutes nos viandes sont garnies, au choix avec :</p><p>La pomme de terre papillote sauce crème persillée et la ratatouille maison ou Les frites et la ratatouille maison
-</p></descbas>
+			<desctop><![CDATA[<p>Notre bœuf charolais de Bourgogne est issu de la filière courte, il est sélectionné  directement par notre boucher éleveur Monsieur Fournier.</p><p>Notre viande bovine charolaise est engraissé par ses soins en pâturage ou a l 'étable avec une nourriture traditionnelle  de 1er choix (céréales,pulpes,luzerne, foin et paille.... )</p><p>Abattus aux abattoirs de Beaune, traités dans leur laboratoire de découpe à Saint Jean de Losne (30 km d ici).
+</p>]]></desctop>
+			<descbas><![CDATA[<p>Toutes nos viandes sont garnies, au choix avec :</p><p>La pomme de terre papillote sauce crème persillée et la ratatouille maison ou Les frites et la ratatouille maison
+</p>]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Meat Dishes</nom>
@@ -121,8 +121,8 @@
 	<sscategorie slug="menu-du-terroir" id="9" prix="23">
 		<sscat lang="fr">
 			<nom>Menu du terroir</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Terroir Menu</nom>
@@ -153,8 +153,8 @@
 	<sscategorie slug="delice-de-bourgogne" id="10" prix="27">
 		<sscat lang="fr">
 			<nom>Délice de Bourgogne</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Burgundian delight</nom>
@@ -185,8 +185,8 @@
 	<sscategorie slug="au-detour-des-hospices" id="11" prix="34">
 		<sscat lang="fr">
 			<nom>Au détour des Hospices</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>After visiting the Hospices</nom>
@@ -217,8 +217,8 @@
 	<sscategorie slug="formule-dejeuner" id="12" prix="16">
 		<sscat lang="fr">
 			<nom>Formule déjeuner</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Lunch Menu</nom>
@@ -249,8 +249,8 @@
 	<sscategorie slug="menu-enfant" id="13" prix="11">
 		<sscat lang="fr">
 			<nom>Menu enfant</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Children's Menu</nom>
@@ -283,8 +283,8 @@
 	<sscategorie slug="les-fromages" id="4" prix="">
 		<sscat lang="fr">
 			<nom>Les Fromages</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Cheeses</nom>
@@ -315,8 +315,8 @@
 	<sscategorie slug="les-desserts" id="5" prix="">
 		<sscat lang="fr">
 			<nom>Les Desserts</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Desserts</nom>
@@ -347,8 +347,8 @@
 	<sscategorie slug="les-coupes-glacees" id="6" prix="">
 		<sscat lang="fr">
 			<nom>Les Coupes Glacées</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Ice creams</nom>
@@ -379,8 +379,8 @@
 	<sscategorie slug="les-glaces" id="7" prix="">
 		<sscat lang="fr">
 			<nom>Les Glaces</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Ice creams</nom>
@@ -411,8 +411,8 @@
 	<sscategorie slug="les-sorbets" id="8" prix="">
 		<sscat lang="fr">
 			<nom>Les Sorbets</nom>
-			<desctop></desctop>
-			<descbas></descbas>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Sorbets</nom>

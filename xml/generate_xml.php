@@ -31,7 +31,7 @@ $q_lang=mysql_query("SELECT * FROM `langue` ORDER BY `nom` ASC");
 $xml = '<?xml version="1.0" encoding="utf-8"?>'."\n";
 $xml .= '<langs>'."\n";
 while($rows=mysql_fetch_array($q_lang)) {
-	$xml.= "\t".'<lang slug="'.$rows['slug'].'"><nom>'.$rows['nom'].'</nom><desc>'.$rows['description'].'</desc></lang>'."\n";
+	$xml.= "\t".'<lang slug="'.$rows['slug'].'"><nom>'.$rows['nom'].'</nom><desc><![CDATA['.$rows['description'].']]></desc></lang>'."\n";
 }
 $xml .= '</langs>';
 $fp = fopen("pays.xml", 'w+');
@@ -74,8 +74,8 @@ while($rows=mysql_fetch_array($q_cat)) {
 	$xml.= "\t".'<sscategorie slug="'.$rows['slug'].'" id="'.$rows['id'].'" prix="'.$rows['prix'].'">'."\n";
 	$xml.= "\t\t".'<sscat lang="'.$rows['lang'].'">'."\n";
 		$xml.="\t\t\t".'<nom>'.stripslashes($rows['nom']).'</nom>'."\n";
-		$xml.="\t\t\t".'<desctop>'.stripslashes($rows['descriptionTop']).'</desctop>'."\n";
-		$xml.="\t\t\t".'<descbas>'.stripslashes($rows['descriptionBas']).'</descbas>'."\n";
+		$xml.="\t\t\t".'<desctop><![CDATA['.stripslashes($rows['descriptionTop']).']]></desctop>'."\n";
+		$xml.="\t\t\t".'<descbas><![CDATA['.stripslashes($rows['descriptionBas']).']]></descbas>'."\n";
 	$xml.="\t\t".'</sscat>'."\n";
 	
 	$qry_trad=mysql_query("SELECT * FROM `sscategorie_trad` WHERE `id_sscat`=".$rows['id']);
