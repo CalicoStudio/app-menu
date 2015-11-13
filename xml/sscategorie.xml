@@ -118,39 +118,7 @@
 	</sscategorie>
 </sscategories>
 <sscategories categorie="2">
-	<sscategorie slug="menu-du-terroir" id="9" prix="23">
-		<sscat lang="fr">
-			<nom>Menu du terroir</nom>
-			<desctop><![CDATA[]]></desctop>
-			<descbas><![CDATA[]]></descbas>
-		</sscat>
-		<sscat lang="en">
-			<nom>Terroir Menu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="de">
-			<nom>Terroir Menu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="nl">
-			<nom>Terroirmenu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="es">
-			<nom>Menú de terroir</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="it">
-			<nom>Menù di terroir</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-	</sscategorie>
-	<sscategorie slug="delice-de-bourgogne" id="10" prix="27">
+	<sscategorie slug="delice-de-bourgogne" id="10" prix="29">
 		<sscat lang="fr">
 			<nom>Délice de Bourgogne</nom>
 			<desctop><![CDATA[]]></desctop>
@@ -182,7 +150,7 @@
 			<descbas></descbas>
 		</sscat>
 	</sscategorie>
-	<sscategorie slug="au-detour-des-hospices" id="11" prix="34">
+	<sscategorie slug="au-detour-des-hospices" id="11" prix="37">
 		<sscat lang="fr">
 			<nom>Au détour des Hospices</nom>
 			<desctop><![CDATA[]]></desctop>
@@ -210,70 +178,6 @@
 		</sscat>
 		<sscat lang="it">
 			<nom>Dopo la visita dell'Ospizio di Beaune</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-	</sscategorie>
-	<sscategorie slug="formule-dejeuner" id="12" prix="16">
-		<sscat lang="fr">
-			<nom>Formule déjeuner</nom>
-			<desctop><![CDATA[]]></desctop>
-			<descbas><![CDATA[]]></descbas>
-		</sscat>
-		<sscat lang="en">
-			<nom>Lunch Menu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="de">
-			<nom>Mittagessenmenü</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="nl">
-			<nom>Lunch menu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="es">
-			<nom>Menú de comida</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="it">
-			<nom>Menù di pranzo</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-	</sscategorie>
-	<sscategorie slug="menu-enfant" id="13" prix="11">
-		<sscat lang="fr">
-			<nom>Menu enfant</nom>
-			<desctop><![CDATA[]]></desctop>
-			<descbas><![CDATA[]]></descbas>
-		</sscat>
-		<sscat lang="en">
-			<nom>Children's Menu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="de">
-			<nom>Kindermenü</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="nl">
-			<nom>Kindermenu</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="es">
-			<nom>Menú para Niños</nom>
-			<desctop></desctop>
-			<descbas></descbas>
-		</sscat>
-		<sscat lang="it">
-			<nom>Menù per Bambini</nom>
 			<desctop></desctop>
 			<descbas></descbas>
 		</sscat>
@@ -436,6 +340,104 @@
 		</sscat>
 		<sscat lang="it">
 			<nom>Sorbetti</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+	</sscategorie>
+</sscategories>
+<sscategories categorie="2000">
+	<sscategorie slug="menu-du-terroir" id="9" prix="23">
+		<sscat lang="fr">
+			<nom>Menu du terroir</nom>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Terroir Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Terroir Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Terroirmenu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Menú de terroir</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Menù di terroir</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+	</sscategorie>
+	<sscategorie slug="formule-dejeuner" id="12" prix="16">
+		<sscat lang="fr">
+			<nom>Formule déjeuner</nom>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Lunch Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Mittagessenmenü</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Lunch menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Menú de comida</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Menù di pranzo</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+	</sscategorie>
+	<sscategorie slug="menu-enfant" id="13" prix="11">
+		<sscat lang="fr">
+			<nom>Menu enfant</nom>
+			<desctop><![CDATA[]]></desctop>
+			<descbas><![CDATA[]]></descbas>
+		</sscat>
+		<sscat lang="en">
+			<nom>Children's Menu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="de">
+			<nom>Kindermenü</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="nl">
+			<nom>Kindermenu</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="es">
+			<nom>Menú para Niños</nom>
+			<desctop></desctop>
+			<descbas></descbas>
+		</sscat>
+		<sscat lang="it">
+			<nom>Menù per Bambini</nom>
 			<desctop></desctop>
 			<descbas></descbas>
 		</sscat>

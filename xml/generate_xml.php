@@ -1,4 +1,4 @@
-<?
+<?php
 // Gestion multi-serveur de l'application (Premier dispo est pris)
 $mysql_server = Array();
 $mysql_server[0]["host"] = "localhost";

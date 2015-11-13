@@ -17,7 +17,7 @@
 		<trad lang="es">Ensalada con queso Epoisses caliente</trad>
 		<trad lang="it">Insalata di formaggio di Epoisses caldo</trad>
 	</produit>
-	<produit id="3" prix="16.00" ph1="" ph2="" ph3="">
+	<produit id="3" prix="18.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Les 12 escargots de Bourgogne au beurre d’ail en poêlon</trad>
 		<trad lang="en">Casserole of a dozen Burgundy snails with garlic butter</trad>
 		<trad lang="de">Weinbergschnecken-Kasserolle (das Dutzend) mit Knoblauchbutter</trad>
@@ -57,14 +57,6 @@
 		<trad lang="es">Ensalada verde con queso de cabra caliente de granja biológico</trad>
 		<trad lang="it">Insalata di formaggio di cabra caldo contadino e biologico</trad>
 	</produit>
-	<produit id="8" prix="12.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">La salade végétarienne et parmesan reggiano</trad>
-		<trad lang="en">Vegetarian salad with parmesan reggiano</trad>
-		<trad lang="de">Vegetarianischer Salat mit Parmesan Reggiano</trad>
-		<trad lang="nl">Vegetarianische salade met Parmezaanse kaas</trad>
-		<trad lang="es">Ensalada vegetariana y parmesano reggiano</trad>
-		<trad lang="it">Insalata vegetariana e parmigiano reggiano</trad>
-	</produit>
 	<produit id="9" prix="17.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Le marbré de foie gras au figues et abricots moelleux</trad>
 		<trad lang="en">Marbled foie gras terrine with figs and mellow apricots</trad>
@@ -75,13 +67,13 @@
 	</produit>
 </produits>
 <produits categorie="1" sscategorie="2">
-	<produit id="10" prix="13.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le mille feuille de saumon fumé maison et chèvre fermier bio</trad>
-		<trad lang="en">Home-smoked salmon in flaky pastry and organic goat cheese</trad>
-		<trad lang="de">Hausgeraüchertes Lachs im Blätterteig mit biologischem Ziegenkäse</trad>
-		<trad lang="nl">Tompoes van huisgerookte zalm en organische boer geitenkaas</trad>
-		<trad lang="es">Hojaldre de salmón ahumado casero y queso de cabra biologico</trad>
-		<trad lang="it">Millefoglie di salmone affumicato della casa e formaggio biologico di capra libera</trad>
+	<produit id="10" prix="14.00" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le saumon fumé par nos soins, pommes de terre tièdes</trad>
+		<trad lang="en">Home-smoked salmon with warm potatoes</trad>
+		<trad lang="de">Hausgeraücherter Lachs mit warmen Kartoffeln</trad>
+		<trad lang="nl">Huisgerookte zalm met warme aardappelen</trad>
+		<trad lang="es">Salmón casero ahumado con patatas templadas</trad>
+		<trad lang="it">Salmone della casa affumicato con patate calde</trad>
 	</produit>
 	<produit id="11" prix="22.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Le risotto de noix de Saint Jaques à la plancha, émulsion de noilly Prat</trad>
@@ -251,6 +243,16 @@
 		<trad lang="es">Fricasé de caracoles de Borgoña, caldo de ajo dulce</trad>
 		<trad lang="it">Fricassea di lumache di Borgogna con brodo di aglio dolce</trad>
 	</produit>
+	<produit id="108" prix="-1" ph1="" ph2="" ph3="">
+	</produit>
+	<produit id="107" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">*Le véritable jambon persillé de Bourgogne artisanal de Monsieur Fournier</trad>
+		<trad lang="en">Mr Fournier's genuine Burgundy ham persillé</trad>
+		<trad lang="de">Herr Maurys echte Burgundischer Schinken</trad>
+		<trad lang="nl">Echte huisgemaakte ham van Burgondië met petersilie</trad>
+		<trad lang="es">El verdadero jamón con perejil de Borgoña del Señor Fournier</trad>
+		<trad lang="it">Prosciutto di Borgogna autentico en gelatina con prezzemolo</trad>
+	</produit>
 	<produit id="88" prix="-2" ph1="" ph2="" ph3="">
 	</produit>
 	<produit id="38" prix="" ph1="" ph2="" ph3="">
@@ -270,6 +272,16 @@
 		<trad lang="nl">Gestoofd rundvlees Charolais met rode wijn</trad>
 		<trad lang="es">Guiso de ternera con vino tinto – Especialidad de Borgoña</trad>
 		<trad lang="it">Spezzatino di manzo al vino rosso di Borgogna</trad>
+	</produit>
+	<produit id="109" prix="-1" ph1="" ph2="" ph3="">
+	</produit>
+	<produit id="110" prix="" ph1="" ph2="" ph3="">
+		<trad lang="fr">Le dos de cabillaud à la plancha, fenouil confit coulis de tomate</trad>
+		<trad lang="en">Fillet of cod grilled a la plancha, preserved fennel and tomato coulis</trad>
+		<trad lang="de">Kabeljaufilet vom Brett gegrillt, eingemachter Fenchel und Tomatensoße</trad>
+		<trad lang="nl">Gegrilde kabeljauwfilet, gekonfijte venkel en tomatensaus</trad>
+		<trad lang="es">Filete de bacalao a la plancha, hinojo confitado y salsa de tomate</trad>
+		<trad lang="it">Filetto di merluzzo alla piastra, confit di finocchio e salsa di pomodoro</trad>
 	</produit>
 	<produit id="90" prix="-2" ph1="" ph2="" ph3="">
 	</produit>
@@ -314,22 +326,22 @@
 </produits>
 <produits categorie="2" sscategorie="11">
 	<produit id="44" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le mille-feuille de saumon fumé maison et chèvre fermier bio</trad>
-		<trad lang="en">Home-smoked salmon in flaky pastry and organic goat cheese</trad>
-		<trad lang="de">Hausgeraücherter Lachs im Blätterteig mit biologischem Ziegenkäse</trad>
-		<trad lang="nl">Tompoes van huisgerookte zalm en organische geitenkaas</trad>
-		<trad lang="es">Hojaldre de salmón casero ahumado e queso de cabra de campo organico</trad>
-		<trad lang="it">Millefoglie di salmone affumicato della casa e formaggio di capra libera biologico</trad>
+		<trad lang="fr">Le saumon fumé maison, pommes de terre tièdes</trad>
+		<trad lang="en">Home-smoked salmon with warm potatoes</trad>
+		<trad lang="de">Hausgeraücherter Lachs mit warmen Kartoffeln</trad>
+		<trad lang="nl">Huisgerookte zalm met warme aardappelen</trad>
+		<trad lang="es">Salmón casero ahumado con patatas templadas</trad>
+		<trad lang="it">Salmone della casa affumicato con patate calde</trad>
 	</produit>
 	<produit id="94" prix="-1" ph1="" ph2="" ph3="">
 	</produit>
 	<produit id="45" prix="" ph1="" ph2="" ph3="">
-		<trad lang="fr">La salade périgourdine, escalope de foie gras poêlé</trad>
-		<trad lang="en">Perigord salad with pan-fried foie gras escalope</trad>
-		<trad lang="de">Perigord-Salat mit gebratenem Entenleberfilet</trad>
-		<trad lang="nl">Salad uit de Perigord met gebraden eendenlever filet</trad>
-		<trad lang="es">Ensalada del Perigord con filete de higado graso salteado</trad>
-		<trad lang="it">Insalata di Perigord con filetto di fegato grasso salteado</trad>
+		<trad lang="fr">Le velouté de butternut, œuf de poule poché et foie gras poêlé</trad>
+		<trad lang="en">Butternut cream soup, a poached egg and pan-fried foie gras</trad>
+		<trad lang="de">Butternuß-Cremesuppe, pochiertes Ei und gebratene Entenleber</trad>
+		<trad lang="nl">Butternut crème soep, gepocheerd ei en gebradene eedenlever</trad>
+		<trad lang="es">Sopa cremosa de calabaza, huevo escalfado y hígado graso salteado</trad>
+		<trad lang="it">Crema di zucca violina, uova in camicia e fegato grasso saltato</trad>
 	</produit>
 	<produit id="95" prix="-1" ph1="" ph2="" ph3="">
 	</produit>
@@ -509,11 +521,11 @@
 <produits categorie="3" sscategorie="5">
 	<produit id="56" prix="7.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Le parfait au carambar, spéculoos et son coulis passion</trad>
-		<trad lang="en">Le parfait au carambar, speculoos and passion fruit coulis</trad>
-		<trad lang="de">Karamell-Parfait, Spekulatius und Passionfruchtsosse</trad>
-		<trad lang="nl">Parfait van karamel met speculoos en pasievruchtsaus</trad>
-		<trad lang="es">Parfait al caramelo con speculoos y salsa de fruta de la pasión</trad>
-		<trad lang="it">Parfait al caramello con speculoos e salsa di frutta della passione</trad>
+		<trad lang="en">Caramel iced dessert with speculoos and passion fruit coulis</trad>
+		<trad lang="de">Karamell-Parfait mit Spekuloos-Maracujasoße</trad>
+		<trad lang="nl">Caramel-ijsparfait met speculaas en passievruchtensaus</trad>
+		<trad lang="es">Postre helado al caramelo con speculoos y salsa de fruta de la pasión</trad>
+		<trad lang="it">Dulce gelato al caramello con speculoos e coulis al frutto della passione</trad>
 	</produit>
 	<produit id="57" prix="7.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">La poire pochée au vin de Cassis, sorbet cassis noir de Bourgogne</trad>
@@ -524,12 +536,12 @@
 		<trad lang="it">Pera affogata in vino di ribes nero, sorbetto di ribes nero di borgogna</trad>
 	</produit>
 	<produit id="58" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le bocal de fraise, compotée de rhubarbe, sorbet infusion de menthe</trad>
-		<trad lang="en">Pot of strawberries, rhubarb compote and mint infusion sorbet</trad>
-		<trad lang="de">Schale Erdbeeren, Rhabarberkompott und Minztee-Sorbet</trad>
-		<trad lang="nl">Bokaal aardbeien, rabarber compote en munttheesorbet</trad>
-		<trad lang="es">Bote de fresas, compota de ruibarbo e sorbete de infusion de menta</trad>
-		<trad lang="it">Vasetto di fragole, composta di rabarbaro e sorbetto di infusione di menta</trad>
+		<trad lang="fr">Les figues rôties au miel artisanal, glace amande</trad>
+		<trad lang="en">Honey-roasted figs with almond ice cream</trad>
+		<trad lang="de">Feigen mit Honig geröstet und Mandeleis</trad>
+		<trad lang="nl">Gebakken vijgen met honing en amandelijs</trad>
+		<trad lang="es">Higos asados con miel artesanal y helado de almendra</trad>
+		<trad lang="it">Fiche al forno con miele artigianale e gelato di mandorle</trad>
 	</produit>
 	<produit id="59" prix="7.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">La crème brulée à la gousse de vanille Bourbon</trad>
@@ -540,12 +552,12 @@
 		<trad lang="it">Crema di vaniglia Bourbon caramellata</trad>
 	</produit>
 	<produit id="60" prix="7.00" ph1="" ph2="" ph3="">
-		<trad lang="fr">Le riz au lait à l'orange confite</trad>
-		<trad lang="en">Rice pudding with candied orange</trad>
-		<trad lang="de">Milchreis mit kandierter Orange</trad>
-		<trad lang="nl">Rijstpudding met sinaasappel kandij</trad>
-		<trad lang="es">Arroz con leche con naranja candida</trad>
-		<trad lang="it">Dolce di riso all'arancia candita</trad>
+		<trad lang="fr">Le croustillant au chocolat noir et passion</trad>
+		<trad lang="en">Crispy black chocolate and passion fruit delight</trad>
+		<trad lang="de">Knuspriger schwarzer Schokoladen-Maracuja-Leckerbißen</trad>
+		<trad lang="nl">Crunchy taart met chocolade en passievrucht</trad>
+		<trad lang="es">Delicia crujiente de chocolate negro y fruta de la pasión</trad>
+		<trad lang="it">Delizia di croccante al cioccolato nero e frutto della passione</trad>
 	</produit>
 	<produit id="61" prix="7.00" ph1="" ph2="" ph3="">
 		<trad lang="fr">Café ou thé gourmand 3 mini desserts</trad>
