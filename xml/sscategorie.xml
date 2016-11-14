@@ -283,70 +283,70 @@
 	<sscategorie slug="les-glaces" id="7" prix="">
 		<sscat lang="fr">
 			<nom>Les Glaces</nom>
-			<desctop><![CDATA[]]></desctop>
+			<desctop><![CDATA[Boules de glace aux choix 5€ les 2 / 7€ les 3]]></desctop>
 			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Ice creams</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="de">
 			<nom>Eis</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="nl">
 			<nom>Ijs</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="es">
 			<nom>Helados</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="it">
 			<nom>Gelati</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 	</sscategorie>
 	<sscategorie slug="les-sorbets" id="8" prix="">
 		<sscat lang="fr">
 			<nom>Les Sorbets</nom>
-			<desctop><![CDATA[]]></desctop>
+			<desctop><![CDATA[Boules de glace aux choix 5€ les 2 / 7€ les 3]]></desctop>
 			<descbas><![CDATA[]]></descbas>
 		</sscat>
 		<sscat lang="en">
 			<nom>Sorbets</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="de">
 			<nom>Sorbets</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="nl">
 			<nom>Sorbets</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="es">
 			<nom>Sorbetes</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 		<sscat lang="it">
 			<nom>Sorbetti</nom>
-			<desctop></desctop>
+			<desctop>x2 > 5€  | x3 > 7€</desctop>
 			<descbas></descbas>
 		</sscat>
 	</sscategorie>
 </sscategories>
 <sscategories categorie="2000">
-	<sscategorie slug="menu-du-terroir" id="9" prix="23">
+	<sscategorie slug="menu-du-terroir" id="9" prix="25">
 		<sscat lang="fr">
 			<nom>Menu du terroir</nom>
 			<desctop><![CDATA[]]></desctop>
@@ -410,7 +410,7 @@
 			<descbas></descbas>
 		</sscat>
 	</sscategorie>
-	<sscategorie slug="menu-enfant" id="13" prix="11">
+	<sscategorie slug="menu-enfant" id="13" prix="12">
 		<sscat lang="fr">
 			<nom>Menu enfant</nom>
 			<desctop><![CDATA[]]></desctop>
