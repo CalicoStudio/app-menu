@@ -54,7 +54,7 @@ while($rows=mysql_fetch_array($q_cat)) {
 	}
 	$xml.= "\t".'</categorie>'."\n";
 }
-echo $xml .= '</categories>';
+$xml .= '</categories>';
 $fp = fopen("categorie.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);
@@ -121,4 +121,3 @@ $fp = fopen("produits.xml", 'w+');
 fputs($fp, $xml);
 fclose($fp);
 echo utf8_decode('-> Génération du xml des produits<br />');
-?>
